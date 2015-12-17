@@ -1,138 +1,386 @@
 [
     {
-        "merged": "C:\\DatingApp1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\three_p.png",
-        "source": "C:\\DatingApp1\\app\\src\\main\\res\\drawable-hdpi\\three_p.png"
-    },
-    {
-        "merged": "C:\\DatingApp1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\menu_connections.png",
-        "source": "C:\\DatingApp1\\app\\src\\main\\res\\drawable-hdpi\\menu_connections.png"
-    },
-    {
-        "merged": "C:\\DatingApp1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\menu_message.png",
-        "source": "C:\\DatingApp1\\app\\src\\main\\res\\drawable-hdpi\\menu_message.png"
-    },
-    {
-        "merged": "C:\\DatingApp1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\favorite.png",
-        "source": "C:\\DatingApp1\\app\\src\\main\\res\\drawable-hdpi\\favorite.png"
-    },
-    {
-        "merged": "C:\\DatingApp1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\back.png",
-        "source": "C:\\DatingApp1\\app\\src\\main\\res\\drawable-hdpi\\back.png"
+        "merged": "C:\\DatingApp1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\menue_filter.png",
+        "source": "C:\\DatingApp1\\app\\src\\main\\res\\drawable-hdpi\\menue_filter.png"
     },
     {
         "merged": "C:\\DatingApp1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\report.png",
         "source": "C:\\DatingApp1\\app\\src\\main\\res\\drawable-hdpi\\report.png"
     },
     {
-        "merged": "C:\\DatingApp1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\menue_filter.png",
-        "source": "C:\\DatingApp1\\app\\src\\main\\res\\drawable-hdpi\\menue_filter.png"
+        "merged": "C:\\DatingApp1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\pic10.jpg",
+        "source": "C:\\DatingApp1\\app\\src\\main\\res\\drawable-hdpi\\pic10.jpg"
     },
     {
-        "merged": "C:\\DatingApp1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\pic11.jpg",
-        "source": "C:\\DatingApp1\\app\\src\\main\\res\\drawable-hdpi\\pic11.jpg"
+        "merged": "D:\\DatingApp1\\DatingApp1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\i2.jpg",
+        "source": "D:\\DatingApp1\\DatingApp1\\app\\src\\main\\res\\drawable-hdpi\\i2.jpg"
     },
     {
         "merged": "C:\\DatingApp1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_launcher.png",
         "source": "C:\\DatingApp1\\app\\src\\main\\res\\drawable-hdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\DatingApp1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\three.png",
-        "source": "C:\\DatingApp1\\app\\src\\main\\res\\drawable-hdpi\\three.png"
+        "merged": "D:\\DatingApp1\\DatingApp1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\pic11.jpg",
+        "source": "D:\\DatingApp1\\DatingApp1\\app\\src\\main\\res\\drawable-hdpi\\pic11.jpg"
     },
     {
-        "merged": "C:\\DatingApp1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\pic1.jpg",
-        "source": "C:\\DatingApp1\\app\\src\\main\\res\\drawable-hdpi\\pic1.jpg"
+        "merged": "D:\\DatingApp1\\DatingApp1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\pic9.jpg",
+        "source": "D:\\DatingApp1\\DatingApp1\\app\\src\\main\\res\\drawable-hdpi\\pic9.jpg"
     },
     {
-        "merged": "C:\\DatingApp1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\pic8.jpg",
-        "source": "C:\\DatingApp1\\app\\src\\main\\res\\drawable-hdpi\\pic8.jpg"
-    },
-    {
-        "merged": "C:\\DatingApp1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\pic6.jpg",
-        "source": "C:\\DatingApp1\\app\\src\\main\\res\\drawable-hdpi\\pic6.jpg"
-    },
-    {
-        "merged": "C:\\DatingApp1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\eye.png",
-        "source": "C:\\DatingApp1\\app\\src\\main\\res\\drawable-hdpi\\eye.png"
-    },
-    {
-        "merged": "C:\\DatingApp1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\online.png",
-        "source": "C:\\DatingApp1\\app\\src\\main\\res\\drawable-hdpi\\online.png"
-    },
-    {
-        "merged": "C:\\DatingApp1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\heart.png",
-        "source": "C:\\DatingApp1\\app\\src\\main\\res\\drawable-hdpi\\heart.png"
-    },
-    {
-        "merged": "C:\\DatingApp1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\pic5.jpg",
-        "source": "C:\\DatingApp1\\app\\src\\main\\res\\drawable-hdpi\\pic5.jpg"
-    },
-    {
-        "merged": "C:\\DatingApp1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\menu_favorite.png",
-        "source": "C:\\DatingApp1\\app\\src\\main\\res\\drawable-hdpi\\menu_favorite.png"
-    },
-    {
-        "merged": "C:\\DatingApp1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\bg.jpg",
-        "source": "C:\\DatingApp1\\app\\src\\main\\res\\drawable-hdpi\\bg.jpg"
-    },
-    {
-        "merged": "C:\\DatingApp1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\like.png",
-        "source": "C:\\DatingApp1\\app\\src\\main\\res\\drawable-hdpi\\like.png"
-    },
-    {
-        "merged": "C:\\DatingApp1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\message.png",
-        "source": "C:\\DatingApp1\\app\\src\\main\\res\\drawable-hdpi\\message.png"
-    },
-    {
-        "merged": "C:\\DatingApp1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_ic_googleplayservices.png",
-        "source": "C:\\DatingApp1\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\drawable-hdpi\\common_ic_googleplayservices.png"
-    },
-    {
-        "merged": "C:\\DatingApp1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\pic4.jpg",
-        "source": "C:\\DatingApp1\\app\\src\\main\\res\\drawable-hdpi\\pic4.jpg"
-    },
-    {
-        "merged": "C:\\DatingApp1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\pic0.jpg",
-        "source": "C:\\DatingApp1\\app\\src\\main\\res\\drawable-hdpi\\pic0.jpg"
+        "merged": "D:\\DatingApp1\\DatingApp1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\pic8.jpg",
+        "source": "D:\\DatingApp1\\DatingApp1\\app\\src\\main\\res\\drawable-hdpi\\pic8.jpg"
     },
     {
         "merged": "C:\\DatingApp1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\pic3.jpg",
         "source": "C:\\DatingApp1\\app\\src\\main\\res\\drawable-hdpi\\pic3.jpg"
     },
     {
-        "merged": "C:\\DatingApp1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_full_open_on_phone.png",
-        "source": "C:\\DatingApp1\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\drawable-hdpi\\common_full_open_on_phone.png"
+        "merged": "D:\\DatingApp1\\DatingApp1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\menu_connections.png",
+        "source": "D:\\DatingApp1\\DatingApp1\\app\\src\\main\\res\\drawable-hdpi\\menu_connections.png"
     },
     {
-        "merged": "C:\\DatingApp1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\pic7.jpg",
-        "source": "C:\\DatingApp1\\app\\src\\main\\res\\drawable-hdpi\\pic7.jpg"
+        "merged": "C:\\DatingApp1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\i0.jpg",
+        "source": "C:\\DatingApp1\\app\\src\\main\\res\\drawable-hdpi\\i0.jpg"
     },
     {
-        "merged": "C:\\DatingApp1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\pic9.jpg",
-        "source": "C:\\DatingApp1\\app\\src\\main\\res\\drawable-hdpi\\pic9.jpg"
+        "merged": "D:\\DatingApp1\\DatingApp1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\pic12.jpg",
+        "source": "D:\\DatingApp1\\DatingApp1\\app\\src\\main\\res\\drawable-hdpi\\pic12.jpg"
     },
     {
-        "merged": "C:\\DatingApp1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\smile.png",
-        "source": "C:\\DatingApp1\\app\\src\\main\\res\\drawable-hdpi\\smile.png"
+        "merged": "D:\\DatingApp1\\DatingApp1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\i1.jpg",
+        "source": "D:\\DatingApp1\\DatingApp1\\app\\src\\main\\res\\drawable-hdpi\\i1.jpg"
     },
     {
-        "merged": "C:\\DatingApp1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\pic10.jpg",
-        "source": "C:\\DatingApp1\\app\\src\\main\\res\\drawable-hdpi\\pic10.jpg"
+        "merged": "C:\\DatingApp1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\pic11.jpg",
+        "source": "C:\\DatingApp1\\app\\src\\main\\res\\drawable-hdpi\\pic11.jpg"
     },
     {
-        "merged": "C:\\DatingApp1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\online2.png",
-        "source": "C:\\DatingApp1\\app\\src\\main\\res\\drawable-hdpi\\online2.png"
+        "merged": "C:\\DatingApp1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\online.png",
+        "source": "C:\\DatingApp1\\app\\src\\main\\res\\drawable-hdpi\\online.png"
+    },
+    {
+        "merged": "D:\\DatingApp1\\DatingApp1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\i4.jpg",
+        "source": "D:\\DatingApp1\\DatingApp1\\app\\src\\main\\res\\drawable-hdpi\\i4.jpg"
+    },
+    {
+        "merged": "C:\\DatingApp1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\menu_connections.png",
+        "source": "C:\\DatingApp1\\app\\src\\main\\res\\drawable-hdpi\\menu_connections.png"
+    },
+    {
+        "merged": "C:\\DatingApp1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\pic.jpg",
+        "source": "C:\\DatingApp1\\app\\src\\main\\res\\drawable-hdpi\\pic.jpg"
+    },
+    {
+        "merged": "D:\\DatingApp1\\DatingApp1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\pic14.jpg",
+        "source": "D:\\DatingApp1\\DatingApp1\\app\\src\\main\\res\\drawable-hdpi\\pic14.jpg"
+    },
+    {
+        "merged": "D:\\DatingApp1\\DatingApp1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\smell.png",
+        "source": "D:\\DatingApp1\\DatingApp1\\app\\src\\main\\res\\drawable-hdpi\\smell.png"
+    },
+    {
+        "merged": "C:\\DatingApp1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\pic5.jpg",
+        "source": "C:\\DatingApp1\\app\\src\\main\\res\\drawable-hdpi\\pic5.jpg"
     },
     {
         "merged": "C:\\DatingApp1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\pic2.jpg",
         "source": "C:\\DatingApp1\\app\\src\\main\\res\\drawable-hdpi\\pic2.jpg"
     },
     {
+        "merged": "D:\\DatingApp1\\DatingApp1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\online.png",
+        "source": "D:\\DatingApp1\\DatingApp1\\app\\src\\main\\res\\drawable-hdpi\\online.png"
+    },
+    {
+        "merged": "C:\\DatingApp1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\i2.jpg",
+        "source": "C:\\DatingApp1\\app\\src\\main\\res\\drawable-hdpi\\i2.jpg"
+    },
+    {
+        "merged": "D:\\DatingApp1\\DatingApp1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\offline.png",
+        "source": "D:\\DatingApp1\\DatingApp1\\app\\src\\main\\res\\drawable-hdpi\\offline.png"
+    },
+    {
+        "merged": "C:\\DatingApp1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\i3.jpg",
+        "source": "C:\\DatingApp1\\app\\src\\main\\res\\drawable-hdpi\\i3.jpg"
+    },
+    {
+        "merged": "C:\\DatingApp1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\pic6.jpg",
+        "source": "C:\\DatingApp1\\app\\src\\main\\res\\drawable-hdpi\\pic6.jpg"
+    },
+    {
+        "merged": "C:\\DatingApp1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\favorite.png",
+        "source": "C:\\DatingApp1\\app\\src\\main\\res\\drawable-hdpi\\favorite.png"
+    },
+    {
+        "merged": "C:\\DatingApp1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\lke.png",
+        "source": "C:\\DatingApp1\\app\\src\\main\\res\\drawable-hdpi\\lke.png"
+    },
+    {
+        "merged": "D:\\DatingApp1\\DatingApp1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\message.png",
+        "source": "D:\\DatingApp1\\DatingApp1\\app\\src\\main\\res\\drawable-hdpi\\message.png"
+    },
+    {
+        "merged": "C:\\DatingApp1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\pic0.jpg",
+        "source": "C:\\DatingApp1\\app\\src\\main\\res\\drawable-hdpi\\pic0.jpg"
+    },
+    {
+        "merged": "D:\\DatingApp1\\DatingApp1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\report.png",
+        "source": "D:\\DatingApp1\\DatingApp1\\app\\src\\main\\res\\drawable-hdpi\\report.png"
+    },
+    {
+        "merged": "D:\\DatingApp1\\DatingApp1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\i10.jpg",
+        "source": "D:\\DatingApp1\\DatingApp1\\app\\src\\main\\res\\drawable-hdpi\\i10.jpg"
+    },
+    {
+        "merged": "D:\\DatingApp1\\DatingApp1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\pic4.jpg",
+        "source": "D:\\DatingApp1\\DatingApp1\\app\\src\\main\\res\\drawable-hdpi\\pic4.jpg"
+    },
+    {
+        "merged": "D:\\DatingApp1\\DatingApp1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\pic1.jpg",
+        "source": "D:\\DatingApp1\\DatingApp1\\app\\src\\main\\res\\drawable-hdpi\\pic1.jpg"
+    },
+    {
+        "merged": "C:\\DatingApp1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\message.png",
+        "source": "C:\\DatingApp1\\app\\src\\main\\res\\drawable-hdpi\\message.png"
+    },
+    {
+        "merged": "C:\\DatingApp1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\three.png",
+        "source": "C:\\DatingApp1\\app\\src\\main\\res\\drawable-hdpi\\three.png"
+    },
+    {
+        "merged": "D:\\DatingApp1\\DatingApp1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\back.png",
+        "source": "D:\\DatingApp1\\DatingApp1\\app\\src\\main\\res\\drawable-hdpi\\back.png"
+    },
+    {
+        "merged": "D:\\DatingApp1\\DatingApp1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\i3.jpg",
+        "source": "D:\\DatingApp1\\DatingApp1\\app\\src\\main\\res\\drawable-hdpi\\i3.jpg"
+    },
+    {
+        "merged": "D:\\DatingApp1\\DatingApp1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\i6.jpg",
+        "source": "D:\\DatingApp1\\DatingApp1\\app\\src\\main\\res\\drawable-hdpi\\i6.jpg"
+    },
+    {
+        "merged": "D:\\DatingApp1\\DatingApp1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\menu_message.png",
+        "source": "D:\\DatingApp1\\DatingApp1\\app\\src\\main\\res\\drawable-hdpi\\menu_message.png"
+    },
+    {
+        "merged": "D:\\DatingApp1\\DatingApp1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\i0.jpg",
+        "source": "D:\\DatingApp1\\DatingApp1\\app\\src\\main\\res\\drawable-hdpi\\i0.jpg"
+    },
+    {
+        "merged": "C:\\DatingApp1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\i9.jpg",
+        "source": "C:\\DatingApp1\\app\\src\\main\\res\\drawable-hdpi\\i9.jpg"
+    },
+    {
+        "merged": "C:\\DatingApp1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\pic12.jpg",
+        "source": "C:\\DatingApp1\\app\\src\\main\\res\\drawable-hdpi\\pic12.jpg"
+    },
+    {
+        "merged": "C:\\DatingApp1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\bg.jpg",
+        "source": "C:\\DatingApp1\\app\\src\\main\\res\\drawable-hdpi\\bg.jpg"
+    },
+    {
+        "merged": "D:\\DatingApp1\\DatingApp1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\pic7.jpg",
+        "source": "D:\\DatingApp1\\DatingApp1\\app\\src\\main\\res\\drawable-hdpi\\pic7.jpg"
+    },
+    {
+        "merged": "D:\\DatingApp1\\DatingApp1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\bg.jpg",
+        "source": "D:\\DatingApp1\\DatingApp1\\app\\src\\main\\res\\drawable-hdpi\\bg.jpg"
+    },
+    {
+        "merged": "D:\\DatingApp1\\DatingApp1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\i9.jpg",
+        "source": "D:\\DatingApp1\\DatingApp1\\app\\src\\main\\res\\drawable-hdpi\\i9.jpg"
+    },
+    {
+        "merged": "C:\\DatingApp1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\i11.jpg",
+        "source": "C:\\DatingApp1\\app\\src\\main\\res\\drawable-hdpi\\i11.jpg"
+    },
+    {
+        "merged": "D:\\DatingApp1\\DatingApp1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\i12.jpg",
+        "source": "D:\\DatingApp1\\DatingApp1\\app\\src\\main\\res\\drawable-hdpi\\i12.jpg"
+    },
+    {
+        "merged": "D:\\DatingApp1\\DatingApp1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\heart.png",
+        "source": "D:\\DatingApp1\\DatingApp1\\app\\src\\main\\res\\drawable-hdpi\\heart.png"
+    },
+    {
+        "merged": "D:\\DatingApp1\\DatingApp1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\i8.jpg",
+        "source": "D:\\DatingApp1\\DatingApp1\\app\\src\\main\\res\\drawable-hdpi\\i8.jpg"
+    },
+    {
+        "merged": "D:\\DatingApp1\\DatingApp1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\pic3.jpg",
+        "source": "D:\\DatingApp1\\DatingApp1\\app\\src\\main\\res\\drawable-hdpi\\pic3.jpg"
+    },
+    {
+        "merged": "D:\\DatingApp1\\DatingApp1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\menue_filter.png",
+        "source": "D:\\DatingApp1\\DatingApp1\\app\\src\\main\\res\\drawable-hdpi\\menue_filter.png"
+    },
+    {
+        "merged": "C:\\DatingApp1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\i6.jpg",
+        "source": "C:\\DatingApp1\\app\\src\\main\\res\\drawable-hdpi\\i6.jpg"
+    },
+    {
+        "merged": "C:\\DatingApp1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\pic9.jpg",
+        "source": "C:\\DatingApp1\\app\\src\\main\\res\\drawable-hdpi\\pic9.jpg"
+    },
+    {
+        "merged": "C:\\DatingApp1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\i12.jpg",
+        "source": "C:\\DatingApp1\\app\\src\\main\\res\\drawable-hdpi\\i12.jpg"
+    },
+    {
+        "merged": "D:\\DatingApp1\\DatingApp1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\pic2.jpg",
+        "source": "D:\\DatingApp1\\DatingApp1\\app\\src\\main\\res\\drawable-hdpi\\pic2.jpg"
+    },
+    {
+        "merged": "C:\\DatingApp1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\pic14.jpg",
+        "source": "C:\\DatingApp1\\app\\src\\main\\res\\drawable-hdpi\\pic14.jpg"
+    },
+    {
+        "merged": "C:\\DatingApp1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\i10.jpg",
+        "source": "C:\\DatingApp1\\app\\src\\main\\res\\drawable-hdpi\\i10.jpg"
+    },
+    {
+        "merged": "C:\\DatingApp1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\fire.png",
+        "source": "C:\\DatingApp1\\app\\src\\main\\res\\drawable-hdpi\\fire.png"
+    },
+    {
+        "merged": "D:\\DatingApp1\\DatingApp1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\i7.jpg",
+        "source": "D:\\DatingApp1\\DatingApp1\\app\\src\\main\\res\\drawable-hdpi\\i7.jpg"
+    },
+    {
+        "merged": "D:\\DatingApp1\\DatingApp1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\three_p.png",
+        "source": "D:\\DatingApp1\\DatingApp1\\app\\src\\main\\res\\drawable-hdpi\\three_p.png"
+    },
+    {
+        "merged": "C:\\DatingApp1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\online2.png",
+        "source": "C:\\DatingApp1\\app\\src\\main\\res\\drawable-hdpi\\online2.png"
+    },
+    {
+        "merged": "D:\\DatingApp1\\DatingApp1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\lke.png",
+        "source": "D:\\DatingApp1\\DatingApp1\\app\\src\\main\\res\\drawable-hdpi\\lke.png"
+    },
+    {
         "merged": "C:\\DatingApp1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\offline.png",
         "source": "C:\\DatingApp1\\app\\src\\main\\res\\drawable-hdpi\\offline.png"
     },
     {
-        "merged": "C:\\DatingApp1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\pic.jpg",
-        "source": "C:\\DatingApp1\\app\\src\\main\\res\\drawable-hdpi\\pic.jpg"
+        "merged": "D:\\DatingApp1\\DatingApp1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\menu_favorite.png",
+        "source": "D:\\DatingApp1\\DatingApp1\\app\\src\\main\\res\\drawable-hdpi\\menu_favorite.png"
+    },
+    {
+        "merged": "C:\\DatingApp1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\i8.jpg",
+        "source": "C:\\DatingApp1\\app\\src\\main\\res\\drawable-hdpi\\i8.jpg"
+    },
+    {
+        "merged": "D:\\DatingApp1\\DatingApp1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\i11.jpg",
+        "source": "D:\\DatingApp1\\DatingApp1\\app\\src\\main\\res\\drawable-hdpi\\i11.jpg"
+    },
+    {
+        "merged": "C:\\DatingApp1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\pic8.jpg",
+        "source": "C:\\DatingApp1\\app\\src\\main\\res\\drawable-hdpi\\pic8.jpg"
+    },
+    {
+        "merged": "C:\\DatingApp1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\i5.jpg",
+        "source": "C:\\DatingApp1\\app\\src\\main\\res\\drawable-hdpi\\i5.jpg"
+    },
+    {
+        "merged": "D:\\DatingApp1\\DatingApp1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\online2.png",
+        "source": "D:\\DatingApp1\\DatingApp1\\app\\src\\main\\res\\drawable-hdpi\\online2.png"
+    },
+    {
+        "merged": "D:\\DatingApp1\\DatingApp1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\pic0.jpg",
+        "source": "D:\\DatingApp1\\DatingApp1\\app\\src\\main\\res\\drawable-hdpi\\pic0.jpg"
+    },
+    {
+        "merged": "D:\\DatingApp1\\DatingApp1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\pic6.jpg",
+        "source": "D:\\DatingApp1\\DatingApp1\\app\\src\\main\\res\\drawable-hdpi\\pic6.jpg"
+    },
+    {
+        "merged": "C:\\DatingApp1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\pic13.jpg",
+        "source": "C:\\DatingApp1\\app\\src\\main\\res\\drawable-hdpi\\pic13.jpg"
+    },
+    {
+        "merged": "D:\\DatingApp1\\DatingApp1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\favorite.png",
+        "source": "D:\\DatingApp1\\DatingApp1\\app\\src\\main\\res\\drawable-hdpi\\favorite.png"
+    },
+    {
+        "merged": "D:\\DatingApp1\\DatingApp1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\i5.jpg",
+        "source": "D:\\DatingApp1\\DatingApp1\\app\\src\\main\\res\\drawable-hdpi\\i5.jpg"
+    },
+    {
+        "merged": "C:\\DatingApp1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\heart.png",
+        "source": "C:\\DatingApp1\\app\\src\\main\\res\\drawable-hdpi\\heart.png"
+    },
+    {
+        "merged": "C:\\DatingApp1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\menu_favorite.png",
+        "source": "C:\\DatingApp1\\app\\src\\main\\res\\drawable-hdpi\\menu_favorite.png"
+    },
+    {
+        "merged": "C:\\DatingApp1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\menu_message.png",
+        "source": "C:\\DatingApp1\\app\\src\\main\\res\\drawable-hdpi\\menu_message.png"
+    },
+    {
+        "merged": "C:\\DatingApp1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_full_open_on_phone.png",
+        "source": "C:\\DatingApp1\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\drawable-hdpi\\common_full_open_on_phone.png"
+    },
+    {
+        "merged": "C:\\DatingApp1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\three_p.png",
+        "source": "C:\\DatingApp1\\app\\src\\main\\res\\drawable-hdpi\\three_p.png"
+    },
+    {
+        "merged": "C:\\DatingApp1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\back.png",
+        "source": "C:\\DatingApp1\\app\\src\\main\\res\\drawable-hdpi\\back.png"
+    },
+    {
+        "merged": "C:\\DatingApp1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_ic_googleplayservices.png",
+        "source": "C:\\DatingApp1\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\drawable-hdpi\\common_ic_googleplayservices.png"
+    },
+    {
+        "merged": "D:\\DatingApp1\\DatingApp1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\pic5.jpg",
+        "source": "D:\\DatingApp1\\DatingApp1\\app\\src\\main\\res\\drawable-hdpi\\pic5.jpg"
+    },
+    {
+        "merged": "C:\\DatingApp1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\i4.jpg",
+        "source": "C:\\DatingApp1\\app\\src\\main\\res\\drawable-hdpi\\i4.jpg"
+    },
+    {
+        "merged": "C:\\DatingApp1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\pic1.jpg",
+        "source": "C:\\DatingApp1\\app\\src\\main\\res\\drawable-hdpi\\pic1.jpg"
+    },
+    {
+        "merged": "D:\\DatingApp1\\DatingApp1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\pic13.jpg",
+        "source": "D:\\DatingApp1\\DatingApp1\\app\\src\\main\\res\\drawable-hdpi\\pic13.jpg"
+    },
+    {
+        "merged": "C:\\DatingApp1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\i1.jpg",
+        "source": "C:\\DatingApp1\\app\\src\\main\\res\\drawable-hdpi\\i1.jpg"
+    },
+    {
+        "merged": "C:\\DatingApp1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\i7.jpg",
+        "source": "C:\\DatingApp1\\app\\src\\main\\res\\drawable-hdpi\\i7.jpg"
+    },
+    {
+        "merged": "D:\\DatingApp1\\DatingApp1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_launcher.png",
+        "source": "D:\\DatingApp1\\DatingApp1\\app\\src\\main\\res\\drawable-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\DatingApp1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\pic7.jpg",
+        "source": "C:\\DatingApp1\\app\\src\\main\\res\\drawable-hdpi\\pic7.jpg"
+    },
+    {
+        "merged": "D:\\DatingApp1\\DatingApp1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\pic10.jpg",
+        "source": "D:\\DatingApp1\\DatingApp1\\app\\src\\main\\res\\drawable-hdpi\\pic10.jpg"
+    },
+    {
+        "merged": "D:\\DatingApp1\\DatingApp1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\fire.png",
+        "source": "D:\\DatingApp1\\DatingApp1\\app\\src\\main\\res\\drawable-hdpi\\fire.png"
+    },
+    {
+        "merged": "C:\\DatingApp1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\smell.png",
+        "source": "C:\\DatingApp1\\app\\src\\main\\res\\drawable-hdpi\\smell.png"
+    },
+    {
+        "merged": "C:\\DatingApp1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\pic4.jpg",
+        "source": "C:\\DatingApp1\\app\\src\\main\\res\\drawable-hdpi\\pic4.jpg"
     }
 ]

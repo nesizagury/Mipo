@@ -47,6 +47,9 @@
         <activity
             android:name="com.example.aaa.MainPageActivity"
             android:label="@string/title_activity_welcome" />
+        <activity
+            android:name="com.example.aaa.FileTestActivity"
+            android:label="@string/title_activity_file_test" />
     </application>
 
 </manifest>

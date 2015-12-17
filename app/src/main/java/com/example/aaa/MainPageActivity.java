@@ -10,56 +10,112 @@ import android.widget.AdapterView;
 import android.widget.GridView;
 import android.widget.ImageView;
 
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 
-public class MainPageActivity extends Activity implements AdapterView.OnItemClickListener{
+public class MainPageActivity extends Activity implements AdapterView.OnItemClickListener {
 
     GridView grid;
     ImageView iv;
     public static List list;
     int favorites_barButton;
-    public static  ListOfFavorites lov = new ListOfFavorites();
+    public static ListOfFavorites lov = new ListOfFavorites();
+    public static List <UserDetailes> ud = new ArrayList<UserDetailes>();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_welcome);
+
+        uploadUserData();
         grid = (GridView) findViewById(R.id.gridView1);
         iv = (ImageView) findViewById(R.id.imageView2);
-        Adapts adapts = new Adapts(this,iv,addToList());
+        Adapts adapts = new Adapts(this, iv, addToList());
         grid.setAdapter(adapts);
         grid.setOnItemClickListener(this);
 
 
     }
 
-    public List addToList(){
+    public List addToList() {
 
         list = new ArrayList();
-        String[] userName_list ;
+        String[] userName_list;
         userName_list = getResources().getStringArray(R.array.userNames);
 
-        Random rand = new Random();
-        int randSign = 0;
-        int sign = 0;
+            for (int i = 0; i < 15; i++) {
 
-        for (int j = 0; j < 20; j++) {
-
-            for (int i = 0; i < 3; i++) {
-
-                if (i == 1)
-                    list.add(new User(R.drawable.pic0 + i, userName_list[i], 0));
+                if (ud.get(i).getOn_off().equals("Online"))
+                    list.add(new User(R.drawable.pic0 + i,ud.get(i).getName(), R.drawable.online));
                 else
-                    list.add(new User(R.drawable.pic0 + i, userName_list[i], R.drawable.online));
+                    list.add(new User(R.drawable.pic0 + i, ud.get(i).getName(), 0));
 
             }
 
+        for (int i = 0; i < 13; i++) {
+
+            if (ud.get(i).getOn_off().equals("Online"))
+                list.add(new User(R.drawable.i0 + i,ud.get(i).getName(), R.drawable.online));
+            else
+                list.add(new User(R.drawable.i0 + i, ud.get(i).getName(), 0));
+
         }
-        return list;
+
+        for (int i = 0; i < 15; i++) {
+
+            if (ud.get(i).getOn_off().equals("Online"))
+                list.add(new User(R.drawable.pic0 + i,ud.get(i).getName(), R.drawable.online));
+            else
+                list.add(new User(R.drawable.pic0 + i, ud.get(i).getName(), 0));
+
+        }
+
+        for (int i = 0; i < 13; i++) {
+
+            if (ud.get(i).getOn_off().equals("Online"))
+                list.add(new User(R.drawable.i0 + i,ud.get(i).getName(), R.drawable.online));
+            else
+                list.add(new User(R.drawable.i0 + i, ud.get(i).getName(), 0));
+
+        }
+
+        for (int i = 0; i < 15; i++) {
+
+            if (ud.get(i).getOn_off().equals("Online"))
+                list.add(new User(R.drawable.pic0 + i,ud.get(i).getName(), R.drawable.online));
+            else
+                list.add(new User(R.drawable.pic0 + i, ud.get(i).getName(), 0));
+
+        }
+
+        for (int i = 0; i < 13; i++) {
+
+            if (ud.get(i).getOn_off().equals("Online"))
+                list.add(new User(R.drawable.i0 + i,ud.get(i).getName(), R.drawable.online));
+            else
+                list.add(new User(R.drawable.i0 + i, ud.get(i).getName(), 0));
+
+        }
+
+        for (int i = 0; i < 15; i++) {
+
+            if (ud.get(i).getOn_off().equals("Online"))
+                list.add(new User(R.drawable.pic0 + i,ud.get(i).getName(), R.drawable.online));
+            else
+                list.add(new User(R.drawable.pic0 + i, ud.get(i).getName(), 0));
+
+        }
+
+
+            return list;
 
     }
+
 
     public static User getUser(int i){
 
@@ -96,5 +152,40 @@ public class MainPageActivity extends Activity implements AdapterView.OnItemClic
         startActivity(i);
 
     }
+
+    public void uploadUserData() {
+
+        InputStream is;
+        BufferedReader input;
+        List <String> list;
+
+
+        for(int i = 0; i < 15 ; i++) {
+
+            is = this.getResources().openRawResource(R.raw.user0+i);
+            input = new BufferedReader(new InputStreamReader(is), 1024 * 8);
+
+            String line = null;
+            list = new ArrayList<String>();
+
+            try {
+                int j = 0;
+                while ((line = input.readLine()) != null) {
+                    if (j % 2 == 0)
+                        list.add(line);
+                    j++;
+                }
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+
+            ud.add(new UserDetailes(list.get(0),list.get(1),list.get(2),list.get(3),list.get(4),list.get(5),list.get(6),
+                    list.get(7),list.get(8),list.get(9),list.get(10),list.get(11),list.get(12),list.get(13)));
+
+        }
+
+
+    }
+
 
 }

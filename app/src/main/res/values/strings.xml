@@ -16,7 +16,6 @@
     </string-array>
 
 
-
     <string-array name="userNames1">
 
         <item>Hadas.T</item>
@@ -41,5 +40,6 @@
     <string name="title_activity_login">LoginActivity</string>
     <string name="title_activity_chat">ChatActivity</string>
     <string name="title_activity_welcome">WelcomeActivity</string>
+    <string name="title_activity_file_test">FileTestActivity</string>
 
 </resources>

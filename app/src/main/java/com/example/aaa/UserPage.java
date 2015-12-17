@@ -8,12 +8,14 @@ import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import java.util.Random;
+
 public class UserPage extends Activity implements ImageButton.OnClickListener{
 
     ImageButton detailed_button;
     ImageButton favorite_button;
-    int index;
     String user_name;
+    private int index;
 
 
     @Override
@@ -35,30 +37,26 @@ public class UserPage extends Activity implements ImageButton.OnClickListener{
             user_image.setImageResource(image_id);
             Bundle b = getIntent().getExtras();
             index = b.getInt("userIndex");
-
             user_name = intent.getStringExtra("userName");
             TextView userNameTF = (TextView) findViewById(R.id.name_profile);
             TextView seenTF = (TextView) findViewById(R.id.seen_profile);
 
-
-            if (user_name.equals("Moran Atias"))
+            for(int i = 0; i < MainPageActivity.ud.size(); i ++)
             {
-                seenTF.setText("0 meter | online");
-                userNameTF.setText(user_name + " | " + 22);
+                if(i == index)
+                {
+                    userNameTF.setText(user_name + " , " + MainPageActivity.ud.get(i).getAge());
+                    seenTF.setText(MainPageActivity.ud.get(i).getDistance() + " | " + MainPageActivity.ud.get(i).getSeen());
+                }
+
 
             }
-            if (user_name.equals("Rotem Sela"))
-            {
-                seenTF.setText("28 meter | Seen 12 min ago");
-                userNameTF.setText(user_name + " | " + 27);
 
-            }
-            if (user_name.equals("Mila Kunis"))
-            {
-                seenTF.setText("159 meter | online");
-                userNameTF.setText(user_name + " | " + 23);
 
-            }
+
+
+
+
 
         }
     }
@@ -66,10 +64,13 @@ public class UserPage extends Activity implements ImageButton.OnClickListener{
     @Override
     public void onClick(View v) {
 
-        if(v == detailed_button) {
-            Intent intent = new Intent(this, DetailedProfileActivity.class);
+        if(v == detailed_button)
+        {
+            Bundle b = new Bundle();
+            Intent intent = new Intent(this,DetailedProfileActivity.class);
+            b.putInt("userIndex", index);
+            intent.putExtras(b);
             startActivity(intent);
-
         }
 
         if(v == favorite_button) {
@@ -87,4 +88,8 @@ public class UserPage extends Activity implements ImageButton.OnClickListener{
         startActivity(intent);
 
     }
+
+
+
+
 }
