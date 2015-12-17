@@ -7,105 +7,121 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.example.aaa.DetailedProfileActivity">
+    tools:context="com.example.aaa.DetailedProfileActivity"
+    android:background="#ceffffff">
 
     <ImageView
         android:layout_width="110dp"
         android:layout_height="150dp"
-        android:id="@+id/imageView"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentStart="true"
-        android:background="@drawable/pic2" />
+        android:id="@+id/detailed_image" />
 
     <TextView
         android:layout_width="match_parent"
-        android:layout_height="35dp"
+        android:layout_height="30dp"
         android:text="Mike's place tonight!"
-        android:id="@+id/detailed_current_status"
-        android:layout_alignTop="@+id/imageView"
-        android:layout_toEndOf="@+id/imageView"
+        android:id="@+id/detailed_name_age"
         android:textSize="23sp"
-        android:layout_marginLeft="5dp" />
+        android:layout_marginLeft="5dp"
+        android:layout_alignTop="@+id/detailed_image"
+        android:layout_toEndOf="@+id/detailed_image"
+        android:textStyle="bold"
+        android:textColor="#000000" />
 
     <TextView
         android:layout_width="match_parent"
-        android:layout_height="35dp"
+        android:layout_height="28dp"
         android:text="168 cm , 65 kg"
         android:id="@+id/detailed_height_wheight"
-        android:layout_toEndOf="@+id/imageView"
         android:textSize="16sp"
         android:layout_marginLeft="5dp"
-        android:layout_below="@+id/detailed_current_status" />
+        android:textColor="#000000"
+        android:layout_above="@+id/detailed_body_nation"
+        android:layout_toEndOf="@+id/detailed_image" />
     <TextView
         android:layout_width="match_parent"
-        android:layout_height="35dp"
+        android:layout_height="28dp"
         android:text="thin , spain"
         android:id="@+id/detailed_body_nation"
-        android:layout_below="@+id/detailed_height_wheight"
-        android:layout_toEndOf="@+id/imageView"
         android:textSize="16sp"
-        android:layout_marginLeft="5dp" />
+        android:layout_marginLeft="5dp"
+        android:layout_above="@+id/detailed_relatioStatus_seeking"
+        android:layout_alignStart="@+id/detailed_height_wheight"
+        android:textColor="#000000" />
     <TextView
         android:layout_width="match_parent"
-        android:layout_height="35dp"
+        android:layout_height="28dp"
         android:text="single , serious"
         android:id="@+id/detailed_relatioStatus_seeking"
-        android:layout_below="@+id/detailed_body_nation"
-        android:layout_toEndOf="@+id/imageView"
         android:textSize="16sp"
-        android:layout_marginLeft="5dp" />
+        android:layout_marginLeft="5dp"
+        android:layout_above="@+id/detailed_about"
+        android:layout_alignStart="@+id/detailed_height_wheight"
+        android:textColor="#000000" />
 
     <TextView
         android:layout_width="match_parent"
-        android:layout_height="220dp"
+        android:layout_height="300dp"
         android:text="my name is alexandra, i live in tel aviv with my awesome dog. i like to spend time in nature. i hangout with my friends usually on the weekends ;)"
         android:id="@+id/detailed_about"
         android:layout_alignParentStart="false"
         android:textSize="20sp"
-        android:layout_below="@+id/imageView" />
+        android:layout_below="@+id/detailed_image"
+        android:textColor="#000000" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:text="New Text"
+        android:id="@+id/detailed_current_status"
+        android:textSize="20sp"
+        android:textColor="#000000"
+        android:layout_below="@+id/detailed_name_age"
+        android:layout_toEndOf="@+id/detailed_image"
+        android:layout_marginLeft="5dp" />
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@+id/detailed_about"
+        android:layout_alignEnd="@+id/detailed_about"
+        android:background="#000000">
+
+        <ImageButton
+            android:layout_width="65dp"
+            android:layout_height="match_parent"
+            android:id="@+id/imageButton7"
+            android:background="@drawable/smell"
+            android:layout_alignTop="@+id/imageButton8"
+            android:layout_alignParentStart="true" />
+
+        <ImageButton
+            android:layout_width="65dp"
+            android:layout_height="match_parent"
+            android:id="@+id/imageButton8"
+            android:background="@drawable/lke"
+            android:layout_marginLeft="27dp"
+            android:layout_alignBottom="@+id/detailed_about"
+            android:layout_toEndOf="@+id/imageButton7" />
+
+        <ImageButton
+            android:layout_width="65dp"
+            android:layout_height="match_parent"
+            android:id="@+id/imageButton9"
+            android:background="@drawable/heart"
+            android:layout_alignTop="@+id/imageButton8"
+            android:layout_toEndOf="@+id/imageButton8"
+            android:layout_marginLeft="20dp" />
+
+    </TableRow>
 
     <ImageButton
-        android:layout_width="60dp"
-        android:layout_height="60dp"
-        android:id="@+id/detailed_eye"
-        android:background="@drawable/eye"
-        android:layout_marginLeft="20dp"
-
+        android:layout_width="65dp"
+        android:layout_height="match_parent"
+        android:id="@+id/imageButton10"
+        android:background="@drawable/fire"
         android:layout_below="@+id/detailed_about"
-        android:layout_marginBottom="-10dp" />
-
-    <ImageButton
-        android:layout_width="60dp"
-        android:layout_height="60dp"
-        android:id="@+id/detailed_smile"
-        android:layout_marginLeft="20dp"
-        android:background="@drawable/smile"
-        android:layout_toEndOf="@+id/detailed_eye"
-        android:layout_below="@+id/detailed_about"
-        android:layout_marginBottom="-10dp" />
-
-    <ImageButton
-        android:layout_width="60dp"
-        android:layout_height="60dp"
-        android:id="@+id/detailed_like"
-        android:layout_marginLeft="20dp"
-        android:background="@drawable/like"
-        android:layout_toEndOf="@+id/detailed_smile"
-        android:layout_below="@+id/detailed_about"
-        android:layout_alignParentEnd="false"
-        android:layout_marginBottom="-10dp" />
-
-    <ImageButton
-    android:layout_width="60dp"
-    android:layout_height="60dp"
-    android:id="@+id/detailed_heart"
-        android:layout_marginLeft="20dp"
-        android:background="@drawable/heart"
-        android:layout_toEndOf="@+id/detailed_like"
-        android:layout_below="@+id/detailed_about"
-
-        android:layout_alignParentEnd="false"
-        android:layout_marginBottom="-10dp" />
+        android:layout_alignParentEnd="true" />
 
 
 </RelativeLayout>

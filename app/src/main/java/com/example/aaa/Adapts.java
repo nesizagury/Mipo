@@ -59,7 +59,7 @@ public class Adapts extends BaseAdapter {
 		if(row == null)
 		{
 			LayoutInflater inflator = (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
-			row = inflator.inflate(R.layout.my_iew, viewGroup, false);
+			row = inflator.inflate(R.layout.grid_item, viewGroup, false);
 			holder = new Holder(row);
 			row.setTag(holder);
 

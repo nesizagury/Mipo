@@ -13,8 +13,14 @@ import com.parse.ParseAnonymousUtils;
 import com.parse.ParseObject;
 import com.parse.ParseUser;
 
-public class MainActivity extends Activity {
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.InputStreamReader;
+import java.util.ArrayList;
+import java.util.List;
 
+public class MainActivity extends Activity {
 
 
 
@@ -22,9 +28,15 @@ public class MainActivity extends Activity {
 	public void onCreate(Bundle savedInstanceState) {
 
 		super.onCreate(savedInstanceState);
+
 		connectToParse();
 
+		// Intent intent = new Intent(MainActivity.this,FileTestActivity.class);
+		// startActivity(intent);
+
 	}
+
+
 
 	public void connectToParse() {
 

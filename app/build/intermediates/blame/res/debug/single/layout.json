@@ -1,38 +1,86 @@
 [
     {
-        "merged": "C:\\DatingApp1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_chat.xml",
-        "source": "C:\\DatingApp1\\app\\src\\main\\res\\layout\\activity_chat.xml"
+        "merged": "D:\\DatingApp1\\DatingApp1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_chat.xml",
+        "source": "D:\\DatingApp1\\DatingApp1\\app\\src\\main\\res\\layout\\activity_chat.xml"
     },
     {
-        "merged": "C:\\DatingApp1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_login.xml",
-        "source": "C:\\DatingApp1\\app\\src\\main\\res\\layout\\activity_login.xml"
-    },
-    {
-        "merged": "C:\\DatingApp1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_welcome.xml",
-        "source": "C:\\DatingApp1\\app\\src\\main\\res\\layout\\activity_welcome.xml"
-    },
-    {
-        "merged": "C:\\DatingApp1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_user_page.xml",
-        "source": "C:\\DatingApp1\\app\\src\\main\\res\\layout\\activity_user_page.xml"
+        "merged": "D:\\DatingApp1\\DatingApp1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\detailed_profile.xml",
+        "source": "D:\\DatingApp1\\DatingApp1\\app\\src\\main\\res\\layout\\detailed_profile.xml"
     },
     {
         "merged": "C:\\DatingApp1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
         "source": "C:\\DatingApp1\\app\\src\\main\\res\\layout\\activity_main.xml"
     },
     {
-        "merged": "C:\\DatingApp1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\detailed_profile.xml",
-        "source": "C:\\DatingApp1\\app\\src\\main\\res\\layout\\detailed_profile.xml"
+        "merged": "C:\\DatingApp1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_file_test.xml",
+        "source": "C:\\DatingApp1\\app\\src\\main\\res\\layout\\activity_file_test.xml"
     },
     {
-        "merged": "C:\\DatingApp1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\my_iew.xml",
-        "source": "C:\\DatingApp1\\app\\src\\main\\res\\layout\\my_iew.xml"
+        "merged": "D:\\DatingApp1\\DatingApp1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_login.xml",
+        "source": "D:\\DatingApp1\\DatingApp1\\app\\src\\main\\res\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "D:\\DatingApp1\\DatingApp1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_user_page.xml",
+        "source": "D:\\DatingApp1\\DatingApp1\\app\\src\\main\\res\\layout\\activity_user_page.xml"
+    },
+    {
+        "merged": "C:\\DatingApp1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_login.xml",
+        "source": "C:\\DatingApp1\\app\\src\\main\\res\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "D:\\DatingApp1\\DatingApp1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_favorites_page.xml",
+        "source": "D:\\DatingApp1\\DatingApp1\\app\\src\\main\\res\\layout\\activity_favorites_page.xml"
+    },
+    {
+        "merged": "C:\\DatingApp1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_user_page.xml",
+        "source": "C:\\DatingApp1\\app\\src\\main\\res\\layout\\activity_user_page.xml"
+    },
+    {
+        "merged": "C:\\DatingApp1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\grid_item.xml",
+        "source": "C:\\DatingApp1\\app\\src\\main\\res\\layout\\grid_item.xml"
+    },
+    {
+        "merged": "D:\\DatingApp1\\DatingApp1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\chat_item.xml",
+        "source": "D:\\DatingApp1\\DatingApp1\\app\\src\\main\\res\\layout\\chat_item.xml"
+    },
+    {
+        "merged": "D:\\DatingApp1\\DatingApp1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_welcome.xml",
+        "source": "D:\\DatingApp1\\DatingApp1\\app\\src\\main\\res\\layout\\activity_welcome.xml"
+    },
+    {
+        "merged": "C:\\DatingApp1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\traces_view.xml",
+        "source": "C:\\DatingApp1\\app\\src\\main\\res\\layout\\traces_view.xml"
+    },
+    {
+        "merged": "C:\\DatingApp1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_welcome.xml",
+        "source": "C:\\DatingApp1\\app\\src\\main\\res\\layout\\activity_welcome.xml"
+    },
+    {
+        "merged": "D:\\DatingApp1\\DatingApp1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
+        "source": "D:\\DatingApp1\\DatingApp1\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\DatingApp1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\detailed_profile.xml",
+        "source": "C:\\DatingApp1\\app\\src\\main\\res\\layout\\detailed_profile.xml"
     },
     {
         "merged": "C:\\DatingApp1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\chat_item.xml",
         "source": "C:\\DatingApp1\\app\\src\\main\\res\\layout\\chat_item.xml"
     },
     {
+        "merged": "C:\\DatingApp1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_chat.xml",
+        "source": "C:\\DatingApp1\\app\\src\\main\\res\\layout\\activity_chat.xml"
+    },
+    {
+        "merged": "D:\\DatingApp1\\DatingApp1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_file_test.xml",
+        "source": "D:\\DatingApp1\\DatingApp1\\app\\src\\main\\res\\layout\\activity_file_test.xml"
+    },
+    {
         "merged": "C:\\DatingApp1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_favorites_page.xml",
         "source": "C:\\DatingApp1\\app\\src\\main\\res\\layout\\activity_favorites_page.xml"
+    },
+    {
+        "merged": "D:\\DatingApp1\\DatingApp1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\grid_item.xml",
+        "source": "D:\\DatingApp1\\DatingApp1\\app\\src\\main\\res\\layout\\grid_item.xml"
     }
 ]

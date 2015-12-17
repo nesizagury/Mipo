@@ -35,6 +35,7 @@
     <string name="title_activity_chat">ChatActivity</string>
     <string name="title_activity_detailed_profile">DetailedProfileActivity</string>
     <string name="title_activity_favorites_page">FavoritesPage</string>
+    <string name="title_activity_file_test">FileTestActivity</string>
     <string name="title_activity_login">LoginActivity</string>
     <string name="title_activity_user_page">UserPage</string>
     <string name="title_activity_welcome">WelcomeActivity</string>
