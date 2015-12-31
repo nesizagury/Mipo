@@ -20,14 +20,18 @@ public class UserDetailes {
     String relationship_status;
     String looking_for;
     String about;
+    int image_source;
+    int message_roomId;
 
     public UserDetailes() {
 
     }
 
+
+
     public UserDetailes(String name, String id, String on_off,String distance ,String seen,String age , String status,
                         String height, String weight, String nation, String body_type, String relationship_status,
-                        String looking_for, String about) {
+                        String looking_for, String about, int image_source,int message_roomId) {
         this.id = id;
         this.name = name;
         this.on_off = on_off;
@@ -42,6 +46,9 @@ public class UserDetailes {
         this.relationship_status = relationship_status;
         this.looking_for = looking_for;
         this.about = about;
+        this.image_source = image_source;
+        this.message_roomId = message_roomId;
+
     }
 
     public String getId() {
@@ -154,5 +161,22 @@ public class UserDetailes {
 
     public String getOn_off() {
         return on_off;
+    }
+
+    public int getImage_source(){
+        return image_source;
+    }
+
+    public void setImage_source(int image_source){
+        this.image_source = image_source;
+    }
+
+
+    public int getMessage_roomId() {
+        return message_roomId;
+    }
+
+    public void setMessage_roomId(int message_roomId) {
+        this.message_roomId = message_roomId;
     }
 }

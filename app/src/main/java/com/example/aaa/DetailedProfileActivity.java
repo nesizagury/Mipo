@@ -15,8 +15,6 @@ import java.util.List;
 public class DetailedProfileActivity extends Activity {
 
 
-    private int index;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -26,8 +24,7 @@ public class DetailedProfileActivity extends Activity {
 
         Intent intent = getIntent();
         ImageView user_image = (ImageView) findViewById(R.id.detailed_image);
-        Bundle b = getIntent().getExtras();
-        index = b.getInt("userIndex");
+        String user_name = intent.getStringExtra("userName");
 
         TextView userNameAgeTF = (TextView) findViewById(R.id.detailed_name_age);
         TextView currentStatusTF = (TextView) findViewById(R.id.detailed_current_status);
@@ -38,7 +35,7 @@ public class DetailedProfileActivity extends Activity {
 
         for(int i = 0; i < MainPageActivity.ud.size(); i ++)
         {
-            if(i == index)
+            if(MainPageActivity.ud.get(i).getName().equals(user_name))
             {
                 user_image.setImageResource(R.drawable.pic0+i);
                 userNameAgeTF.setText(MainPageActivity.ud.get(i).getName() + " , " + MainPageActivity.ud.get(i).getAge());

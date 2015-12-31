@@ -29,27 +29,15 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name="com.example.aaa.UserPage"
-            android:label="@string/title_activity_user_page" />
-        <activity
-            android:name="com.example.aaa.DetailedProfileActivity"
-            android:label="@string/title_activity_detailed_profile" />
-        <activity
-            android:name="com.example.aaa.FavoritesPage"
-            android:label="@string/title_activity_favorites_page" />
-        <activity
-            android:name="com.example.aaa.LoginActivity"
-            android:label="@string/title_activity_login" />
-        <activity
-            android:name="com.example.aaa.ChatActivity"
-            android:label="@string/title_activity_chat" />
-        <activity
-            android:name="com.example.aaa.MainPageActivity"
-            android:label="@string/title_activity_welcome" />
-        <activity
-            android:name="com.example.aaa.FileTestActivity"
-            android:label="@string/title_activity_file_test" />
+        <activity android:name="com.example.aaa.UserPage" />
+        <activity android:name="com.example.aaa.DetailedProfileActivity" />
+        <activity android:name="com.example.aaa.FavoritesPage" />
+        <activity android:name="com.example.aaa.LoginActivity" />
+        <activity android:name="com.example.aaa.ChatActivity" />
+        <activity android:name="com.example.aaa.MainPageActivity" />
+        <activity android:name="com.example.aaa.FileTestActivity" />
+        <activity android:name="com.example.aaa.MessagesRoom" />
+        <activity android:name="com.example.aaa.FilterActivity" />
     </application>
 
 </manifest>

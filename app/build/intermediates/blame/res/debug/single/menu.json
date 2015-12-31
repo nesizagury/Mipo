@@ -1,10 +1,10 @@
 [
     {
-        "merged": "C:\\DatingApp1\\app\\build\\intermediates\\res\\merged\\debug\\menu\\main.xml",
-        "source": "C:\\DatingApp1\\app\\src\\main\\res\\menu\\main.xml"
+        "merged": "D:\\DatingApp11\\app\\build\\intermediates\\res\\merged\\debug\\menu\\main.xml",
+        "source": "D:\\DatingApp11\\app\\src\\main\\res\\menu\\main.xml"
     },
     {
-        "merged": "D:\\DatingApp1\\DatingApp1\\app\\build\\intermediates\\res\\merged\\debug\\menu\\main.xml",
-        "source": "D:\\DatingApp1\\DatingApp1\\app\\src\\main\\res\\menu\\main.xml"
+        "merged": "C:\\DatingApp1\\app\\build\\intermediates\\res\\merged\\debug\\menu\\main.xml",
+        "source": "C:\\DatingApp1\\app\\src\\main\\res\\menu\\main.xml"
     }
 ]

@@ -31,25 +31,31 @@
         </activity>
         <activity
             android:name=".UserPage"
-            android:label="@string/title_activity_user_page" />
+            />
         <activity
             android:name=".DetailedProfileActivity"
-            android:label="@string/title_activity_detailed_profile" />
+             />
         <activity
             android:name=".FavoritesPage"
-            android:label="@string/title_activity_favorites_page" />
+             />
         <activity
             android:name=".LoginActivity"
-            android:label="@string/title_activity_login" />
+             />
         <activity
             android:name=".ChatActivity"
-            android:label="@string/title_activity_chat" />
+             />
         <activity
             android:name=".MainPageActivity"
-            android:label="@string/title_activity_welcome" />
+             />
         <activity
             android:name=".FileTestActivity"
-            android:label="@string/title_activity_file_test"></activity>
+             />
+        <activity
+            android:name=".MessagesRoom"
+             />
+        <activity
+            android:name=".FilterActivity"
+            ></activity>
     </application>
 
 </manifest>

@@ -31,8 +31,7 @@ public class MainActivity extends Activity {
 
 		connectToParse();
 
-		// Intent intent = new Intent(MainActivity.this,FileTestActivity.class);
-		// startActivity(intent);
+
 
 	}
 
@@ -41,6 +40,7 @@ public class MainActivity extends Activity {
 	public void connectToParse() {
 
 		ParseObject.registerSubclass(com.example.aaa.Message.class);
+		ParseObject.registerSubclass(com.example.aaa.Room.class);
 		Parse.initialize(this, "VxNKZoBXZHTyFmx3cRhLFpGOQNMl9NMySrE6PiLP", "lZaGELhSL2Fon7Kd7TyouMBaA4zrBPg1Hm5GQYu2");
 		ParseUser.enableAutomaticUser();
 		ParseACL defaultAcl = new ParseACL();

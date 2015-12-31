@@ -18,11 +18,11 @@ public class Adapts extends BaseAdapter {
 
 	List <User> list = new ArrayList <User> ();
 	Context context;
-	ImageView on_off;
+	//ImageView on_off;
 
 	public Adapts(Context c, ImageView on_off, List list) {
 
-		this.on_off = on_off;
+		//this.on_off = on_off;
 		this.context = c;
 		this.list = list;
 

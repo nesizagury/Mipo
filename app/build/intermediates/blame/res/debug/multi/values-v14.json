@@ -26,7 +26,7 @@
         ]
     },
     {
-        "outputFile": "D:\\DatingApp1\\DatingApp1\\app\\build\\intermediates\\res\\merged\\debug\\values-v14\\values-v14.xml",
+        "outputFile": "D:\\DatingApp11\\app\\build\\intermediates\\res\\merged\\debug\\values-v14\\values-v14.xml",
         "map": [
             {
                 "to": {
@@ -38,7 +38,7 @@
                     "endOffset": 201
                 },
                 "from": {
-                    "file": "D:\\DatingApp1\\DatingApp1\\app\\src\\main\\res\\values-v14\\styles.xml",
+                    "file": "D:\\DatingApp11\\app\\src\\main\\res\\values-v14\\styles.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,

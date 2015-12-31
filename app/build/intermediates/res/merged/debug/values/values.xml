@@ -26,19 +26,12 @@
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
     <string name="action_settings">Settings</string>
-    <string name="app_name">aAa</string>
+    <string name="app_name">Mipo</string>
     <string name="hello_world">Hello world!</string>
     <string name="message_hint">Say anything</string>
     <string name="profile_me">My Profile Pic</string>
     <string name="profile_other">Other profile pic</string>
     <string name="send">Send</string>
-    <string name="title_activity_chat">ChatActivity</string>
-    <string name="title_activity_detailed_profile">DetailedProfileActivity</string>
-    <string name="title_activity_favorites_page">FavoritesPage</string>
-    <string name="title_activity_file_test">FileTestActivity</string>
-    <string name="title_activity_login">LoginActivity</string>
-    <string name="title_activity_user_page">UserPage</string>
-    <string name="title_activity_welcome">WelcomeActivity</string>
     <style name="AppBaseTheme" parent="android:Theme.Light">
         <!--
             Theme customizations available in newer API levels can go in

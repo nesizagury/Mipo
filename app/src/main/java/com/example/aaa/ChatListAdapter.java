@@ -18,13 +18,14 @@ import java.util.List;
 public class ChatListAdapter extends ArrayAdapter<Message> {
     private String mUserId;
 
-    public ChatListAdapter(Context context, String userId, List<Message> messages) {
+    public ChatListAdapter(Context context, String userId, List <Message> messages) {
         super(context, 0, messages);
         this.mUserId = userId;
     }
 
     @Override
     public View getView(int position, View convertView, ViewGroup parent) {
+
         if (convertView == null) {
             convertView = LayoutInflater.from(getContext()).
                     inflate(R.layout.chat_item, parent, false);
@@ -34,7 +35,7 @@ public class ChatListAdapter extends ArrayAdapter<Message> {
             holder.body = (TextView)convertView.findViewById(R.id.tvBody);
             convertView.setTag(holder);
         }
-        final Message message = (Message)getItem(position);
+        final Message message = (Message) getItem(position);
         final ViewHolder holder = (ViewHolder)convertView.getTag();
         final boolean isMe = message.getUserId().equals(mUserId);
         // Show-hide image based on the logged-in user.
