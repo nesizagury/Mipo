@@ -1,5 +1,13 @@
 [
     {
+        "merged": "D:\\Mipo-moshe_msg_filter_17_12_15\\app\\build\\intermediates\\res\\merged\\debug\\layout\\detailed_profile.xml",
+        "source": "D:\\Mipo-moshe_msg_filter_17_12_15\\app\\src\\main\\res\\layout\\detailed_profile.xml"
+    },
+    {
+        "merged": "D:\\Mipo-moshe_msg_filter_17_12_15\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_filter.xml",
+        "source": "D:\\Mipo-moshe_msg_filter_17_12_15\\app\\src\\main\\res\\layout\\activity_filter.xml"
+    },
+    {
         "merged": "D:\\DatingApp11\\app\\build\\intermediates\\res\\merged\\debug\\layout\\detailed_profile.xml",
         "source": "D:\\DatingApp11\\app\\src\\main\\res\\layout\\detailed_profile.xml"
     },
@@ -8,20 +16,40 @@
         "source": "D:\\DatingApp11\\app\\src\\main\\res\\layout\\messages_room_item.xml"
     },
     {
+        "merged": "D:\\Mipo-moshe_msg_filter_17_12_15\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_file_test.xml",
+        "source": "D:\\Mipo-moshe_msg_filter_17_12_15\\app\\src\\main\\res\\layout\\activity_file_test.xml"
+    },
+    {
         "merged": "D:\\DatingApp11\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_filter.xml",
         "source": "D:\\DatingApp11\\app\\src\\main\\res\\layout\\activity_filter.xml"
+    },
+    {
+        "merged": "D:\\Mipo-moshe_msg_filter_17_12_15\\app\\build\\intermediates\\res\\merged\\debug\\layout\\chat_item.xml",
+        "source": "D:\\Mipo-moshe_msg_filter_17_12_15\\app\\src\\main\\res\\layout\\chat_item.xml"
     },
     {
         "merged": "C:\\DatingApp1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\grid_item.xml",
         "source": "C:\\DatingApp1\\app\\src\\main\\res\\layout\\grid_item.xml"
     },
     {
+        "merged": "D:\\Mipo-moshe_msg_filter_17_12_15\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_user_page.xml",
+        "source": "D:\\Mipo-moshe_msg_filter_17_12_15\\app\\src\\main\\res\\layout\\activity_user_page.xml"
+    },
+    {
         "merged": "D:\\DatingApp11\\app\\build\\intermediates\\res\\merged\\debug\\layout\\grid_item.xml",
         "source": "D:\\DatingApp11\\app\\src\\main\\res\\layout\\grid_item.xml"
     },
     {
+        "merged": "D:\\Mipo-moshe_msg_filter_17_12_15\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
+        "source": "D:\\Mipo-moshe_msg_filter_17_12_15\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
         "merged": "C:\\DatingApp1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_messages_room.xml",
         "source": "C:\\DatingApp1\\app\\src\\main\\res\\layout\\activity_messages_room.xml"
+    },
+    {
+        "merged": "D:\\Mipo-moshe_msg_filter_17_12_15\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_favorites_page.xml",
+        "source": "D:\\Mipo-moshe_msg_filter_17_12_15\\app\\src\\main\\res\\layout\\activity_favorites_page.xml"
     },
     {
         "merged": "C:\\DatingApp1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_welcome.xml",
@@ -48,8 +76,16 @@
         "source": "D:\\DatingApp11\\app\\src\\main\\res\\layout\\activity_messages_room.xml"
     },
     {
+        "merged": "D:\\Mipo-moshe_msg_filter_17_12_15\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_chat.xml",
+        "source": "D:\\Mipo-moshe_msg_filter_17_12_15\\app\\src\\main\\res\\layout\\activity_chat.xml"
+    },
+    {
         "merged": "D:\\DatingApp11\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_favorites_page.xml",
         "source": "D:\\DatingApp11\\app\\src\\main\\res\\layout\\activity_favorites_page.xml"
+    },
+    {
+        "merged": "D:\\Mipo-moshe_msg_filter_17_12_15\\app\\build\\intermediates\\res\\merged\\debug\\layout\\messages_room_item.xml",
+        "source": "D:\\Mipo-moshe_msg_filter_17_12_15\\app\\src\\main\\res\\layout\\messages_room_item.xml"
     },
     {
         "merged": "C:\\DatingApp1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
@@ -58,6 +94,10 @@
     {
         "merged": "C:\\DatingApp1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_file_test.xml",
         "source": "C:\\DatingApp1\\app\\src\\main\\res\\layout\\activity_file_test.xml"
+    },
+    {
+        "merged": "D:\\Mipo-moshe_msg_filter_17_12_15\\app\\build\\intermediates\\res\\merged\\debug\\layout\\grid_item.xml",
+        "source": "D:\\Mipo-moshe_msg_filter_17_12_15\\app\\src\\main\\res\\layout\\grid_item.xml"
     },
     {
         "merged": "C:\\DatingApp1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_login.xml",
@@ -80,6 +120,10 @@
         "source": "D:\\DatingApp11\\app\\src\\main\\res\\layout\\activity_file_test.xml"
     },
     {
+        "merged": "D:\\Mipo-moshe_msg_filter_17_12_15\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_welcome.xml",
+        "source": "D:\\Mipo-moshe_msg_filter_17_12_15\\app\\src\\main\\res\\layout\\activity_welcome.xml"
+    },
+    {
         "merged": "D:\\DatingApp11\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
         "source": "D:\\DatingApp11\\app\\src\\main\\res\\layout\\activity_main.xml"
     },
@@ -100,11 +144,19 @@
         "source": "C:\\DatingApp1\\app\\src\\main\\res\\layout\\activity_chat.xml"
     },
     {
+        "merged": "D:\\Mipo-moshe_msg_filter_17_12_15\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_messages_room.xml",
+        "source": "D:\\Mipo-moshe_msg_filter_17_12_15\\app\\src\\main\\res\\layout\\activity_messages_room.xml"
+    },
+    {
         "merged": "C:\\DatingApp1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\messages_room_item.xml",
         "source": "C:\\DatingApp1\\app\\src\\main\\res\\layout\\messages_room_item.xml"
     },
     {
         "merged": "C:\\DatingApp1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_favorites_page.xml",
         "source": "C:\\DatingApp1\\app\\src\\main\\res\\layout\\activity_favorites_page.xml"
+    },
+    {
+        "merged": "D:\\Mipo-moshe_msg_filter_17_12_15\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_login.xml",
+        "source": "D:\\Mipo-moshe_msg_filter_17_12_15\\app\\src\\main\\res\\layout\\activity_login.xml"
     }
 ]

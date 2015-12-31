@@ -6,5 +6,9 @@
     {
         "merged": "C:\\DatingApp1\\app\\build\\intermediates\\res\\merged\\debug\\menu\\main.xml",
         "source": "C:\\DatingApp1\\app\\src\\main\\res\\menu\\main.xml"
+    },
+    {
+        "merged": "D:\\Mipo-moshe_msg_filter_17_12_15\\app\\build\\intermediates\\res\\merged\\debug\\menu\\main.xml",
+        "source": "D:\\Mipo-moshe_msg_filter_17_12_15\\app\\src\\main\\res\\menu\\main.xml"
     }
 ]

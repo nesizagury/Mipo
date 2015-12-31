@@ -237,7 +237,7 @@ public class MainPageActivity extends Activity implements AdapterView.OnItemClic
                     for (int j = 0; j < ud.size(); j++) {
                         combinedConversationId = rList.get(i).getConversationId();
                         otherConversationId = ud.get(j).getMessage_roomId();
-                        if (combinedConversationId / conversationId == otherConversationId ){
+                        if (conversationId !=0 && combinedConversationId / conversationId == otherConversationId ){
 
                             Toast.makeText(getApplicationContext(),ud.get(j).getName(), Toast.LENGTH_SHORT).show();
                             mrbList.add(new MessageRoomBean(0, "", ud.get(j).getName(),otherConversationId));

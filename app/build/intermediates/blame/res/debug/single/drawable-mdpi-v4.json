@@ -1,5 +1,9 @@
 [
     {
+        "merged": "D:\\Mipo-moshe_msg_filter_17_12_15\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\ic_launcher.png",
+        "source": "D:\\Mipo-moshe_msg_filter_17_12_15\\app\\src\\main\\res\\drawable-mdpi\\ic_launcher.png"
+    },
+    {
         "merged": "D:\\DatingApp11\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\ic_launcher.png",
         "source": "D:\\DatingApp11\\app\\src\\main\\res\\drawable-mdpi\\ic_launcher.png"
     },

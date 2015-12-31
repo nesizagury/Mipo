@@ -4,6 +4,10 @@
         "source": "C:\\DatingApp1\\app\\src\\main\\res\\drawable\\divider_shape.xml"
     },
     {
+        "merged": "D:\\Mipo-moshe_msg_filter_17_12_15\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\row_border.xml",
+        "source": "D:\\Mipo-moshe_msg_filter_17_12_15\\app\\src\\main\\res\\drawable\\row_border.xml"
+    },
+    {
         "merged": "D:\\DatingApp11\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\divider_shape.xml",
         "source": "D:\\DatingApp11\\app\\src\\main\\res\\drawable\\divider_shape.xml"
     },
@@ -28,7 +32,19 @@
         "source": "C:\\DatingApp1\\app\\src\\main\\res\\drawable\\divider_drawable.xml"
     },
     {
+        "merged": "D:\\Mipo-moshe_msg_filter_17_12_15\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\divider_drawable.xml",
+        "source": "D:\\Mipo-moshe_msg_filter_17_12_15\\app\\src\\main\\res\\drawable\\divider_drawable.xml"
+    },
+    {
         "merged": "D:\\DatingApp11\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\divider_drawable.xml",
         "source": "D:\\DatingApp11\\app\\src\\main\\res\\drawable\\divider_drawable.xml"
+    },
+    {
+        "merged": "D:\\Mipo-moshe_msg_filter_17_12_15\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\background.xml",
+        "source": "D:\\Mipo-moshe_msg_filter_17_12_15\\app\\src\\main\\res\\drawable\\background.xml"
+    },
+    {
+        "merged": "D:\\Mipo-moshe_msg_filter_17_12_15\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\divider_shape.xml",
+        "source": "D:\\Mipo-moshe_msg_filter_17_12_15\\app\\src\\main\\res\\drawable\\divider_shape.xml"
     }
 ]
