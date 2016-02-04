@@ -4,6 +4,10 @@
         "source": "D:\\Mipo_13_1_16\\app\\src\\main\\res\\menu\\main.xml"
     },
     {
+        "merged": "D:\\Mipo-gidi_1_2_16\\app\\build\\intermediates\\res\\merged\\debug\\menu\\main.xml",
+        "source": "D:\\Mipo-gidi_1_2_16\\app\\src\\main\\res\\menu\\main.xml"
+    },
+    {
         "merged": "D:\\Mipo19.1.16\\app\\build\\intermediates\\res\\merged\\debug\\menu\\main.xml",
         "source": "D:\\Mipo19.1.16\\app\\src\\main\\res\\menu\\main.xml"
     }

@@ -34,7 +34,7 @@ public class FavoritesPage extends Activity implements AdapterView.OnItemClickLi
             }
         }
 
-        grid.setAdapter (new GridAdaptor (this, ListOfFavorites));
+        grid.setAdapter (new GridAdapter(this, ListOfFavorites));
         grid.setOnItemClickListener (this);
     }
 
@@ -69,7 +69,7 @@ public class FavoritesPage extends Activity implements AdapterView.OnItemClickLi
             }
         }
 
-        grid.setAdapter (new GridAdaptor (this, ListOfFavorites));
+        grid.setAdapter (new GridAdapter(this, ListOfFavorites));
         grid.setOnItemClickListener (this);
     }
 

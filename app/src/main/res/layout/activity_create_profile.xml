@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Create Profile"
+        android:id="@+id/textView7"
+        android:textSize="25sp"
+        android:layout_gravity="center_horizontal"
+        android:textStyle="bold|italic"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="User name:"
+        android:id="@+id/user_nameTV"
+        android:layout_gravity="center_horizontal"
+        android:textSize="20sp"
+        android:visibility="visible"
+        android:layout_below="@+id/textView7"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="47dp"
+        android:layout_marginLeft="10dp" />
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/user_nameET"
+        android:visibility="visible"
+        android:layout_alignTop="@+id/user_nameTV"
+        android:layout_toEndOf="@+id/user_nameTV" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Password:"
+        android:id="@+id/password_TV"
+        android:layout_gravity="center_horizontal"
+        android:textSize="20sp"
+        android:layout_marginTop="72dp"
+        android:layout_below="@+id/user_nameET"
+        android:layout_alignStart="@+id/user_nameTV"
+        android:visibility="visible" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/password_ET"
+        android:layout_alignTop="@+id/password_TV"
+        android:layout_alignEnd="@+id/textView7"
+        android:layout_toEndOf="@+id/user_nameTV"
+        android:visibility="visible" />
+
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Price:"
+        android:id="@+id/priceTV"
+        android:textSize="23sp"
+        android:layout_alignTop="@+id/user_nameTV"
+        android:layout_toEndOf="@+id/password_TV"
+        android:visibility="invisible" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/priceET"
+        android:layout_alignTop="@+id/user_nameET"
+        android:layout_alignStart="@+id/textView7"
+        android:layout_alignEnd="@+id/password_ET"
+        android:visibility="invisible" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Quantity:"
+        android:id="@+id/quantityTV"
+        android:textSize="23sp"
+        android:layout_alignTop="@+id/quantityET"
+        android:layout_toStartOf="@+id/quantityET"
+        android:visibility="invisible" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/quantityET"
+        android:layout_above="@+id/password_ET"
+        android:layout_alignEnd="@+id/password_ET"
+        android:layout_alignStart="@+id/priceET"
+        android:visibility="invisible" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Address:"
+        android:id="@+id/addressTV"
+        android:textSize="23sp"
+        android:layout_below="@+id/password_ET"
+        android:layout_toStartOf="@+id/addressET"
+        android:visibility="invisible" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:id="@+id/addressET"
+        android:imeActionLabel="Done"
+        android:layout_below="@+id/password_ET"
+        android:layout_alignStart="@+id/quantityET"
+        android:layout_alignEnd="@+id/xET"
+        android:visibility="invisible" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="X:"
+        android:id="@+id/xTV"
+        android:textSize="23sp"
+        android:layout_above="@+id/password_TV"
+        android:layout_alignStart="@+id/yTV"
+        android:visibility="invisible" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Y:"
+        android:id="@+id/yTV"
+        android:textSize="23sp"
+        android:layout_below="@+id/password_TV"
+        android:layout_alignStart="@+id/password_ET"
+        android:visibility="invisible" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:ems="10"
+        android:id="@+id/xET"
+        android:layout_alignTop="@+id/xTV"
+        android:layout_toEndOf="@+id/priceTV"
+        android:visibility="invisible" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:ems="10"
+        android:id="@+id/yET"
+        android:layout_below="@+id/password_TV"
+        android:layout_toEndOf="@+id/priceTV"
+        android:visibility="invisible" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Place:"
+        android:id="@+id/placeTV"
+        android:textSize="23sp"
+        android:layout_below="@+id/yET"
+        android:layout_alignEnd="@+id/priceTV"
+        android:layout_marginTop="34dp"
+        android:visibility="invisible" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:imeActionLabel="Done"
+        android:singleLine="true"
+        android:ems="10"
+        android:id="@+id/placeET"
+        android:layout_alignTop="@+id/placeTV"
+        android:layout_alignStart="@+id/password_TV"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:id="@+id/create_imageV"
+        android:background="#e8e7e7"
+        android:scaleType="fitXY"
+        android:layout_above="@+id/addressTV"
+        android:layout_alignParentStart="true"
+        android:visibility="invisible" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="image"
+        android:id="@+id/imageTV"
+        android:textSize="19sp"
+        android:layout_above="@+id/user_nameET"
+        android:layout_centerHorizontal="true"
+        android:visibility="invisible" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="browse"
+        android:onClick="imageUpload"
+        android:id="@+id/browse_button"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:visibility="invisible" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tags:"
+        android:id="@+id/tagsTV"
+        android:textSize="17sp"
+        android:layout_alignBottom="@+id/yTV"
+        android:layout_alignEnd="@+id/addressTV"
+        android:visibility="invisible" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tagsET"
+        android:imeActionLabel="Done"
+        android:singleLine="true"
+        android:layout_below="@+id/password_TV"
+        android:layout_alignEnd="@+id/quantityET"
+        android:layout_alignStart="@+id/password_TV"
+        android:visibility="invisible" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Done"
+        android:id="@+id/done_button"
+        android:onClick="saveEvent"
+        android:layout_alignTop="@+id/placeET"
+        android:layout_centerHorizontal="true"
+        android:visibility="invisible" />
+
+
+</RelativeLayout>

@@ -8,10 +8,9 @@
         android:minSdkVersion="18"
         android:targetSdkVersion="22" />
 
-    <android:uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-    <android:uses-permission android:name="android.permission.READ_PHONE_STATE" />
-    <android:uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
@@ -38,6 +37,13 @@
         <activity android:name="com.example.mipo.FileTestActivity" />
         <activity android:name="com.example.mipo.MessagesRoom" />
         <activity android:name="com.example.mipo.FilterActivity" />
+        <activity android:name="com.example.mipo.NewLoginActivity" />
+        <activity android:name="com.example.mipo.CreateProfileActivity" />
+
+        <service
+            android:name="com.example.mipo.utils.Service"
+            android:enabled="true"
+            android:exported="false" />
     </application>
 
 </manifest>

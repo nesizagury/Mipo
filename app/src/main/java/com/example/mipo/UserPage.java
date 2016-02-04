@@ -1,8 +1,9 @@
 package com.example.mipo;
 
+import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
-import android.app.Activity;
+import android.util.Log;
 import android.view.View;
 import android.view.Window;
 import android.widget.ImageButton;
@@ -13,6 +14,7 @@ import android.widget.Toast;
 public class UserPage extends Activity implements ImageButton.OnClickListener {
 
 
+    private static final String TAG = "UserPage";
     ImageButton detailed_button;
     ImageButton favorite_button;
     ImageButton report_button;
@@ -49,6 +51,13 @@ public class UserPage extends Activity implements ImageButton.OnClickListener {
 
             int image_id = intent.getIntExtra ("userImage", R.drawable.pic0);
             ImageView user_image = (ImageView) findViewById (R.id.usrPage_image);
+            /*
+            measures the size of the imageView
+             */
+            user_image.measure(
+                    View.MeasureSpec.makeMeasureSpec(0, View.MeasureSpec.UNSPECIFIED),
+                    View.MeasureSpec.makeMeasureSpec(0, View.MeasureSpec.UNSPECIFIED));
+            Log.e(TAG, "height "+ user_image.getMeasuredHeight()+" width "+ user_image.getMeasuredWidth());
             if (user_current) {
                 user_image.setImageResource (R.drawable.pic0 + userDetails.getImage_source ());
             } else {
