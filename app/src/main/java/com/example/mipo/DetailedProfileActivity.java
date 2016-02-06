@@ -37,7 +37,7 @@ public class DetailedProfileActivity extends Activity {
 
         for (int i = 0; i < MainPageActivity.userDataList.size (); i++) {
             if (MainPageActivity.userDataList.get (i).getName ().equals (user_name)) {
-                user_image.setImageResource (R.drawable.pic0 + MainPageActivity.userDataList.get (i).image_source);
+                user_image.setImageBitmap (MainPageActivity.userDataList.get (i).getImageId ());
                 userNameAgeTF.setText (MainPageActivity.userDataList.get (i).getName () + " , " + MainPageActivity.userDataList.get (i).getAge ());
                 currentStatusTF.setText (MainPageActivity.userDataList.get (i).getStatus ());
                 heightWeightTF.setText (MainPageActivity.userDataList.get (i).getHeight () + " | " + MainPageActivity.userDataList.get (i).getWeight ());

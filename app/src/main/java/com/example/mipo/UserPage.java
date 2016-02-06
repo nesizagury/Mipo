@@ -59,7 +59,7 @@ public class UserPage extends Activity implements ImageButton.OnClickListener {
                     View.MeasureSpec.makeMeasureSpec(0, View.MeasureSpec.UNSPECIFIED));
             Log.e(TAG, "height "+ user_image.getMeasuredHeight()+" width "+ user_image.getMeasuredWidth());
             if (user_current) {
-                user_image.setImageResource (R.drawable.pic0 + userDetails.getImage_source ());
+                user_image.setImageBitmap (userDetails.getImageId ());
             } else {
                 user_image.setImageResource (image_id);
             }

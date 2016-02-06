@@ -1,5 +1,7 @@
 package com.example.mipo;
 
+import android.graphics.Bitmap;
+
 public class UserDetails {
 
 
@@ -17,7 +19,16 @@ public class UserDetails {
     String relationship_status;
     String looking_for;
     String about;
-    int image_source;
+
+    public Bitmap getImageId() {
+        return imageId;
+    }
+
+    public void setImageId(Bitmap imageId) {
+        this.imageId = imageId;
+    }
+
+    Bitmap imageId;
     int message_roomId;
     int distanceType;
     private boolean favorite = false;
@@ -26,7 +37,7 @@ public class UserDetails {
 
     public UserDetails(String name, String id, String on_off, String distance, String seen, String age, String status,
                        String height, String weight, String nation, String body_type, String relationship_status,
-                       String looking_for, String about, int image_source, int message_roomId, int distanceType) {
+                       String looking_for, String about, Bitmap imageId, int message_roomId, int distanceType) {
         this.name = name;
         this.id = id;
         this.on_off = on_off;
@@ -41,7 +52,7 @@ public class UserDetails {
         this.relationship_status = relationship_status;
         this.looking_for = looking_for;
         this.about = about;
-        this.image_source = image_source;
+        this.imageId = imageId;
         this.message_roomId = message_roomId;
         this.distanceType = distanceType;
     }
@@ -156,14 +167,6 @@ public class UserDetails {
 
     public String getOn_off() {
         return on_off;
-    }
-
-    public int getImage_source() {
-        return image_source;
-    }
-
-    public void setImage_source(int image_source) {
-        this.image_source = image_source;
     }
 
     public int getMessage_roomId() {

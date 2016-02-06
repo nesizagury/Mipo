@@ -1,8 +1,10 @@
 package com.example.mipo;
 
+import android.graphics.Bitmap;
+
 public class User {
 
-    int imageId;
+    Bitmap imageId;
     String name;
     int on_off;
     boolean currentUser;
@@ -10,7 +12,7 @@ public class User {
     int indexInUD;
     UserDetails userDetails;
 
-    public User(int imageId,
+    public User(Bitmap imageId,
                 String name,
                 int on_off,
                 boolean currentUser,

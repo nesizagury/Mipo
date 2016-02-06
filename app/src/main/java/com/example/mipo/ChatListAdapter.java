@@ -37,7 +37,7 @@ public class ChatListAdapter extends ArrayAdapter<Message> {
         // Show-hide image based on the logged-in user.
         // Display the profile image to the right for our user, left for other users.
         if (isMe) {
-            holder.imageRight.setImageResource (R.drawable.pic0 + MainPageActivity.currentUser.getImage_source ());
+            holder.imageRight.setImageResource (R.drawable.pic0);
             holder.imageRight.setVisibility (View.VISIBLE);
             holder.imageLeft.setVisibility (View.GONE);
             holder.body.setGravity (Gravity.CENTER_VERTICAL | Gravity.RIGHT);
@@ -45,7 +45,7 @@ public class ChatListAdapter extends ArrayAdapter<Message> {
             for (int i = 0; i < MainPageActivity.userDataList.size (); i++) {
                 UserDetails userDetails = MainPageActivity.userDataList.get (i);
                 if (userDetails.getId ().equals (message.getUserId ())) {
-                    holder.imageLeft.setImageResource (R.drawable.pic0 + userDetails.getImage_source ());
+                    holder.imageLeft.setImageResource (R.drawable.pic0);
                 }
             }
             holder.imageLeft.setVisibility (View.VISIBLE);

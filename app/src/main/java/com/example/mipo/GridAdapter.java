@@ -54,7 +54,7 @@ public class GridAdapter extends BaseAdapter {
 
         User user = list.get(position);
         if (user != null) {
-            gridHolder.image.setImageResource(user.imageId);
+            gridHolder.image.setImageBitmap (user.imageId);
             Log.e(TAG, "image " + user.imageId);
             gridHolder.image2.setImageResource(user.on_off);
             gridHolder.name.setText(user.name);
