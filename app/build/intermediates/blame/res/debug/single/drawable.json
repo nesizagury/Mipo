@@ -1,51 +1,43 @@
 [
     {
-        "merged": "D:\\Mipo19.1.16\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\divider_drawable.xml",
-        "source": "D:\\Mipo19.1.16\\app\\src\\main\\res\\drawable\\divider_drawable.xml"
+        "merged": "D:\\Mipo-gidi_1_2_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\me23.jpg",
+        "source": "D:\\Mipo-gidi_1_2_16\\app\\src\\main\\res\\drawable\\me23.jpg"
     },
     {
         "merged": "D:\\Mipo-gidi_1_2_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\pic10.jpg",
         "source": "D:\\Mipo-gidi_1_2_16\\app\\src\\main\\res\\drawable\\pic10.jpg"
     },
     {
-        "merged": "D:\\Mipo_13_1_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\pic9.jpg",
-        "source": "D:\\Mipo_13_1_16\\app\\src\\main\\res\\drawable\\pic9.jpg"
-    },
-    {
-        "merged": "D:\\Mipo19.1.16\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\pic14.jpg",
-        "source": "D:\\Mipo19.1.16\\app\\src\\main\\res\\drawable\\pic14.jpg"
-    },
-    {
-        "merged": "D:\\Mipo19.1.16\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\me17.jpg",
-        "source": "D:\\Mipo19.1.16\\app\\src\\main\\res\\drawable\\me17.jpg"
-    },
-    {
         "merged": "D:\\Mipo-gidi_1_2_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\me4.jpg",
         "source": "D:\\Mipo-gidi_1_2_16\\app\\src\\main\\res\\drawable\\me4.jpg"
     },
     {
-        "merged": "D:\\Mipo_13_1_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\online.png",
-        "source": "D:\\Mipo_13_1_16\\app\\src\\main\\res\\drawable\\online.png"
+        "merged": "D:\\Mipo-gidi_1_2_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\me15.jpg",
+        "source": "D:\\Mipo-gidi_1_2_16\\app\\src\\main\\res\\drawable\\me15.jpg"
     },
     {
-        "merged": "D:\\Mipo19.1.16\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\me20.jpg",
-        "source": "D:\\Mipo19.1.16\\app\\src\\main\\res\\drawable\\me20.jpg"
+        "merged": "D:\\Mipo-gidi_1_2_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\pic15.jpg",
+        "source": "D:\\Mipo-gidi_1_2_16\\app\\src\\main\\res\\drawable\\pic15.jpg"
     },
     {
-        "merged": "D:\\Mipo19.1.16\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\pic7.jpg",
-        "source": "D:\\Mipo19.1.16\\app\\src\\main\\res\\drawable\\pic7.jpg"
+        "merged": "D:\\Mipo-gidi_1_2_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\pic23.jpg",
+        "source": "D:\\Mipo-gidi_1_2_16\\app\\src\\main\\res\\drawable\\pic23.jpg"
     },
     {
-        "merged": "D:\\Mipo_13_1_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\me5.jpg",
-        "source": "D:\\Mipo_13_1_16\\app\\src\\main\\res\\drawable\\me5.jpg"
+        "merged": "D:\\Mipo-gidi_1_2_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\me5.jpg",
+        "source": "D:\\Mipo-gidi_1_2_16\\app\\src\\main\\res\\drawable\\me5.jpg"
     },
     {
-        "merged": "D:\\Mipo_13_1_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\me10.jpg",
-        "source": "D:\\Mipo_13_1_16\\app\\src\\main\\res\\drawable\\me10.jpg"
+        "merged": "D:\\Mipo-gidi_1_2_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\divider_shape.xml",
+        "source": "D:\\Mipo-gidi_1_2_16\\app\\src\\main\\res\\drawable\\divider_shape.xml"
     },
     {
         "merged": "D:\\Mipo-gidi_1_2_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\pic4.jpg",
         "source": "D:\\Mipo-gidi_1_2_16\\app\\src\\main\\res\\drawable\\pic4.jpg"
+    },
+    {
+        "merged": "D:\\Mipo-gidi_1_2_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\pic11.jpg",
+        "source": "D:\\Mipo-gidi_1_2_16\\app\\src\\main\\res\\drawable\\pic11.jpg"
     },
     {
         "merged": "D:\\Mipo-gidi_1_2_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\me14.jpg",
@@ -56,56 +48,100 @@
         "source": "D:\\Mipo-gidi_1_2_16\\app\\src\\main\\res\\drawable\\background.xml"
     },
     {
-        "merged": "D:\\Mipo19.1.16\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\me19.jpg",
-        "source": "D:\\Mipo19.1.16\\app\\src\\main\\res\\drawable\\me19.jpg"
+        "merged": "D:\\Mipo-gidi_1_2_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\me22.jpg",
+        "source": "D:\\Mipo-gidi_1_2_16\\app\\src\\main\\res\\drawable\\me22.jpg"
+    },
+    {
+        "merged": "D:\\Mipo-gidi_1_2_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\report.png",
+        "source": "D:\\Mipo-gidi_1_2_16\\app\\src\\main\\res\\drawable\\report.png"
+    },
+    {
+        "merged": "D:\\Mipo-gidi_1_2_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\pic5.jpg",
+        "source": "D:\\Mipo-gidi_1_2_16\\app\\src\\main\\res\\drawable\\pic5.jpg"
+    },
+    {
+        "merged": "D:\\Mipo-gidi_1_2_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\pic8.jpg",
+        "source": "D:\\Mipo-gidi_1_2_16\\app\\src\\main\\res\\drawable\\pic8.jpg"
+    },
+    {
+        "merged": "D:\\Mipo-gidi_1_2_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\pic17.jpg",
+        "source": "D:\\Mipo-gidi_1_2_16\\app\\src\\main\\res\\drawable\\pic17.jpg"
     },
     {
         "merged": "D:\\Mipo-gidi_1_2_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\pic2.jpg",
         "source": "D:\\Mipo-gidi_1_2_16\\app\\src\\main\\res\\drawable\\pic2.jpg"
     },
     {
-        "merged": "D:\\Mipo19.1.16\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\pic12.jpg",
-        "source": "D:\\Mipo19.1.16\\app\\src\\main\\res\\drawable\\pic12.jpg"
+        "merged": "D:\\Mipo-gidi_1_2_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\pic14.jpg",
+        "source": "D:\\Mipo-gidi_1_2_16\\app\\src\\main\\res\\drawable\\pic14.jpg"
+    },
+    {
+        "merged": "D:\\Mipo-gidi_1_2_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\pic25.jpg",
+        "source": "D:\\Mipo-gidi_1_2_16\\app\\src\\main\\res\\drawable\\pic25.jpg"
+    },
+    {
+        "merged": "D:\\Mipo-gidi_1_2_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bg.jpg",
+        "source": "D:\\Mipo-gidi_1_2_16\\app\\src\\main\\res\\drawable\\bg.jpg"
     },
     {
         "merged": "D:\\Mipo-gidi_1_2_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\gps_acuuraty.png",
         "source": "D:\\Mipo-gidi_1_2_16\\app\\src\\main\\res\\drawable\\gps_acuuraty.png"
     },
     {
-        "merged": "D:\\Mipo_13_1_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\pic14.jpg",
-        "source": "D:\\Mipo_13_1_16\\app\\src\\main\\res\\drawable\\pic14.jpg"
+        "merged": "D:\\Mipo-gidi_1_2_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\pic20.jpg",
+        "source": "D:\\Mipo-gidi_1_2_16\\app\\src\\main\\res\\drawable\\pic20.jpg"
     },
     {
-        "merged": "D:\\Mipo19.1.16\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\gps_acuuraty.png",
-        "source": "D:\\Mipo19.1.16\\app\\src\\main\\res\\drawable\\gps_acuuraty.png"
+        "merged": "D:\\Mipo-gidi_1_2_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\lke.png",
+        "source": "D:\\Mipo-gidi_1_2_16\\app\\src\\main\\res\\drawable\\lke.png"
+    },
+    {
+        "merged": "D:\\Mipo-gidi_1_2_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\fire.png",
+        "source": "D:\\Mipo-gidi_1_2_16\\app\\src\\main\\res\\drawable\\fire.png"
     },
     {
         "merged": "D:\\Mipo-gidi_1_2_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\smell.png",
         "source": "D:\\Mipo-gidi_1_2_16\\app\\src\\main\\res\\drawable\\smell.png"
     },
     {
-        "merged": "D:\\Mipo_13_1_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\me20.jpg",
-        "source": "D:\\Mipo_13_1_16\\app\\src\\main\\res\\drawable\\me20.jpg"
+        "merged": "D:\\Mipo-gidi_1_2_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\m2.png",
+        "source": "D:\\Mipo-gidi_1_2_16\\app\\src\\main\\res\\drawable\\m2.png"
     },
     {
-        "merged": "D:\\Mipo19.1.16\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\smell.png",
-        "source": "D:\\Mipo19.1.16\\app\\src\\main\\res\\drawable\\smell.png"
+        "merged": "D:\\Mipo-gidi_1_2_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\pic21.jpg",
+        "source": "D:\\Mipo-gidi_1_2_16\\app\\src\\main\\res\\drawable\\pic21.jpg"
     },
     {
-        "merged": "D:\\Mipo_13_1_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\me1.jpg",
-        "source": "D:\\Mipo_13_1_16\\app\\src\\main\\res\\drawable\\me1.jpg"
+        "merged": "D:\\Mipo-gidi_1_2_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\online.png",
+        "source": "D:\\Mipo-gidi_1_2_16\\app\\src\\main\\res\\drawable\\online.png"
     },
     {
-        "merged": "D:\\Mipo19.1.16\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\pic9.jpg",
-        "source": "D:\\Mipo19.1.16\\app\\src\\main\\res\\drawable\\pic9.jpg"
+        "merged": "D:\\Mipo-gidi_1_2_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\me12.jpg",
+        "source": "D:\\Mipo-gidi_1_2_16\\app\\src\\main\\res\\drawable\\me12.jpg"
     },
     {
-        "merged": "D:\\Mipo_13_1_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\pic12.jpg",
-        "source": "D:\\Mipo_13_1_16\\app\\src\\main\\res\\drawable\\pic12.jpg"
+        "merged": "D:\\Mipo-gidi_1_2_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\me20.jpg",
+        "source": "D:\\Mipo-gidi_1_2_16\\app\\src\\main\\res\\drawable\\me20.jpg"
     },
     {
-        "merged": "D:\\Mipo_13_1_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\me7.jpg",
-        "source": "D:\\Mipo_13_1_16\\app\\src\\main\\res\\drawable\\me7.jpg"
+        "merged": "D:\\Mipo-gidi_1_2_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\me7.jpg",
+        "source": "D:\\Mipo-gidi_1_2_16\\app\\src\\main\\res\\drawable\\me7.jpg"
+    },
+    {
+        "merged": "D:\\Mipo-gidi_1_2_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\row_border.xml",
+        "source": "D:\\Mipo-gidi_1_2_16\\app\\src\\main\\res\\drawable\\row_border.xml"
+    },
+    {
+        "merged": "D:\\Mipo-gidi_1_2_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\me2.jpg",
+        "source": "D:\\Mipo-gidi_1_2_16\\app\\src\\main\\res\\drawable\\me2.jpg"
+    },
+    {
+        "merged": "D:\\Mipo-gidi_1_2_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\back.png",
+        "source": "D:\\Mipo-gidi_1_2_16\\app\\src\\main\\res\\drawable\\back.png"
+    },
+    {
+        "merged": "D:\\Mipo-gidi_1_2_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_launcher.png",
+        "source": "D:\\Mipo-gidi_1_2_16\\app\\src\\main\\res\\drawable\\ic_launcher.png"
     },
     {
         "merged": "D:\\Mipo-gidi_1_2_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\message.png",
@@ -120,262 +156,6 @@
         "source": "D:\\Mipo-gidi_1_2_16\\app\\src\\main\\res\\drawable\\pic12.jpg"
     },
     {
-        "merged": "D:\\Mipo-gidi_1_2_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\online2.png",
-        "source": "D:\\Mipo-gidi_1_2_16\\app\\src\\main\\res\\drawable\\online2.png"
-    },
-    {
-        "merged": "D:\\Mipo-gidi_1_2_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\m3.png",
-        "source": "D:\\Mipo-gidi_1_2_16\\app\\src\\main\\res\\drawable\\m3.png"
-    },
-    {
-        "merged": "D:\\Mipo_13_1_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\pic0.jpg",
-        "source": "D:\\Mipo_13_1_16\\app\\src\\main\\res\\drawable\\pic0.jpg"
-    },
-    {
-        "merged": "D:\\Mipo_13_1_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\me17.jpg",
-        "source": "D:\\Mipo_13_1_16\\app\\src\\main\\res\\drawable\\me17.jpg"
-    },
-    {
-        "merged": "D:\\Mipo19.1.16\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\pic26.jpg",
-        "source": "D:\\Mipo19.1.16\\app\\src\\main\\res\\drawable\\pic26.jpg"
-    },
-    {
-        "merged": "D:\\Mipo19.1.16\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\online2.png",
-        "source": "D:\\Mipo19.1.16\\app\\src\\main\\res\\drawable\\online2.png"
-    },
-    {
-        "merged": "D:\\Mipo_13_1_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\gps_acuuraty.png",
-        "source": "D:\\Mipo_13_1_16\\app\\src\\main\\res\\drawable\\gps_acuuraty.png"
-    },
-    {
-        "merged": "D:\\Mipo_13_1_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\pic18.jpg",
-        "source": "D:\\Mipo_13_1_16\\app\\src\\main\\res\\drawable\\pic18.jpg"
-    },
-    {
-        "merged": "D:\\Mipo-gidi_1_2_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\me6.jpg",
-        "source": "D:\\Mipo-gidi_1_2_16\\app\\src\\main\\res\\drawable\\me6.jpg"
-    },
-    {
-        "merged": "D:\\Mipo-gidi_1_2_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\me0.jpg",
-        "source": "D:\\Mipo-gidi_1_2_16\\app\\src\\main\\res\\drawable\\me0.jpg"
-    },
-    {
-        "merged": "D:\\Mipo_13_1_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\report.png",
-        "source": "D:\\Mipo_13_1_16\\app\\src\\main\\res\\drawable\\report.png"
-    },
-    {
-        "merged": "D:\\Mipo_13_1_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\m3.png",
-        "source": "D:\\Mipo_13_1_16\\app\\src\\main\\res\\drawable\\m3.png"
-    },
-    {
-        "merged": "D:\\Mipo19.1.16\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\pic5.jpg",
-        "source": "D:\\Mipo19.1.16\\app\\src\\main\\res\\drawable\\pic5.jpg"
-    },
-    {
-        "merged": "D:\\Mipo-gidi_1_2_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\me16.jpg",
-        "source": "D:\\Mipo-gidi_1_2_16\\app\\src\\main\\res\\drawable\\me16.jpg"
-    },
-    {
-        "merged": "D:\\Mipo19.1.16\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\me1.jpg",
-        "source": "D:\\Mipo19.1.16\\app\\src\\main\\res\\drawable\\me1.jpg"
-    },
-    {
-        "merged": "D:\\Mipo_13_1_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\me24.jpg",
-        "source": "D:\\Mipo_13_1_16\\app\\src\\main\\res\\drawable\\me24.jpg"
-    },
-    {
-        "merged": "D:\\Mipo-gidi_1_2_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\me10.jpg",
-        "source": "D:\\Mipo-gidi_1_2_16\\app\\src\\main\\res\\drawable\\me10.jpg"
-    },
-    {
-        "merged": "D:\\Mipo19.1.16\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\favorite.png",
-        "source": "D:\\Mipo19.1.16\\app\\src\\main\\res\\drawable\\favorite.png"
-    },
-    {
-        "merged": "D:\\Mipo19.1.16\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\pic10.jpg",
-        "source": "D:\\Mipo19.1.16\\app\\src\\main\\res\\drawable\\pic10.jpg"
-    },
-    {
-        "merged": "D:\\Mipo19.1.16\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\pic16.jpg",
-        "source": "D:\\Mipo19.1.16\\app\\src\\main\\res\\drawable\\pic16.jpg"
-    },
-    {
-        "merged": "D:\\Mipo_13_1_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\pic24.jpg",
-        "source": "D:\\Mipo_13_1_16\\app\\src\\main\\res\\drawable\\pic24.jpg"
-    },
-    {
-        "merged": "D:\\Mipo_13_1_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\pic21.jpg",
-        "source": "D:\\Mipo_13_1_16\\app\\src\\main\\res\\drawable\\pic21.jpg"
-    },
-    {
-        "merged": "D:\\Mipo19.1.16\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bg.jpg",
-        "source": "D:\\Mipo19.1.16\\app\\src\\main\\res\\drawable\\bg.jpg"
-    },
-    {
-        "merged": "D:\\Mipo_13_1_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\online2.png",
-        "source": "D:\\Mipo_13_1_16\\app\\src\\main\\res\\drawable\\online2.png"
-    },
-    {
-        "merged": "D:\\Mipo-gidi_1_2_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\pic24.jpg",
-        "source": "D:\\Mipo-gidi_1_2_16\\app\\src\\main\\res\\drawable\\pic24.jpg"
-    },
-    {
-        "merged": "D:\\Mipo_13_1_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\divider_shape.xml",
-        "source": "D:\\Mipo_13_1_16\\app\\src\\main\\res\\drawable\\divider_shape.xml"
-    },
-    {
-        "merged": "D:\\Mipo19.1.16\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\pic22.jpg",
-        "source": "D:\\Mipo19.1.16\\app\\src\\main\\res\\drawable\\pic22.jpg"
-    },
-    {
-        "merged": "D:\\Mipo19.1.16\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\m2.png",
-        "source": "D:\\Mipo19.1.16\\app\\src\\main\\res\\drawable\\m2.png"
-    },
-    {
-        "merged": "D:\\Mipo19.1.16\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\me12.jpg",
-        "source": "D:\\Mipo19.1.16\\app\\src\\main\\res\\drawable\\me12.jpg"
-    },
-    {
-        "merged": "D:\\Mipo19.1.16\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\pic19.jpg",
-        "source": "D:\\Mipo19.1.16\\app\\src\\main\\res\\drawable\\pic19.jpg"
-    },
-    {
-        "merged": "D:\\Mipo_13_1_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\m1.png",
-        "source": "D:\\Mipo_13_1_16\\app\\src\\main\\res\\drawable\\m1.png"
-    },
-    {
-        "merged": "D:\\Mipo_13_1_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\me14.jpg",
-        "source": "D:\\Mipo_13_1_16\\app\\src\\main\\res\\drawable\\me14.jpg"
-    },
-    {
-        "merged": "D:\\Mipo-gidi_1_2_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\pic15.jpg",
-        "source": "D:\\Mipo-gidi_1_2_16\\app\\src\\main\\res\\drawable\\pic15.jpg"
-    },
-    {
-        "merged": "D:\\Mipo_13_1_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\m2.png",
-        "source": "D:\\Mipo_13_1_16\\app\\src\\main\\res\\drawable\\m2.png"
-    },
-    {
-        "merged": "D:\\Mipo19.1.16\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\pic1.jpg",
-        "source": "D:\\Mipo19.1.16\\app\\src\\main\\res\\drawable\\pic1.jpg"
-    },
-    {
-        "merged": "D:\\Mipo19.1.16\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\me11.jpg",
-        "source": "D:\\Mipo19.1.16\\app\\src\\main\\res\\drawable\\me11.jpg"
-    },
-    {
-        "merged": "D:\\Mipo-gidi_1_2_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\me22.jpg",
-        "source": "D:\\Mipo-gidi_1_2_16\\app\\src\\main\\res\\drawable\\me22.jpg"
-    },
-    {
-        "merged": "D:\\Mipo_13_1_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\pic11.jpg",
-        "source": "D:\\Mipo_13_1_16\\app\\src\\main\\res\\drawable\\pic11.jpg"
-    },
-    {
-        "merged": "D:\\Mipo19.1.16\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\me13.jpg",
-        "source": "D:\\Mipo19.1.16\\app\\src\\main\\res\\drawable\\me13.jpg"
-    },
-    {
-        "merged": "D:\\Mipo19.1.16\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\m3.png",
-        "source": "D:\\Mipo19.1.16\\app\\src\\main\\res\\drawable\\m3.png"
-    },
-    {
-        "merged": "D:\\Mipo_13_1_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\pic25.jpg",
-        "source": "D:\\Mipo_13_1_16\\app\\src\\main\\res\\drawable\\pic25.jpg"
-    },
-    {
-        "merged": "D:\\Mipo-gidi_1_2_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\pic17.jpg",
-        "source": "D:\\Mipo-gidi_1_2_16\\app\\src\\main\\res\\drawable\\pic17.jpg"
-    },
-    {
-        "merged": "D:\\Mipo19.1.16\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\three_p.png",
-        "source": "D:\\Mipo19.1.16\\app\\src\\main\\res\\drawable\\three_p.png"
-    },
-    {
-        "merged": "D:\\Mipo-gidi_1_2_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\pic20.jpg",
-        "source": "D:\\Mipo-gidi_1_2_16\\app\\src\\main\\res\\drawable\\pic20.jpg"
-    },
-    {
-        "merged": "D:\\Mipo19.1.16\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\me3.jpg",
-        "source": "D:\\Mipo19.1.16\\app\\src\\main\\res\\drawable\\me3.jpg"
-    },
-    {
-        "merged": "D:\\Mipo-gidi_1_2_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\lke.png",
-        "source": "D:\\Mipo-gidi_1_2_16\\app\\src\\main\\res\\drawable\\lke.png"
-    },
-    {
-        "merged": "D:\\Mipo19.1.16\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\pic17.jpg",
-        "source": "D:\\Mipo19.1.16\\app\\src\\main\\res\\drawable\\pic17.jpg"
-    },
-    {
-        "merged": "D:\\Mipo-gidi_1_2_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\fire.png",
-        "source": "D:\\Mipo-gidi_1_2_16\\app\\src\\main\\res\\drawable\\fire.png"
-    },
-    {
-        "merged": "D:\\Mipo_13_1_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\lke.png",
-        "source": "D:\\Mipo_13_1_16\\app\\src\\main\\res\\drawable\\lke.png"
-    },
-    {
-        "merged": "D:\\Mipo_13_1_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\me12.jpg",
-        "source": "D:\\Mipo_13_1_16\\app\\src\\main\\res\\drawable\\me12.jpg"
-    },
-    {
-        "merged": "D:\\Mipo19.1.16\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\pic0.jpg",
-        "source": "D:\\Mipo19.1.16\\app\\src\\main\\res\\drawable\\pic0.jpg"
-    },
-    {
-        "merged": "D:\\Mipo_13_1_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\smell.png",
-        "source": "D:\\Mipo_13_1_16\\app\\src\\main\\res\\drawable\\smell.png"
-    },
-    {
-        "merged": "D:\\Mipo-gidi_1_2_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\m2.png",
-        "source": "D:\\Mipo-gidi_1_2_16\\app\\src\\main\\res\\drawable\\m2.png"
-    },
-    {
-        "merged": "D:\\Mipo_13_1_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\pic2.jpg",
-        "source": "D:\\Mipo_13_1_16\\app\\src\\main\\res\\drawable\\pic2.jpg"
-    },
-    {
-        "merged": "D:\\Mipo19.1.16\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\me8.jpg",
-        "source": "D:\\Mipo19.1.16\\app\\src\\main\\res\\drawable\\me8.jpg"
-    },
-    {
-        "merged": "D:\\Mipo19.1.16\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\me2.jpg",
-        "source": "D:\\Mipo19.1.16\\app\\src\\main\\res\\drawable\\me2.jpg"
-    },
-    {
-        "merged": "D:\\Mipo-gidi_1_2_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\online.png",
-        "source": "D:\\Mipo-gidi_1_2_16\\app\\src\\main\\res\\drawable\\online.png"
-    },
-    {
-        "merged": "D:\\Mipo-gidi_1_2_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\me12.jpg",
-        "source": "D:\\Mipo-gidi_1_2_16\\app\\src\\main\\res\\drawable\\me12.jpg"
-    },
-    {
-        "merged": "D:\\Mipo_13_1_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\back.png",
-        "source": "D:\\Mipo_13_1_16\\app\\src\\main\\res\\drawable\\back.png"
-    },
-    {
-        "merged": "D:\\Mipo-gidi_1_2_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\me7.jpg",
-        "source": "D:\\Mipo-gidi_1_2_16\\app\\src\\main\\res\\drawable\\me7.jpg"
-    },
-    {
-        "merged": "D:\\Mipo19.1.16\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\pic11.jpg",
-        "source": "D:\\Mipo19.1.16\\app\\src\\main\\res\\drawable\\pic11.jpg"
-    },
-    {
-        "merged": "D:\\Mipo-gidi_1_2_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\me2.jpg",
-        "source": "D:\\Mipo-gidi_1_2_16\\app\\src\\main\\res\\drawable\\me2.jpg"
-    },
-    {
-        "merged": "D:\\Mipo_13_1_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\pic1.jpg",
-        "source": "D:\\Mipo_13_1_16\\app\\src\\main\\res\\drawable\\pic1.jpg"
-    },
-    {
-        "merged": "D:\\Mipo19.1.16\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\m4.png",
-        "source": "D:\\Mipo19.1.16\\app\\src\\main\\res\\drawable\\m4.png"
-    },
-    {
         "merged": "D:\\Mipo-gidi_1_2_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\me18.jpg",
         "source": "D:\\Mipo-gidi_1_2_16\\app\\src\\main\\res\\drawable\\me18.jpg"
     },
@@ -384,252 +164,28 @@
         "source": "D:\\Mipo-gidi_1_2_16\\app\\src\\main\\res\\drawable\\me11.jpg"
     },
     {
-        "merged": "D:\\Mipo_13_1_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\pic20.jpg",
-        "source": "D:\\Mipo_13_1_16\\app\\src\\main\\res\\drawable\\pic20.jpg"
-    },
-    {
-        "merged": "D:\\Mipo19.1.16\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\me22.jpg",
-        "source": "D:\\Mipo19.1.16\\app\\src\\main\\res\\drawable\\me22.jpg"
-    },
-    {
-        "merged": "D:\\Mipo19.1.16\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\favoritecolored.png",
-        "source": "D:\\Mipo19.1.16\\app\\src\\main\\res\\drawable\\favoritecolored.png"
+        "merged": "D:\\Mipo-gidi_1_2_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\online2.png",
+        "source": "D:\\Mipo-gidi_1_2_16\\app\\src\\main\\res\\drawable\\online2.png"
     },
     {
         "merged": "D:\\Mipo-gidi_1_2_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\me8.jpg",
         "source": "D:\\Mipo-gidi_1_2_16\\app\\src\\main\\res\\drawable\\me8.jpg"
     },
     {
+        "merged": "D:\\Mipo-gidi_1_2_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\me25.jpg",
+        "source": "D:\\Mipo-gidi_1_2_16\\app\\src\\main\\res\\drawable\\me25.jpg"
+    },
+    {
         "merged": "D:\\Mipo-gidi_1_2_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\me17.jpg",
         "source": "D:\\Mipo-gidi_1_2_16\\app\\src\\main\\res\\drawable\\me17.jpg"
     },
     {
-        "merged": "D:\\Mipo-gidi_1_2_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\pic26.jpg",
-        "source": "D:\\Mipo-gidi_1_2_16\\app\\src\\main\\res\\drawable\\pic26.jpg"
+        "merged": "D:\\Mipo-gidi_1_2_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\heart.png",
+        "source": "D:\\Mipo-gidi_1_2_16\\app\\src\\main\\res\\drawable\\heart.png"
     },
     {
-        "merged": "D:\\Mipo-gidi_1_2_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\favorite.png",
-        "source": "D:\\Mipo-gidi_1_2_16\\app\\src\\main\\res\\drawable\\favorite.png"
-    },
-    {
-        "merged": "D:\\Mipo-gidi_1_2_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\me1.jpg",
-        "source": "D:\\Mipo-gidi_1_2_16\\app\\src\\main\\res\\drawable\\me1.jpg"
-    },
-    {
-        "merged": "D:\\Mipo_13_1_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\pic7.jpg",
-        "source": "D:\\Mipo_13_1_16\\app\\src\\main\\res\\drawable\\pic7.jpg"
-    },
-    {
-        "merged": "D:\\Mipo_13_1_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\pic26.jpg",
-        "source": "D:\\Mipo_13_1_16\\app\\src\\main\\res\\drawable\\pic26.jpg"
-    },
-    {
-        "merged": "D:\\Mipo19.1.16\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\pic18.jpg",
-        "source": "D:\\Mipo19.1.16\\app\\src\\main\\res\\drawable\\pic18.jpg"
-    },
-    {
-        "merged": "D:\\Mipo-gidi_1_2_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\m1.png",
-        "source": "D:\\Mipo-gidi_1_2_16\\app\\src\\main\\res\\drawable\\m1.png"
-    },
-    {
-        "merged": "D:\\Mipo-gidi_1_2_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\three_p.png",
-        "source": "D:\\Mipo-gidi_1_2_16\\app\\src\\main\\res\\drawable\\three_p.png"
-    },
-    {
-        "merged": "D:\\Mipo_13_1_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\me13.jpg",
-        "source": "D:\\Mipo_13_1_16\\app\\src\\main\\res\\drawable\\me13.jpg"
-    },
-    {
-        "merged": "D:\\Mipo_13_1_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\me22.jpg",
-        "source": "D:\\Mipo_13_1_16\\app\\src\\main\\res\\drawable\\me22.jpg"
-    },
-    {
-        "merged": "D:\\Mipo-gidi_1_2_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\me21.jpg",
-        "source": "D:\\Mipo-gidi_1_2_16\\app\\src\\main\\res\\drawable\\me21.jpg"
-    },
-    {
-        "merged": "D:\\Mipo_13_1_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\me19.jpg",
-        "source": "D:\\Mipo_13_1_16\\app\\src\\main\\res\\drawable\\me19.jpg"
-    },
-    {
-        "merged": "D:\\Mipo_13_1_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\three_p.png",
-        "source": "D:\\Mipo_13_1_16\\app\\src\\main\\res\\drawable\\three_p.png"
-    },
-    {
-        "merged": "D:\\Mipo_13_1_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\me6.jpg",
-        "source": "D:\\Mipo_13_1_16\\app\\src\\main\\res\\drawable\\me6.jpg"
-    },
-    {
-        "merged": "D:\\Mipo-gidi_1_2_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\pic0.jpg",
-        "source": "D:\\Mipo-gidi_1_2_16\\app\\src\\main\\res\\drawable\\pic0.jpg"
-    },
-    {
-        "merged": "D:\\Mipo19.1.16\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\pic21.jpg",
-        "source": "D:\\Mipo19.1.16\\app\\src\\main\\res\\drawable\\pic21.jpg"
-    },
-    {
-        "merged": "D:\\Mipo_13_1_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\pic16.jpg",
-        "source": "D:\\Mipo_13_1_16\\app\\src\\main\\res\\drawable\\pic16.jpg"
-    },
-    {
-        "merged": "D:\\Mipo19.1.16\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\back.png",
-        "source": "D:\\Mipo19.1.16\\app\\src\\main\\res\\drawable\\back.png"
-    },
-    {
-        "merged": "D:\\Mipo-gidi_1_2_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\pic16.jpg",
-        "source": "D:\\Mipo-gidi_1_2_16\\app\\src\\main\\res\\drawable\\pic16.jpg"
-    },
-    {
-        "merged": "D:\\Mipo-gidi_1_2_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\pic6.jpg",
-        "source": "D:\\Mipo-gidi_1_2_16\\app\\src\\main\\res\\drawable\\pic6.jpg"
-    },
-    {
-        "merged": "D:\\Mipo_13_1_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\me0.jpg",
-        "source": "D:\\Mipo_13_1_16\\app\\src\\main\\res\\drawable\\me0.jpg"
-    },
-    {
-        "merged": "D:\\Mipo_13_1_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\pic10.jpg",
-        "source": "D:\\Mipo_13_1_16\\app\\src\\main\\res\\drawable\\pic10.jpg"
-    },
-    {
-        "merged": "D:\\Mipo_13_1_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\me4.jpg",
-        "source": "D:\\Mipo_13_1_16\\app\\src\\main\\res\\drawable\\me4.jpg"
-    },
-    {
-        "merged": "D:\\Mipo-gidi_1_2_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\me15.jpg",
-        "source": "D:\\Mipo-gidi_1_2_16\\app\\src\\main\\res\\drawable\\me15.jpg"
-    },
-    {
-        "merged": "D:\\Mipo19.1.16\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\me18.jpg",
-        "source": "D:\\Mipo19.1.16\\app\\src\\main\\res\\drawable\\me18.jpg"
-    },
-    {
-        "merged": "D:\\Mipo-gidi_1_2_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\pic23.jpg",
-        "source": "D:\\Mipo-gidi_1_2_16\\app\\src\\main\\res\\drawable\\pic23.jpg"
-    },
-    {
-        "merged": "D:\\Mipo-gidi_1_2_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\me5.jpg",
-        "source": "D:\\Mipo-gidi_1_2_16\\app\\src\\main\\res\\drawable\\me5.jpg"
-    },
-    {
-        "merged": "D:\\Mipo_13_1_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\pic15.jpg",
-        "source": "D:\\Mipo_13_1_16\\app\\src\\main\\res\\drawable\\pic15.jpg"
-    },
-    {
-        "merged": "D:\\Mipo19.1.16\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\offline.png",
-        "source": "D:\\Mipo19.1.16\\app\\src\\main\\res\\drawable\\offline.png"
-    },
-    {
-        "merged": "D:\\Mipo-gidi_1_2_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\pic11.jpg",
-        "source": "D:\\Mipo-gidi_1_2_16\\app\\src\\main\\res\\drawable\\pic11.jpg"
-    },
-    {
-        "merged": "D:\\Mipo19.1.16\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\pic15.jpg",
-        "source": "D:\\Mipo19.1.16\\app\\src\\main\\res\\drawable\\pic15.jpg"
-    },
-    {
-        "merged": "D:\\Mipo-gidi_1_2_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\pic5.jpg",
-        "source": "D:\\Mipo-gidi_1_2_16\\app\\src\\main\\res\\drawable\\pic5.jpg"
-    },
-    {
-        "merged": "D:\\Mipo19.1.16\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\me16.jpg",
-        "source": "D:\\Mipo19.1.16\\app\\src\\main\\res\\drawable\\me16.jpg"
-    },
-    {
-        "merged": "D:\\Mipo_13_1_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\pic8.jpg",
-        "source": "D:\\Mipo_13_1_16\\app\\src\\main\\res\\drawable\\pic8.jpg"
-    },
-    {
-        "merged": "D:\\Mipo-gidi_1_2_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\pic25.jpg",
-        "source": "D:\\Mipo-gidi_1_2_16\\app\\src\\main\\res\\drawable\\pic25.jpg"
-    },
-    {
-        "merged": "D:\\Mipo-gidi_1_2_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bg.jpg",
-        "source": "D:\\Mipo-gidi_1_2_16\\app\\src\\main\\res\\drawable\\bg.jpg"
-    },
-    {
-        "merged": "D:\\Mipo_13_1_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\me2.jpg",
-        "source": "D:\\Mipo_13_1_16\\app\\src\\main\\res\\drawable\\me2.jpg"
-    },
-    {
-        "merged": "D:\\Mipo_13_1_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\pic17.jpg",
-        "source": "D:\\Mipo_13_1_16\\app\\src\\main\\res\\drawable\\pic17.jpg"
-    },
-    {
-        "merged": "D:\\Mipo19.1.16\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\me9.jpg",
-        "source": "D:\\Mipo19.1.16\\app\\src\\main\\res\\drawable\\me9.jpg"
-    },
-    {
-        "merged": "D:\\Mipo_13_1_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\fire.png",
-        "source": "D:\\Mipo_13_1_16\\app\\src\\main\\res\\drawable\\fire.png"
-    },
-    {
-        "merged": "D:\\Mipo19.1.16\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\me0.jpg",
-        "source": "D:\\Mipo19.1.16\\app\\src\\main\\res\\drawable\\me0.jpg"
-    },
-    {
-        "merged": "D:\\Mipo19.1.16\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\me21.jpg",
-        "source": "D:\\Mipo19.1.16\\app\\src\\main\\res\\drawable\\me21.jpg"
-    },
-    {
-        "merged": "D:\\Mipo19.1.16\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\pic6.jpg",
-        "source": "D:\\Mipo19.1.16\\app\\src\\main\\res\\drawable\\pic6.jpg"
-    },
-    {
-        "merged": "D:\\Mipo_13_1_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\me18.jpg",
-        "source": "D:\\Mipo_13_1_16\\app\\src\\main\\res\\drawable\\me18.jpg"
-    },
-    {
-        "merged": "D:\\Mipo_13_1_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\divider_drawable.xml",
-        "source": "D:\\Mipo_13_1_16\\app\\src\\main\\res\\drawable\\divider_drawable.xml"
-    },
-    {
-        "merged": "D:\\Mipo_13_1_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\me23.jpg",
-        "source": "D:\\Mipo_13_1_16\\app\\src\\main\\res\\drawable\\me23.jpg"
-    },
-    {
-        "merged": "D:\\Mipo-gidi_1_2_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\pic21.jpg",
-        "source": "D:\\Mipo-gidi_1_2_16\\app\\src\\main\\res\\drawable\\pic21.jpg"
-    },
-    {
-        "merged": "D:\\Mipo_13_1_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\favorite.png",
-        "source": "D:\\Mipo_13_1_16\\app\\src\\main\\res\\drawable\\favorite.png"
-    },
-    {
-        "merged": "D:\\Mipo19.1.16\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\pic25.jpg",
-        "source": "D:\\Mipo19.1.16\\app\\src\\main\\res\\drawable\\pic25.jpg"
-    },
-    {
-        "merged": "D:\\Mipo-gidi_1_2_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\me20.jpg",
-        "source": "D:\\Mipo-gidi_1_2_16\\app\\src\\main\\res\\drawable\\me20.jpg"
-    },
-    {
-        "merged": "D:\\Mipo19.1.16\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\divider_shape.xml",
-        "source": "D:\\Mipo19.1.16\\app\\src\\main\\res\\drawable\\divider_shape.xml"
-    },
-    {
-        "merged": "D:\\Mipo-gidi_1_2_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\back.png",
-        "source": "D:\\Mipo-gidi_1_2_16\\app\\src\\main\\res\\drawable\\back.png"
-    },
-    {
-        "merged": "D:\\Mipo-gidi_1_2_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_launcher.png",
-        "source": "D:\\Mipo-gidi_1_2_16\\app\\src\\main\\res\\drawable\\ic_launcher.png"
-    },
-    {
-        "merged": "D:\\Mipo19.1.16\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\me23.jpg",
-        "source": "D:\\Mipo19.1.16\\app\\src\\main\\res\\drawable\\me23.jpg"
-    },
-    {
-        "merged": "D:\\Mipo_13_1_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\pic6.jpg",
-        "source": "D:\\Mipo_13_1_16\\app\\src\\main\\res\\drawable\\pic6.jpg"
-    },
-    {
-        "merged": "D:\\Mipo_13_1_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\row_border.xml",
-        "source": "D:\\Mipo_13_1_16\\app\\src\\main\\res\\drawable\\row_border.xml"
-    },
-    {
-        "merged": "D:\\Mipo-gidi_1_2_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\me25.jpg",
-        "source": "D:\\Mipo-gidi_1_2_16\\app\\src\\main\\res\\drawable\\me25.jpg"
+        "merged": "D:\\Mipo-gidi_1_2_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\m3.png",
+        "source": "D:\\Mipo-gidi_1_2_16\\app\\src\\main\\res\\drawable\\m3.png"
     },
     {
         "merged": "D:\\Mipo-gidi_1_2_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\pic18.jpg",
@@ -640,40 +196,24 @@
         "source": "D:\\Mipo-gidi_1_2_16\\app\\src\\main\\res\\drawable\\pic7.jpg"
     },
     {
-        "merged": "D:\\Mipo19.1.16\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\me14.jpg",
-        "source": "D:\\Mipo19.1.16\\app\\src\\main\\res\\drawable\\me14.jpg"
+        "merged": "D:\\Mipo-gidi_1_2_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\pic26.jpg",
+        "source": "D:\\Mipo-gidi_1_2_16\\app\\src\\main\\res\\drawable\\pic26.jpg"
     },
     {
-        "merged": "D:\\Mipo_13_1_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\me21.jpg",
-        "source": "D:\\Mipo_13_1_16\\app\\src\\main\\res\\drawable\\me21.jpg"
+        "merged": "D:\\Mipo-gidi_1_2_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\pic22.jpg",
+        "source": "D:\\Mipo-gidi_1_2_16\\app\\src\\main\\res\\drawable\\pic22.jpg"
     },
     {
-        "merged": "D:\\Mipo19.1.16\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\heart.png",
-        "source": "D:\\Mipo19.1.16\\app\\src\\main\\res\\drawable\\heart.png"
+        "merged": "D:\\Mipo-gidi_1_2_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\favorite.png",
+        "source": "D:\\Mipo-gidi_1_2_16\\app\\src\\main\\res\\drawable\\favorite.png"
     },
     {
-        "merged": "D:\\Mipo_13_1_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\me8.jpg",
-        "source": "D:\\Mipo_13_1_16\\app\\src\\main\\res\\drawable\\me8.jpg"
-    },
-    {
-        "merged": "D:\\Mipo19.1.16\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\pic20.jpg",
-        "source": "D:\\Mipo19.1.16\\app\\src\\main\\res\\drawable\\pic20.jpg"
-    },
-    {
-        "merged": "D:\\Mipo19.1.16\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_launcher.png",
-        "source": "D:\\Mipo19.1.16\\app\\src\\main\\res\\drawable\\ic_launcher.png"
+        "merged": "D:\\Mipo-gidi_1_2_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\me1.jpg",
+        "source": "D:\\Mipo-gidi_1_2_16\\app\\src\\main\\res\\drawable\\me1.jpg"
     },
     {
         "merged": "D:\\Mipo-gidi_1_2_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\divider_drawable.xml",
         "source": "D:\\Mipo-gidi_1_2_16\\app\\src\\main\\res\\drawable\\divider_drawable.xml"
-    },
-    {
-        "merged": "D:\\Mipo19.1.16\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\pic8.jpg",
-        "source": "D:\\Mipo19.1.16\\app\\src\\main\\res\\drawable\\pic8.jpg"
-    },
-    {
-        "merged": "D:\\Mipo_13_1_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\message.png",
-        "source": "D:\\Mipo_13_1_16\\app\\src\\main\\res\\drawable\\message.png"
     },
     {
         "merged": "D:\\Mipo-gidi_1_2_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\favoritecolored.png",
@@ -684,228 +224,60 @@
         "source": "D:\\Mipo-gidi_1_2_16\\app\\src\\main\\res\\drawable\\pic1.jpg"
     },
     {
+        "merged": "D:\\Mipo-gidi_1_2_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\m1.png",
+        "source": "D:\\Mipo-gidi_1_2_16\\app\\src\\main\\res\\drawable\\m1.png"
+    },
+    {
         "merged": "D:\\Mipo-gidi_1_2_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\me3.jpg",
         "source": "D:\\Mipo-gidi_1_2_16\\app\\src\\main\\res\\drawable\\me3.jpg"
     },
     {
-        "merged": "D:\\Mipo19.1.16\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\pic2.jpg",
-        "source": "D:\\Mipo19.1.16\\app\\src\\main\\res\\drawable\\pic2.jpg"
+        "merged": "D:\\Mipo-gidi_1_2_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\three_p.png",
+        "source": "D:\\Mipo-gidi_1_2_16\\app\\src\\main\\res\\drawable\\three_p.png"
+    },
+    {
+        "merged": "D:\\Mipo-gidi_1_2_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\me6.jpg",
+        "source": "D:\\Mipo-gidi_1_2_16\\app\\src\\main\\res\\drawable\\me6.jpg"
+    },
+    {
+        "merged": "D:\\Mipo-gidi_1_2_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\me0.jpg",
+        "source": "D:\\Mipo-gidi_1_2_16\\app\\src\\main\\res\\drawable\\me0.jpg"
     },
     {
         "merged": "D:\\Mipo-gidi_1_2_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\me19.jpg",
         "source": "D:\\Mipo-gidi_1_2_16\\app\\src\\main\\res\\drawable\\me19.jpg"
     },
     {
-        "merged": "D:\\Mipo-gidi_1_2_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\me9.jpg",
-        "source": "D:\\Mipo-gidi_1_2_16\\app\\src\\main\\res\\drawable\\me9.jpg"
-    },
-    {
-        "merged": "D:\\Mipo19.1.16\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\me4.jpg",
-        "source": "D:\\Mipo19.1.16\\app\\src\\main\\res\\drawable\\me4.jpg"
-    },
-    {
-        "merged": "D:\\Mipo19.1.16\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\me7.jpg",
-        "source": "D:\\Mipo19.1.16\\app\\src\\main\\res\\drawable\\me7.jpg"
-    },
-    {
-        "merged": "D:\\Mipo-gidi_1_2_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\me13.jpg",
-        "source": "D:\\Mipo-gidi_1_2_16\\app\\src\\main\\res\\drawable\\me13.jpg"
-    },
-    {
-        "merged": "D:\\Mipo19.1.16\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\fire.png",
-        "source": "D:\\Mipo19.1.16\\app\\src\\main\\res\\drawable\\fire.png"
-    },
-    {
-        "merged": "D:\\Mipo_13_1_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\me11.jpg",
-        "source": "D:\\Mipo_13_1_16\\app\\src\\main\\res\\drawable\\me11.jpg"
-    },
-    {
-        "merged": "D:\\Mipo19.1.16\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\pic13.jpg",
-        "source": "D:\\Mipo19.1.16\\app\\src\\main\\res\\drawable\\pic13.jpg"
-    },
-    {
-        "merged": "D:\\Mipo_13_1_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\background.xml",
-        "source": "D:\\Mipo_13_1_16\\app\\src\\main\\res\\drawable\\background.xml"
-    },
-    {
-        "merged": "D:\\Mipo19.1.16\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\lke.png",
-        "source": "D:\\Mipo19.1.16\\app\\src\\main\\res\\drawable\\lke.png"
-    },
-    {
-        "merged": "D:\\Mipo19.1.16\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\me5.jpg",
-        "source": "D:\\Mipo19.1.16\\app\\src\\main\\res\\drawable\\me5.jpg"
-    },
-    {
-        "merged": "D:\\Mipo-gidi_1_2_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\me23.jpg",
-        "source": "D:\\Mipo-gidi_1_2_16\\app\\src\\main\\res\\drawable\\me23.jpg"
-    },
-    {
-        "merged": "D:\\Mipo19.1.16\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\me26.jpg",
-        "source": "D:\\Mipo19.1.16\\app\\src\\main\\res\\drawable\\me26.jpg"
-    },
-    {
-        "merged": "D:\\Mipo_13_1_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\pic3.jpg",
-        "source": "D:\\Mipo_13_1_16\\app\\src\\main\\res\\drawable\\pic3.jpg"
-    },
-    {
-        "merged": "D:\\Mipo19.1.16\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\me25.jpg",
-        "source": "D:\\Mipo19.1.16\\app\\src\\main\\res\\drawable\\me25.jpg"
-    },
-    {
-        "merged": "D:\\Mipo19.1.16\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\report.png",
-        "source": "D:\\Mipo19.1.16\\app\\src\\main\\res\\drawable\\report.png"
-    },
-    {
-        "merged": "D:\\Mipo_13_1_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\pic23.jpg",
-        "source": "D:\\Mipo_13_1_16\\app\\src\\main\\res\\drawable\\pic23.jpg"
-    },
-    {
-        "merged": "D:\\Mipo_13_1_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\favoritecolored.png",
-        "source": "D:\\Mipo_13_1_16\\app\\src\\main\\res\\drawable\\favoritecolored.png"
-    },
-    {
-        "merged": "D:\\Mipo_13_1_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\pic4.jpg",
-        "source": "D:\\Mipo_13_1_16\\app\\src\\main\\res\\drawable\\pic4.jpg"
-    },
-    {
-        "merged": "D:\\Mipo-gidi_1_2_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\divider_shape.xml",
-        "source": "D:\\Mipo-gidi_1_2_16\\app\\src\\main\\res\\drawable\\divider_shape.xml"
-    },
-    {
-        "merged": "D:\\Mipo19.1.16\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\pic23.jpg",
-        "source": "D:\\Mipo19.1.16\\app\\src\\main\\res\\drawable\\pic23.jpg"
-    },
-    {
-        "merged": "D:\\Mipo_13_1_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\pic5.jpg",
-        "source": "D:\\Mipo_13_1_16\\app\\src\\main\\res\\drawable\\pic5.jpg"
-    },
-    {
-        "merged": "D:\\Mipo-gidi_1_2_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\report.png",
-        "source": "D:\\Mipo-gidi_1_2_16\\app\\src\\main\\res\\drawable\\report.png"
-    },
-    {
-        "merged": "D:\\Mipo-gidi_1_2_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\pic8.jpg",
-        "source": "D:\\Mipo-gidi_1_2_16\\app\\src\\main\\res\\drawable\\pic8.jpg"
-    },
-    {
-        "merged": "D:\\Mipo19.1.16\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\me10.jpg",
-        "source": "D:\\Mipo19.1.16\\app\\src\\main\\res\\drawable\\me10.jpg"
-    },
-    {
-        "merged": "D:\\Mipo_13_1_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_launcher.png",
-        "source": "D:\\Mipo_13_1_16\\app\\src\\main\\res\\drawable\\ic_launcher.png"
-    },
-    {
-        "merged": "D:\\Mipo-gidi_1_2_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\pic14.jpg",
-        "source": "D:\\Mipo-gidi_1_2_16\\app\\src\\main\\res\\drawable\\pic14.jpg"
-    },
-    {
-        "merged": "D:\\Mipo_13_1_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\pic22.jpg",
-        "source": "D:\\Mipo_13_1_16\\app\\src\\main\\res\\drawable\\pic22.jpg"
-    },
-    {
-        "merged": "D:\\Mipo19.1.16\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\m1.png",
-        "source": "D:\\Mipo19.1.16\\app\\src\\main\\res\\drawable\\m1.png"
-    },
-    {
-        "merged": "D:\\Mipo19.1.16\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\online.png",
-        "source": "D:\\Mipo19.1.16\\app\\src\\main\\res\\drawable\\online.png"
-    },
-    {
-        "merged": "D:\\Mipo19.1.16\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\me6.jpg",
-        "source": "D:\\Mipo19.1.16\\app\\src\\main\\res\\drawable\\me6.jpg"
-    },
-    {
-        "merged": "D:\\Mipo_13_1_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\me15.jpg",
-        "source": "D:\\Mipo_13_1_16\\app\\src\\main\\res\\drawable\\me15.jpg"
-    },
-    {
-        "merged": "D:\\Mipo19.1.16\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\pic3.jpg",
-        "source": "D:\\Mipo19.1.16\\app\\src\\main\\res\\drawable\\pic3.jpg"
-    },
-    {
-        "merged": "D:\\Mipo19.1.16\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\message.png",
-        "source": "D:\\Mipo19.1.16\\app\\src\\main\\res\\drawable\\message.png"
-    },
-    {
-        "merged": "D:\\Mipo19.1.16\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\me24.jpg",
-        "source": "D:\\Mipo19.1.16\\app\\src\\main\\res\\drawable\\me24.jpg"
-    },
-    {
-        "merged": "D:\\Mipo_13_1_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\me26.jpg",
-        "source": "D:\\Mipo_13_1_16\\app\\src\\main\\res\\drawable\\me26.jpg"
-    },
-    {
-        "merged": "D:\\Mipo-gidi_1_2_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\row_border.xml",
-        "source": "D:\\Mipo-gidi_1_2_16\\app\\src\\main\\res\\drawable\\row_border.xml"
-    },
-    {
-        "merged": "D:\\Mipo_13_1_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\m4.png",
-        "source": "D:\\Mipo_13_1_16\\app\\src\\main\\res\\drawable\\m4.png"
-    },
-    {
-        "merged": "D:\\Mipo19.1.16\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\me15.jpg",
-        "source": "D:\\Mipo19.1.16\\app\\src\\main\\res\\drawable\\me15.jpg"
-    },
-    {
-        "merged": "D:\\Mipo19.1.16\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\row_border.xml",
-        "source": "D:\\Mipo19.1.16\\app\\src\\main\\res\\drawable\\row_border.xml"
-    },
-    {
-        "merged": "D:\\Mipo_13_1_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bg.jpg",
-        "source": "D:\\Mipo_13_1_16\\app\\src\\main\\res\\drawable\\bg.jpg"
-    },
-    {
-        "merged": "D:\\Mipo19.1.16\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\pic4.jpg",
-        "source": "D:\\Mipo19.1.16\\app\\src\\main\\res\\drawable\\pic4.jpg"
-    },
-    {
-        "merged": "D:\\Mipo-gidi_1_2_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\heart.png",
-        "source": "D:\\Mipo-gidi_1_2_16\\app\\src\\main\\res\\drawable\\heart.png"
-    },
-    {
-        "merged": "D:\\Mipo-gidi_1_2_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\pic22.jpg",
-        "source": "D:\\Mipo-gidi_1_2_16\\app\\src\\main\\res\\drawable\\pic22.jpg"
-    },
-    {
-        "merged": "D:\\Mipo_13_1_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\me25.jpg",
-        "source": "D:\\Mipo_13_1_16\\app\\src\\main\\res\\drawable\\me25.jpg"
-    },
-    {
-        "merged": "D:\\Mipo_13_1_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\heart.png",
-        "source": "D:\\Mipo_13_1_16\\app\\src\\main\\res\\drawable\\heart.png"
-    },
-    {
-        "merged": "D:\\Mipo_13_1_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\me16.jpg",
-        "source": "D:\\Mipo_13_1_16\\app\\src\\main\\res\\drawable\\me16.jpg"
-    },
-    {
         "merged": "D:\\Mipo-gidi_1_2_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\offline.png",
         "source": "D:\\Mipo-gidi_1_2_16\\app\\src\\main\\res\\drawable\\offline.png"
+    },
+    {
+        "merged": "D:\\Mipo-gidi_1_2_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\me9.jpg",
+        "source": "D:\\Mipo-gidi_1_2_16\\app\\src\\main\\res\\drawable\\me9.jpg"
     },
     {
         "merged": "D:\\Mipo-gidi_1_2_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\m4.png",
         "source": "D:\\Mipo-gidi_1_2_16\\app\\src\\main\\res\\drawable\\m4.png"
     },
     {
-        "merged": "D:\\Mipo19.1.16\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\background.xml",
-        "source": "D:\\Mipo19.1.16\\app\\src\\main\\res\\drawable\\background.xml"
+        "merged": "D:\\Mipo-gidi_1_2_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\me16.jpg",
+        "source": "D:\\Mipo-gidi_1_2_16\\app\\src\\main\\res\\drawable\\me16.jpg"
     },
     {
-        "merged": "D:\\Mipo_13_1_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\me9.jpg",
-        "source": "D:\\Mipo_13_1_16\\app\\src\\main\\res\\drawable\\me9.jpg"
+        "merged": "D:\\Mipo-gidi_1_2_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\me21.jpg",
+        "source": "D:\\Mipo-gidi_1_2_16\\app\\src\\main\\res\\drawable\\me21.jpg"
     },
     {
-        "merged": "D:\\Mipo_13_1_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\pic19.jpg",
-        "source": "D:\\Mipo_13_1_16\\app\\src\\main\\res\\drawable\\pic19.jpg"
+        "merged": "D:\\Mipo-gidi_1_2_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\me13.jpg",
+        "source": "D:\\Mipo-gidi_1_2_16\\app\\src\\main\\res\\drawable\\me13.jpg"
     },
     {
-        "merged": "D:\\Mipo_13_1_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\offline.png",
-        "source": "D:\\Mipo_13_1_16\\app\\src\\main\\res\\drawable\\offline.png"
+        "merged": "D:\\Mipo-gidi_1_2_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\me10.jpg",
+        "source": "D:\\Mipo-gidi_1_2_16\\app\\src\\main\\res\\drawable\\me10.jpg"
     },
     {
-        "merged": "D:\\Mipo19.1.16\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\pic24.jpg",
-        "source": "D:\\Mipo19.1.16\\app\\src\\main\\res\\drawable\\pic24.jpg"
+        "merged": "D:\\Mipo-gidi_1_2_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\pic0.jpg",
+        "source": "D:\\Mipo-gidi_1_2_16\\app\\src\\main\\res\\drawable\\pic0.jpg"
     },
     {
         "merged": "D:\\Mipo-gidi_1_2_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\pic3.jpg",
@@ -916,6 +288,10 @@
         "source": "D:\\Mipo-gidi_1_2_16\\app\\src\\main\\res\\drawable\\me24.jpg"
     },
     {
+        "merged": "D:\\Mipo-gidi_1_2_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\pic16.jpg",
+        "source": "D:\\Mipo-gidi_1_2_16\\app\\src\\main\\res\\drawable\\pic16.jpg"
+    },
+    {
         "merged": "D:\\Mipo-gidi_1_2_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\pic9.jpg",
         "source": "D:\\Mipo-gidi_1_2_16\\app\\src\\main\\res\\drawable\\pic9.jpg"
     },
@@ -924,15 +300,15 @@
         "source": "D:\\Mipo-gidi_1_2_16\\app\\src\\main\\res\\drawable\\pic19.jpg"
     },
     {
+        "merged": "D:\\Mipo-gidi_1_2_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\pic6.jpg",
+        "source": "D:\\Mipo-gidi_1_2_16\\app\\src\\main\\res\\drawable\\pic6.jpg"
+    },
+    {
         "merged": "D:\\Mipo-gidi_1_2_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\pic13.jpg",
         "source": "D:\\Mipo-gidi_1_2_16\\app\\src\\main\\res\\drawable\\pic13.jpg"
     },
     {
-        "merged": "D:\\Mipo_13_1_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\pic13.jpg",
-        "source": "D:\\Mipo_13_1_16\\app\\src\\main\\res\\drawable\\pic13.jpg"
-    },
-    {
-        "merged": "D:\\Mipo_13_1_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\me3.jpg",
-        "source": "D:\\Mipo_13_1_16\\app\\src\\main\\res\\drawable\\me3.jpg"
+        "merged": "D:\\Mipo-gidi_1_2_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\pic24.jpg",
+        "source": "D:\\Mipo-gidi_1_2_16\\app\\src\\main\\res\\drawable\\pic24.jpg"
     }
 ]

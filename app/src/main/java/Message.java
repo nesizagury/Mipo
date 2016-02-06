@@ -3,6 +3,8 @@ import com.parse.ParseObject;
 
 @ParseClassName("Message")
 public class Message extends ParseObject {
+
+
     public String getUserId() {
         return getString("userId");
     }

@@ -4,108 +4,32 @@
         "source": "D:\\Mipo-gidi_1_2_16\\app\\src\\main\\res\\layout\\login.xml"
     },
     {
-        "merged": "D:\\Mipo19.1.16\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_favorities_page.xml",
-        "source": "D:\\Mipo19.1.16\\app\\src\\main\\res\\layout\\activity_favorities_page.xml"
-    },
-    {
-        "merged": "D:\\Mipo19.1.16\\app\\build\\intermediates\\res\\merged\\debug\\layout\\detailed_profile.xml",
-        "source": "D:\\Mipo19.1.16\\app\\src\\main\\res\\layout\\detailed_profile.xml"
+        "merged": "D:\\Mipo-gidi_1_2_16\\app\\build\\intermediates\\res\\merged\\debug\\layout\\login_third.xml",
+        "source": "D:\\Mipo-gidi_1_2_16\\app\\src\\main\\res\\layout\\login_third.xml"
     },
     {
         "merged": "D:\\Mipo-gidi_1_2_16\\app\\build\\intermediates\\res\\merged\\debug\\layout\\detailed_profile.xml",
         "source": "D:\\Mipo-gidi_1_2_16\\app\\src\\main\\res\\layout\\detailed_profile.xml"
     },
     {
+        "merged": "D:\\Mipo-gidi_1_2_16\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_create_profile.xml",
+        "source": "D:\\Mipo-gidi_1_2_16\\app\\src\\main\\res\\layout\\activity_create_profile.xml"
+    },
+    {
         "merged": "D:\\Mipo-gidi_1_2_16\\app\\build\\intermediates\\res\\merged\\debug\\layout\\messages_room_item.xml",
         "source": "D:\\Mipo-gidi_1_2_16\\app\\src\\main\\res\\layout\\messages_room_item.xml"
-    },
-    {
-        "merged": "D:\\Mipo_13_1_16\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_filter.xml",
-        "source": "D:\\Mipo_13_1_16\\app\\src\\main\\res\\layout\\activity_filter.xml"
-    },
-    {
-        "merged": "D:\\Mipo-gidi_1_2_16\\app\\build\\intermediates\\res\\merged\\debug\\layout\\grid_item.xml",
-        "source": "D:\\Mipo-gidi_1_2_16\\app\\src\\main\\res\\layout\\grid_item.xml"
-    },
-    {
-        "merged": "D:\\Mipo19.1.16\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_file_test.xml",
-        "source": "D:\\Mipo19.1.16\\app\\src\\main\\res\\layout\\activity_file_test.xml"
-    },
-    {
-        "merged": "D:\\Mipo_13_1_16\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_messages_room.xml",
-        "source": "D:\\Mipo_13_1_16\\app\\src\\main\\res\\layout\\activity_messages_room.xml"
-    },
-    {
-        "merged": "D:\\Mipo_13_1_16\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_favorities_page.xml",
-        "source": "D:\\Mipo_13_1_16\\app\\src\\main\\res\\layout\\activity_favorities_page.xml"
-    },
-    {
-        "merged": "D:\\Mipo_13_1_16\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_user_page.xml",
-        "source": "D:\\Mipo_13_1_16\\app\\src\\main\\res\\layout\\activity_user_page.xml"
-    },
-    {
-        "merged": "D:\\Mipo-gidi_1_2_16\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_messages_room.xml",
-        "source": "D:\\Mipo-gidi_1_2_16\\app\\src\\main\\res\\layout\\activity_messages_room.xml"
-    },
-    {
-        "merged": "D:\\Mipo_13_1_16\\app\\build\\intermediates\\res\\merged\\debug\\layout\\chat_item.xml",
-        "source": "D:\\Mipo_13_1_16\\app\\src\\main\\res\\layout\\chat_item.xml"
-    },
-    {
-        "merged": "D:\\Mipo_13_1_16\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main_page.xml",
-        "source": "D:\\Mipo_13_1_16\\app\\src\\main\\res\\layout\\activity_main_page.xml"
-    },
-    {
-        "merged": "D:\\Mipo19.1.16\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_login.xml",
-        "source": "D:\\Mipo19.1.16\\app\\src\\main\\res\\layout\\activity_login.xml"
-    },
-    {
-        "merged": "D:\\Mipo19.1.16\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_messages_room.xml",
-        "source": "D:\\Mipo19.1.16\\app\\src\\main\\res\\layout\\activity_messages_room.xml"
-    },
-    {
-        "merged": "D:\\Mipo-gidi_1_2_16\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_file_test.xml",
-        "source": "D:\\Mipo-gidi_1_2_16\\app\\src\\main\\res\\layout\\activity_file_test.xml"
-    },
-    {
-        "merged": "D:\\Mipo_13_1_16\\app\\build\\intermediates\\res\\merged\\debug\\layout\\grid_item.xml",
-        "source": "D:\\Mipo_13_1_16\\app\\src\\main\\res\\layout\\grid_item.xml"
-    },
-    {
-        "merged": "D:\\Mipo19.1.16\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_chat.xml",
-        "source": "D:\\Mipo19.1.16\\app\\src\\main\\res\\layout\\activity_chat.xml"
-    },
-    {
-        "merged": "D:\\Mipo-gidi_1_2_16\\app\\build\\intermediates\\res\\merged\\debug\\layout\\login_third.xml",
-        "source": "D:\\Mipo-gidi_1_2_16\\app\\src\\main\\res\\layout\\login_third.xml"
-    },
-    {
-        "merged": "D:\\Mipo19.1.16\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_user_page.xml",
-        "source": "D:\\Mipo19.1.16\\app\\src\\main\\res\\layout\\activity_user_page.xml"
     },
     {
         "merged": "D:\\Mipo-gidi_1_2_16\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_favorities_page.xml",
         "source": "D:\\Mipo-gidi_1_2_16\\app\\src\\main\\res\\layout\\activity_favorities_page.xml"
     },
     {
-        "merged": "D:\\Mipo-gidi_1_2_16\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_create_profile.xml",
-        "source": "D:\\Mipo-gidi_1_2_16\\app\\src\\main\\res\\layout\\activity_create_profile.xml"
-    },
-    {
-        "merged": "D:\\Mipo_13_1_16\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_chat.xml",
-        "source": "D:\\Mipo_13_1_16\\app\\src\\main\\res\\layout\\activity_chat.xml"
-    },
-    {
-        "merged": "D:\\Mipo_13_1_16\\app\\build\\intermediates\\res\\merged\\debug\\layout\\messages_room_item.xml",
-        "source": "D:\\Mipo_13_1_16\\app\\src\\main\\res\\layout\\messages_room_item.xml"
-    },
-    {
-        "merged": "D:\\Mipo19.1.16\\app\\build\\intermediates\\res\\merged\\debug\\layout\\messages_room_item.xml",
-        "source": "D:\\Mipo19.1.16\\app\\src\\main\\res\\layout\\messages_room_item.xml"
-    },
-    {
         "merged": "D:\\Mipo-gidi_1_2_16\\app\\build\\intermediates\\res\\merged\\debug\\layout\\login_second.xml",
         "source": "D:\\Mipo-gidi_1_2_16\\app\\src\\main\\res\\layout\\login_second.xml"
+    },
+    {
+        "merged": "D:\\Mipo-gidi_1_2_16\\app\\build\\intermediates\\res\\merged\\debug\\layout\\grid_item.xml",
+        "source": "D:\\Mipo-gidi_1_2_16\\app\\src\\main\\res\\layout\\grid_item.xml"
     },
     {
         "merged": "D:\\Mipo-gidi_1_2_16\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_login.xml",
@@ -116,48 +40,28 @@
         "source": "D:\\Mipo-gidi_1_2_16\\app\\src\\main\\res\\layout\\chat_item.xml"
     },
     {
-        "merged": "D:\\Mipo19.1.16\\app\\build\\intermediates\\res\\merged\\debug\\layout\\chat_item.xml",
-        "source": "D:\\Mipo19.1.16\\app\\src\\main\\res\\layout\\chat_item.xml"
-    },
-    {
-        "merged": "D:\\Mipo_13_1_16\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_login.xml",
-        "source": "D:\\Mipo_13_1_16\\app\\src\\main\\res\\layout\\activity_login.xml"
-    },
-    {
         "merged": "D:\\Mipo-gidi_1_2_16\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main_page.xml",
         "source": "D:\\Mipo-gidi_1_2_16\\app\\src\\main\\res\\layout\\activity_main_page.xml"
-    },
-    {
-        "merged": "D:\\Mipo_13_1_16\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_file_test.xml",
-        "source": "D:\\Mipo_13_1_16\\app\\src\\main\\res\\layout\\activity_file_test.xml"
     },
     {
         "merged": "D:\\Mipo-gidi_1_2_16\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_user_page.xml",
         "source": "D:\\Mipo-gidi_1_2_16\\app\\src\\main\\res\\layout\\activity_user_page.xml"
     },
     {
+        "merged": "D:\\Mipo-gidi_1_2_16\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_messages_room.xml",
+        "source": "D:\\Mipo-gidi_1_2_16\\app\\src\\main\\res\\layout\\activity_messages_room.xml"
+    },
+    {
         "merged": "D:\\Mipo-gidi_1_2_16\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_chat.xml",
         "source": "D:\\Mipo-gidi_1_2_16\\app\\src\\main\\res\\layout\\activity_chat.xml"
     },
     {
-        "merged": "D:\\Mipo_13_1_16\\app\\build\\intermediates\\res\\merged\\debug\\layout\\detailed_profile.xml",
-        "source": "D:\\Mipo_13_1_16\\app\\src\\main\\res\\layout\\detailed_profile.xml"
-    },
-    {
-        "merged": "D:\\Mipo19.1.16\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_filter.xml",
-        "source": "D:\\Mipo19.1.16\\app\\src\\main\\res\\layout\\activity_filter.xml"
-    },
-    {
-        "merged": "D:\\Mipo19.1.16\\app\\build\\intermediates\\res\\merged\\debug\\layout\\grid_item.xml",
-        "source": "D:\\Mipo19.1.16\\app\\src\\main\\res\\layout\\grid_item.xml"
-    },
-    {
-        "merged": "D:\\Mipo19.1.16\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main_page.xml",
-        "source": "D:\\Mipo19.1.16\\app\\src\\main\\res\\layout\\activity_main_page.xml"
-    },
-    {
         "merged": "D:\\Mipo-gidi_1_2_16\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_filter.xml",
         "source": "D:\\Mipo-gidi_1_2_16\\app\\src\\main\\res\\layout\\activity_filter.xml"
+    },
+    {
+        "merged": "D:\\Mipo-gidi_1_2_16\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_file_test.xml",
+        "source": "D:\\Mipo-gidi_1_2_16\\app\\src\\main\\res\\layout\\activity_file_test.xml"
     },
     {
         "merged": "D:\\Mipo-gidi_1_2_16\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_new_login.xml",

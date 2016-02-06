@@ -22,7 +22,7 @@ import java.util.List;
  */
 public class MainPageAdapter extends ArrayAdapter<ProfileBean> {
 
-    private static final String TAG = "GridAdapter";
+    private static final String TAG = "MainPageAdapter";
     private  List<ProfileBean> profileBeans;
     private Context context;
     private LruCache<String, Bitmap> bitmapCache;
@@ -32,15 +32,7 @@ public class MainPageAdapter extends ArrayAdapter<ProfileBean> {
         this.profileBeans = profileBeans;
         this.context = context;
 
-        int numImages = 4 * 1024 * 1024;
-        this.bitmapCache = new LruCache<String, Bitmap>(numImages) {
-            @Override
-            protected int sizeOf(String key, Bitmap value) {
-                // this is how to calculate a bitmap size in bytes.
-                // (bytes-in-a-row * height)
-                return value.getRowBytes() * value.getHeight();
-            }
-        };
+
         Log.e(TAG, " aaa"+ profileBeans);
     }
 
@@ -65,10 +57,13 @@ public class MainPageAdapter extends ArrayAdapter<ProfileBean> {
         ProfileBean profileBean = profileBeans.get(position);
         if (profileBean != null) {
             gridHolder.image.setImageBitmap(profileBean.getPic());
-            if(profileBean.getOn_off().equals("Online")){
+            if(profileBean.isOnline()){
                 gridHolder.image2.setImageResource(R.drawable.online2);
+            }else{
+                gridHolder.image2.setImageResource(R.drawable.offline);
             }
             gridHolder.name.setText(profileBean.getName());
+            Log.e(TAG, "name in adapter " + profileBean.getName());
         }
 
         return convertView;

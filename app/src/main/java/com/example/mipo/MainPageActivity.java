@@ -5,6 +5,7 @@ import android.app.ProgressDialog;
 import android.content.Intent;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
+import android.net.Uri;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
@@ -54,14 +55,14 @@ public class MainPageActivity extends Activity implements AdapterView.OnItemClic
         setContentView(R.layout.activity_main_page);
         grid = (GridView) findViewById(R.id.gridView1);
         if (!didInit) {
-          //  uploadUserData();
-            getProfileData();
-            //addToList();
+            uploadUserData();
+           // getProfileData();
+            addToList();
             didInit = true;
             firstUsersList.addAll(filteredUsersList);
         }
-      //  grid.setAdapter(new GridAdapter(this, filteredUsersList));
-        grid.setAdapter(new MainPageAdapter(this, newList));
+       grid.setAdapter(new GridAdapter(this, filteredUsersList));
+      //  grid.setAdapter(new MainPageAdapter(this, newList));
         grid.setOnItemClickListener(this);
     }
 
@@ -98,6 +99,119 @@ public class MainPageActivity extends Activity implements AdapterView.OnItemClic
             }
 
            // Log.e(TAG, "list " + list);
+            //===================================================================
+//            final Profile profile = new Profile();
+//            profile.put("name", list.get(0));
+//            profile.put("id", list.get(1));
+//            if (list.get(2).equals("Online")){
+//                profile.put("isOnline", true);
+//            }else{
+//                profile.put("isOnline", false);
+//            }
+//
+//            profile.put("distance", list.get(3));
+//            profile.put("seen", list.get(4));
+//            profile.put("age", list.get(5));
+//            profile.put("status", list.get(6));
+//            profile.put("height", list.get(7));
+//            profile.put("weight", list.get(8));
+//            profile.put("nation", list.get(9));
+//            profile.put("body_type", list.get(10));
+//            profile.put("relationship_status", list.get(11));
+//            profile.put("looking_for", list.get(12));
+//            profile.put("about", list.get(13));
+//            profile.put("imageId", list.get(14));
+//            profile.put("message_roomId", list.get(15));
+//            profile.put("distanceType", list.get(16));
+//            profile.put("isFavorite", false);
+//            profile.put("isFilteredOK", false);
+//            Bitmap bitmap;
+//            ByteArrayOutputStream stream;
+//            byte[] image;
+//            final ParseFile file;
+//
+//
+//            switch (Integer.parseInt(list.get(14))) {
+//
+//                case 0:
+//                    bitmap = BitmapFactory.decodeResource(getResources(),
+//                            R.drawable.me0);
+//                    // Convert it to byte
+//                    stream = new ByteArrayOutputStream();
+//                    bitmap.compress(Bitmap.CompressFormat.JPEG, 10, stream);
+//                    image = stream.toByteArray();
+//                    file = new ParseFile("picturePath", image);
+//                    file.saveInBackground(new SaveCallback() {
+//                        @Override
+//                        public void done(ParseException e) {
+//                            if(e == null){
+//                                profile.put("pic", file);
+//                                profile.saveInBackground(new SaveCallback() {
+//                                    @Override
+//                                    public void done(ParseException e) {
+//                                        if (e == null) {
+//                                            final BigPicture bigPicture = new BigPicture();
+//                                            Log.e(TAG, "Object id of "+profile.getName()+" profile is "+ profile.getObjectId()+" get id is "+ profile.getObjectId());
+//                                            bigPicture.put("num", profile.getObjectId());
+//                                            bigPicture.put("name", profile.getName());
+//                                            Bitmap bitmap;
+//                                            ByteArrayOutputStream stream;
+//                                            byte[] image;
+//                                            final ParseFile file;
+//                                            bitmap = BitmapFactory.decodeResource(getResources(),
+//                                                    R.drawable.me0);
+//                                            // Convert it to byte
+//                                            stream = new ByteArrayOutputStream();
+//                                            bitmap.compress(Bitmap.CompressFormat.JPEG, 80, stream);
+//                                            image = stream.toByteArray();
+//                                            file = new ParseFile("picturePath.jpg", image);
+//                                            file.saveInBackground(new SaveCallback() {
+//                                                @Override
+//                                                public void done(ParseException e) {
+//                                                    if (e == null) {
+//                                                        bigPicture.put("pic", file);
+//                                                        bigPicture.put("parent", ParseObject.createWithoutData("Profile", profile.getObjectId()));
+//                                                        Log.e(TAG, "id in callback of saving file "+ profile.getObjectId());
+//                                                        bigPicture.saveInBackground(new SaveCallback() {
+//                                                            @Override
+//                                                            public void done(ParseException e) {
+//                                                                if (e == null) {
+//                                                                    Log.e(TAG, "Big picture class saved "+ bigPicture.getName()+ " id is "+ bigPicture.getNum());
+//
+//                                                                }else{
+//                                                                    Log.e(TAG, "Big Picture class not saved!!! " + bigPicture.getName()+" exception "+ e.toString());
+//
+//                                                                }
+//                                                            }
+//                                                        });
+//                                                        Log.e(TAG, "Big picture saved "+ bigPicture.getName());
+//
+//                                                    }else{
+//                                                        Log.e(TAG, "Big Picture not saved!!! " + bigPicture.getName()+ " exception "+ e.toString());
+//
+//                                                    }
+//                                                }
+//                                            });
+//                                            bitmap.recycle();
+//                                            Log.e(TAG, "Profile saved "+ profile.getName()+ " pic number "+ profile.getImageId());
+//                                        } else {
+//                                            Log.e(TAG, "Not saved!!! " + profile.getName() + " pic number " + profile.getImageId());
+//                                        }
+//                                    }
+//                                });
+//                            }else{
+//                                Log.e(TAG, "pic not saved "+ e.toString());
+//                            }
+//                        }
+//                    });
+//                    bitmap.recycle();
+//
+//                    break;
+//
+//            }
+
+            //==========================================================================================
+
 
         }
         //Sorting
@@ -179,14 +293,18 @@ public class MainPageActivity extends Activity implements AdapterView.OnItemClic
         dialog.setMessage("Loading...");
         dialog.show();
         query.findInBackground(new FindCallback<Profile>() {
-            public void done(List<Profile> profileParses, ParseException e) {
+            @Override
+            public void done(List<Profile> list, ParseException e) {
                 if (e == null) {
                     ParseFile imageFile;
                     byte[] data = null;
                     Bitmap bmp;
                     //  Bitmap resized = null;
-                    for (int i = 0; i < profileParses.size(); i++) {
-                        imageFile = (ParseFile) profileParses.get(i).get("pic");
+                    for (int i = 0; i < list.size(); i++) {
+                        imageFile = (ParseFile) list.get(i).get("pic");
+                        String imageUrl = imageFile.getUrl() ;//live url
+                        Uri imageUri = Uri.parse(imageUrl);
+                        Log.e(TAG, "imageUrl "+imageUrl+ " imageUri "+ imageUri);
                         if (imageFile != null) {
                             try {
                                 data = imageFile.getData();
@@ -200,53 +318,53 @@ public class MainPageActivity extends Activity implements AdapterView.OnItemClic
                         } else {
                             bmp = null;
                         }
-                        if (ParseUser.getCurrentUser().getObjectId().equals(profileParses.get(i).getObjectId())) {
+                        if (ParseUser.getCurrentUser().getObjectId().equals(list.get(i).getObjectId())) {
                             tempProfileBeans.add(new ProfileBean(
-                                    profileParses.get(i).getName(),
-                                    profileParses.get(i).getObjectId(),
-                                    profileParses.get(i).getOn_off(),
+                                    list.get(i).getName(),
+                                    list.get(i).getObjectId(),
+                                    list.get(i).isOnline(),
                                     "0",
-                                    profileParses.get(i).getSeen(),
-                                    profileParses.get(i).getAge(),
-                                    profileParses.get(i).getStatus(),
-                                    profileParses.get(i).getHeight(),
-                                    profileParses.get(i).getWeight(),
-                                    profileParses.get(i).getNation(),
-                                    profileParses.get(i).getBody_type(),
-                                    profileParses.get(i).getRelationship_status(),
-                                    profileParses.get(i).getLooking_for(),
-                                    profileParses.get(i).getAbout(),
-                                    profileParses.get(i).getImageId(),
+                                    list.get(i).getSeen(),
+                                    list.get(i).getAge(),
+                                    list.get(i).getStatus(),
+                                    list.get(i).getHeight(),
+                                    list.get(i).getWeight(),
+                                    list.get(i).getNation(),
+                                    list.get(i).getBody_type(),
+                                    list.get(i).getRelationship_status(),
+                                    list.get(i).getLooking_for(),
+                                    list.get(i).getAbout(),
+                                    list.get(i).getImageId(),
                                     bmp,
-                                    profileParses.get(i).getMessage_roomId(),
-                                    profileParses.get(i).getDistanceType(),
-                                    profileParses.get(i).isFavorite(),
-                                    profileParses.get(i).isFilteredOK()));
+                                    list.get(i).getMessage_roomId(),
+                                    list.get(i).getDistanceType(),
+                                    list.get(i).isFavorite(),
+                                    list.get(i).isFilteredOK()));
 
                         } else {
                             tempProfileBeans.add(new ProfileBean(
-                                    profileParses.get(i).getName(),
-                                    profileParses.get(i).getObjectId(),
-                                    profileParses.get(i).getOn_off(),
-                                    profileParses.get(i).getDistance(),
-                                    profileParses.get(i).getSeen(),
-                                    profileParses.get(i).getAge(),
-                                    profileParses.get(i).getStatus(),
-                                    profileParses.get(i).getHeight(),
-                                    profileParses.get(i).getWeight(),
-                                    profileParses.get(i).getNation(),
-                                    profileParses.get(i).getBody_type(),
-                                    profileParses.get(i).getRelationship_status(),
-                                    profileParses.get(i).getLooking_for(),
-                                    profileParses.get(i).getAbout(),
-                                    profileParses.get(i).getImageId(),
+                                    list.get(i).getName(),
+                                    list.get(i).getObjectId(),
+                                    list.get(i).isOnline(),
+                                    list.get(i).getDistance(),
+                                    list.get(i).getSeen(),
+                                    list.get(i).getAge(),
+                                    list.get(i).getStatus(),
+                                    list.get(i).getHeight(),
+                                    list.get(i).getWeight(),
+                                    list.get(i).getNation(),
+                                    list.get(i).getBody_type(),
+                                    list.get(i).getRelationship_status(),
+                                    list.get(i).getLooking_for(),
+                                    list.get(i).getAbout(),
+                                    list.get(i).getImageId(),
                                     bmp,
-                                    profileParses.get(i).getMessage_roomId(),
-                                    profileParses.get(i).getDistanceType(),
-                                    profileParses.get(i).isFavorite(),
-                                    profileParses.get(i).isFilteredOK()));
+                                    list.get(i).getMessage_roomId(),
+                                    list.get(i).getDistanceType(),
+                                    list.get(i).isFavorite(),
+                                    list.get(i).isFilteredOK()));
                         }
-                        if (bmp != null) {
+                        if (bmp != null && !bmp.isRecycled()) {
                             bmp.recycle();
                         }
 
@@ -257,12 +375,13 @@ public class MainPageActivity extends Activity implements AdapterView.OnItemClic
                     dialog.dismiss();
                     //Toast.makeText(Service.this, "Service done!!!", Toast.LENGTH_SHORT).show();
                     Log.e(TAG, "newList is " + newList);
-//                    mainPageAdapter.notifyDataSetChanged();
+                  //  mainPageAdapter.notifyDataSetChanged();
                 } else {
                     Log.e(TAG, "Error getting results " + e.toString());
                 }
             }
         });
+
     }
 
 

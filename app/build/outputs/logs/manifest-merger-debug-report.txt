@@ -115,11 +115,3 @@ activity#com.example.mipo.CreateProfileActivity
 ADDED from D:\Mipo-gidi_1_2_16\app\src\main\AndroidManifest.xml:42:9-58
 	android:name
 		ADDED from D:\Mipo-gidi_1_2_16\app\src\main\AndroidManifest.xml:42:19-56
-service#com.example.mipo.utils.Service
-ADDED from D:\Mipo-gidi_1_2_16\app\src\main\AndroidManifest.xml:44:9-47:39
-	android:enabled
-		ADDED from D:\Mipo-gidi_1_2_16\app\src\main\AndroidManifest.xml:46:13-35
-	android:exported
-		ADDED from D:\Mipo-gidi_1_2_16\app\src\main\AndroidManifest.xml:47:13-37
-	android:name
-		ADDED from D:\Mipo-gidi_1_2_16\app\src\main\AndroidManifest.xml:45:13-42

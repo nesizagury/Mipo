@@ -11,7 +11,7 @@ import com.parse.ParseObject;
 public class Profile extends ParseObject {
 
 
-
+//
 //    public String getId(){
 //        return getString("id");
 //    }
@@ -34,12 +34,12 @@ public class Profile extends ParseObject {
         put("age", age);
     }
 
-    public String getOn_off(){
-        return getString("on_off");
-    }
-    public void setOn_off(String on_off){
-        put("on_off", on_off);
-    }
+//    public String getOn_off(){
+//        return getString("on_off");
+//    }
+//    public void setOn_off(String on_off){
+//        put("on_off", on_off);
+//    }
 
     public String getDistance(){
         return getString("distance");
@@ -145,6 +145,13 @@ public class Profile extends ParseObject {
     }
     public void setFilteredOK(boolean isFilteredOK){
         put("isFilteredOK", isFilteredOK);
+    }
+
+    public boolean isOnline(){
+        return getBoolean("isOnline");
+    }
+    public void setOnline(boolean isOnline){
+        put("isOnline", isOnline);
     }
 
 

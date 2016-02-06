@@ -1,223 +1,11 @@
 [
     {
-        "merged": "D:\\Mipo_13_1_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\pic4.jpg",
-        "source": "D:\\Mipo_13_1_16\\app\\src\\main\\res\\drawable-xhdpi\\pic4.jpg"
-    },
-    {
-        "merged": "D:\\Mipo_13_1_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\gps_acuuraty.png",
-        "source": "D:\\Mipo_13_1_16\\app\\src\\main\\res\\drawable-xhdpi\\gps_acuuraty.png"
-    },
-    {
-        "merged": "D:\\Mipo-gidi_1_2_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\gps_acuuraty.png",
-        "source": "D:\\Mipo-gidi_1_2_16\\app\\src\\main\\res\\drawable-xhdpi\\gps_acuuraty.png"
-    },
-    {
-        "merged": "D:\\Mipo_13_1_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\pic14.jpg",
-        "source": "D:\\Mipo_13_1_16\\app\\src\\main\\res\\drawable-xhdpi\\pic14.jpg"
-    },
-    {
-        "merged": "D:\\Mipo19.1.16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\heart.png",
-        "source": "D:\\Mipo19.1.16\\app\\src\\main\\res\\drawable-xhdpi\\heart.png"
-    },
-    {
-        "merged": "D:\\Mipo-gidi_1_2_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\pic5.jpg",
-        "source": "D:\\Mipo-gidi_1_2_16\\app\\src\\main\\res\\drawable-xhdpi\\pic5.jpg"
-    },
-    {
-        "merged": "D:\\Mipo_13_1_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\offline.png",
-        "source": "D:\\Mipo_13_1_16\\app\\src\\main\\res\\drawable-xhdpi\\offline.png"
-    },
-    {
-        "merged": "D:\\Mipo19.1.16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\pic1.jpg",
-        "source": "D:\\Mipo19.1.16\\app\\src\\main\\res\\drawable-xhdpi\\pic1.jpg"
-    },
-    {
-        "merged": "D:\\Mipo-gidi_1_2_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\pic4.jpg",
-        "source": "D:\\Mipo-gidi_1_2_16\\app\\src\\main\\res\\drawable-xhdpi\\pic4.jpg"
-    },
-    {
-        "merged": "D:\\Mipo-gidi_1_2_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\m1.png",
-        "source": "D:\\Mipo-gidi_1_2_16\\app\\src\\main\\res\\drawable-xhdpi\\m1.png"
-    },
-    {
-        "merged": "D:\\Mipo_13_1_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\pic13.jpg",
-        "source": "D:\\Mipo_13_1_16\\app\\src\\main\\res\\drawable-xhdpi\\pic13.jpg"
-    },
-    {
-        "merged": "D:\\Mipo-gidi_1_2_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\three_p.png",
-        "source": "D:\\Mipo-gidi_1_2_16\\app\\src\\main\\res\\drawable-xhdpi\\three_p.png"
-    },
-    {
-        "merged": "D:\\Mipo_13_1_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\pic2.jpg",
-        "source": "D:\\Mipo_13_1_16\\app\\src\\main\\res\\drawable-xhdpi\\pic2.jpg"
-    },
-    {
-        "merged": "D:\\Mipo_13_1_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\pic5.jpg",
-        "source": "D:\\Mipo_13_1_16\\app\\src\\main\\res\\drawable-xhdpi\\pic5.jpg"
-    },
-    {
-        "merged": "D:\\Mipo19.1.16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\favoritecolored.png",
-        "source": "D:\\Mipo19.1.16\\app\\src\\main\\res\\drawable-xhdpi\\favoritecolored.png"
-    },
-    {
-        "merged": "D:\\Mipo-gidi_1_2_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\back.png",
-        "source": "D:\\Mipo-gidi_1_2_16\\app\\src\\main\\res\\drawable-xhdpi\\back.png"
-    },
-    {
-        "merged": "D:\\Mipo-gidi_1_2_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\m2.png",
-        "source": "D:\\Mipo-gidi_1_2_16\\app\\src\\main\\res\\drawable-xhdpi\\m2.png"
-    },
-    {
-        "merged": "D:\\Mipo_13_1_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\m2.png",
-        "source": "D:\\Mipo_13_1_16\\app\\src\\main\\res\\drawable-xhdpi\\m2.png"
-    },
-    {
-        "merged": "D:\\Mipo-gidi_1_2_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\online2.png",
-        "source": "D:\\Mipo-gidi_1_2_16\\app\\src\\main\\res\\drawable-xhdpi\\online2.png"
-    },
-    {
-        "merged": "D:\\Mipo19.1.16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\pic2.jpg",
-        "source": "D:\\Mipo19.1.16\\app\\src\\main\\res\\drawable-xhdpi\\pic2.jpg"
-    },
-    {
-        "merged": "D:\\Mipo19.1.16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\m4.png",
-        "source": "D:\\Mipo19.1.16\\app\\src\\main\\res\\drawable-xhdpi\\m4.png"
-    },
-    {
-        "merged": "D:\\Mipo_13_1_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\pic7.jpg",
-        "source": "D:\\Mipo_13_1_16\\app\\src\\main\\res\\drawable-xhdpi\\pic7.jpg"
-    },
-    {
-        "merged": "D:\\Mipo-gidi_1_2_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\m4.png",
-        "source": "D:\\Mipo-gidi_1_2_16\\app\\src\\main\\res\\drawable-xhdpi\\m4.png"
-    },
-    {
         "merged": "D:\\Mipo-gidi_1_2_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\lke.png",
         "source": "D:\\Mipo-gidi_1_2_16\\app\\src\\main\\res\\drawable-xhdpi\\lke.png"
     },
     {
-        "merged": "D:\\Mipo19.1.16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\lke.png",
-        "source": "D:\\Mipo19.1.16\\app\\src\\main\\res\\drawable-xhdpi\\lke.png"
-    },
-    {
-        "merged": "D:\\Mipo_13_1_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\back.png",
-        "source": "D:\\Mipo_13_1_16\\app\\src\\main\\res\\drawable-xhdpi\\back.png"
-    },
-    {
-        "merged": "D:\\Mipo19.1.16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\favorite.png",
-        "source": "D:\\Mipo19.1.16\\app\\src\\main\\res\\drawable-xhdpi\\favorite.png"
-    },
-    {
-        "merged": "D:\\Mipo_13_1_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\lke.png",
-        "source": "D:\\Mipo_13_1_16\\app\\src\\main\\res\\drawable-xhdpi\\lke.png"
-    },
-    {
-        "merged": "D:\\Mipo-gidi_1_2_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\pic13.jpg",
-        "source": "D:\\Mipo-gidi_1_2_16\\app\\src\\main\\res\\drawable-xhdpi\\pic13.jpg"
-    },
-    {
-        "merged": "D:\\Mipo19.1.16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\online.png",
-        "source": "D:\\Mipo19.1.16\\app\\src\\main\\res\\drawable-xhdpi\\online.png"
-    },
-    {
-        "merged": "D:\\Mipo-gidi_1_2_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\bg.jpg",
-        "source": "D:\\Mipo-gidi_1_2_16\\app\\src\\main\\res\\drawable-xhdpi\\bg.jpg"
-    },
-    {
-        "merged": "D:\\Mipo_13_1_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\pic8.jpg",
-        "source": "D:\\Mipo_13_1_16\\app\\src\\main\\res\\drawable-xhdpi\\pic8.jpg"
-    },
-    {
-        "merged": "D:\\Mipo19.1.16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\m2.png",
-        "source": "D:\\Mipo19.1.16\\app\\src\\main\\res\\drawable-xhdpi\\m2.png"
-    },
-    {
-        "merged": "D:\\Mipo_13_1_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\m3.png",
-        "source": "D:\\Mipo_13_1_16\\app\\src\\main\\res\\drawable-xhdpi\\m3.png"
-    },
-    {
-        "merged": "D:\\Mipo-gidi_1_2_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\pic12.jpg",
-        "source": "D:\\Mipo-gidi_1_2_16\\app\\src\\main\\res\\drawable-xhdpi\\pic12.jpg"
-    },
-    {
-        "merged": "D:\\Mipo_13_1_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\online2.png",
-        "source": "D:\\Mipo_13_1_16\\app\\src\\main\\res\\drawable-xhdpi\\online2.png"
-    },
-    {
-        "merged": "D:\\Mipo_13_1_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\pic1.jpg",
-        "source": "D:\\Mipo_13_1_16\\app\\src\\main\\res\\drawable-xhdpi\\pic1.jpg"
-    },
-    {
-        "merged": "D:\\Mipo19.1.16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\online2.png",
-        "source": "D:\\Mipo19.1.16\\app\\src\\main\\res\\drawable-xhdpi\\online2.png"
-    },
-    {
-        "merged": "D:\\Mipo19.1.16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\pic3.jpg",
-        "source": "D:\\Mipo19.1.16\\app\\src\\main\\res\\drawable-xhdpi\\pic3.jpg"
-    },
-    {
-        "merged": "D:\\Mipo-gidi_1_2_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\pic3.jpg",
-        "source": "D:\\Mipo-gidi_1_2_16\\app\\src\\main\\res\\drawable-xhdpi\\pic3.jpg"
-    },
-    {
-        "merged": "D:\\Mipo-gidi_1_2_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\favoritecolored.png",
-        "source": "D:\\Mipo-gidi_1_2_16\\app\\src\\main\\res\\drawable-xhdpi\\favoritecolored.png"
-    },
-    {
-        "merged": "D:\\Mipo19.1.16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\pic6.jpg",
-        "source": "D:\\Mipo19.1.16\\app\\src\\main\\res\\drawable-xhdpi\\pic6.jpg"
-    },
-    {
-        "merged": "D:\\Mipo-gidi_1_2_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\pic0.jpg",
-        "source": "D:\\Mipo-gidi_1_2_16\\app\\src\\main\\res\\drawable-xhdpi\\pic0.jpg"
-    },
-    {
-        "merged": "D:\\Mipo-gidi_1_2_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\pic6.jpg",
-        "source": "D:\\Mipo-gidi_1_2_16\\app\\src\\main\\res\\drawable-xhdpi\\pic6.jpg"
-    },
-    {
-        "merged": "D:\\Mipo_13_1_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\favorite.png",
-        "source": "D:\\Mipo_13_1_16\\app\\src\\main\\res\\drawable-xhdpi\\favorite.png"
-    },
-    {
-        "merged": "D:\\Mipo19.1.16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\pic9.jpg",
-        "source": "D:\\Mipo19.1.16\\app\\src\\main\\res\\drawable-xhdpi\\pic9.jpg"
-    },
-    {
-        "merged": "D:\\Mipo19.1.16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\pic0.jpg",
-        "source": "D:\\Mipo19.1.16\\app\\src\\main\\res\\drawable-xhdpi\\pic0.jpg"
-    },
-    {
-        "merged": "D:\\Mipo_13_1_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_launcher.png",
-        "source": "D:\\Mipo_13_1_16\\app\\src\\main\\res\\drawable-xhdpi\\ic_launcher.png"
-    },
-    {
-        "merged": "D:\\Mipo_13_1_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\report.png",
-        "source": "D:\\Mipo_13_1_16\\app\\src\\main\\res\\drawable-xhdpi\\report.png"
-    },
-    {
-        "merged": "D:\\Mipo_13_1_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\message.png",
-        "source": "D:\\Mipo_13_1_16\\app\\src\\main\\res\\drawable-xhdpi\\message.png"
-    },
-    {
-        "merged": "D:\\Mipo19.1.16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\bg.jpg",
-        "source": "D:\\Mipo19.1.16\\app\\src\\main\\res\\drawable-xhdpi\\bg.jpg"
-    },
-    {
-        "merged": "D:\\Mipo_13_1_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\pic12.jpg",
-        "source": "D:\\Mipo_13_1_16\\app\\src\\main\\res\\drawable-xhdpi\\pic12.jpg"
-    },
-    {
-        "merged": "D:\\Mipo-gidi_1_2_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\pic9.jpg",
-        "source": "D:\\Mipo-gidi_1_2_16\\app\\src\\main\\res\\drawable-xhdpi\\pic9.jpg"
-    },
-    {
-        "merged": "D:\\Mipo_13_1_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\fire.png",
-        "source": "D:\\Mipo_13_1_16\\app\\src\\main\\res\\drawable-xhdpi\\fire.png"
-    },
-    {
-        "merged": "D:\\Mipo19.1.16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\pic12.jpg",
-        "source": "D:\\Mipo19.1.16\\app\\src\\main\\res\\drawable-xhdpi\\pic12.jpg"
+        "merged": "D:\\Mipo-gidi_1_2_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\m4.png",
+        "source": "D:\\Mipo-gidi_1_2_16\\app\\src\\main\\res\\drawable-xhdpi\\m4.png"
     },
     {
         "merged": "D:\\Mipo-gidi_1_2_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\fire.png",
@@ -232,100 +20,32 @@
         "source": "D:\\Mipo-gidi_1_2_16\\app\\src\\main\\res\\drawable-xhdpi\\pic10.jpg"
     },
     {
-        "merged": "D:\\Mipo19.1.16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\message.png",
-        "source": "D:\\Mipo19.1.16\\app\\src\\main\\res\\drawable-xhdpi\\message.png"
-    },
-    {
-        "merged": "D:\\Mipo19.1.16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\back.png",
-        "source": "D:\\Mipo19.1.16\\app\\src\\main\\res\\drawable-xhdpi\\back.png"
-    },
-    {
-        "merged": "D:\\Mipo19.1.16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\pic7.jpg",
-        "source": "D:\\Mipo19.1.16\\app\\src\\main\\res\\drawable-xhdpi\\pic7.jpg"
-    },
-    {
-        "merged": "D:\\Mipo_13_1_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\online.png",
-        "source": "D:\\Mipo_13_1_16\\app\\src\\main\\res\\drawable-xhdpi\\online.png"
-    },
-    {
-        "merged": "D:\\Mipo19.1.16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\smell.png",
-        "source": "D:\\Mipo19.1.16\\app\\src\\main\\res\\drawable-xhdpi\\smell.png"
-    },
-    {
-        "merged": "D:\\Mipo19.1.16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_launcher.png",
-        "source": "D:\\Mipo19.1.16\\app\\src\\main\\res\\drawable-xhdpi\\ic_launcher.png"
-    },
-    {
-        "merged": "D:\\Mipo19.1.16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\pic11.jpg",
-        "source": "D:\\Mipo19.1.16\\app\\src\\main\\res\\drawable-xhdpi\\pic11.jpg"
-    },
-    {
-        "merged": "D:\\Mipo19.1.16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\gps_acuuraty.png",
-        "source": "D:\\Mipo19.1.16\\app\\src\\main\\res\\drawable-xhdpi\\gps_acuuraty.png"
-    },
-    {
-        "merged": "D:\\Mipo19.1.16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\pic5.jpg",
-        "source": "D:\\Mipo19.1.16\\app\\src\\main\\res\\drawable-xhdpi\\pic5.jpg"
-    },
-    {
-        "merged": "D:\\Mipo19.1.16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\pic8.jpg",
-        "source": "D:\\Mipo19.1.16\\app\\src\\main\\res\\drawable-xhdpi\\pic8.jpg"
-    },
-    {
-        "merged": "D:\\Mipo-gidi_1_2_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_launcher.png",
-        "source": "D:\\Mipo-gidi_1_2_16\\app\\src\\main\\res\\drawable-xhdpi\\ic_launcher.png"
-    },
-    {
-        "merged": "D:\\Mipo_13_1_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\bg.jpg",
-        "source": "D:\\Mipo_13_1_16\\app\\src\\main\\res\\drawable-xhdpi\\bg.jpg"
-    },
-    {
-        "merged": "D:\\Mipo19.1.16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\pic14.jpg",
-        "source": "D:\\Mipo19.1.16\\app\\src\\main\\res\\drawable-xhdpi\\pic14.jpg"
-    },
-    {
-        "merged": "D:\\Mipo19.1.16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\fire.png",
-        "source": "D:\\Mipo19.1.16\\app\\src\\main\\res\\drawable-xhdpi\\fire.png"
-    },
-    {
-        "merged": "D:\\Mipo19.1.16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\m1.png",
-        "source": "D:\\Mipo19.1.16\\app\\src\\main\\res\\drawable-xhdpi\\m1.png"
-    },
-    {
-        "merged": "D:\\Mipo-gidi_1_2_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\offline.png",
-        "source": "D:\\Mipo-gidi_1_2_16\\app\\src\\main\\res\\drawable-xhdpi\\offline.png"
-    },
-    {
-        "merged": "D:\\Mipo19.1.16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\report.png",
-        "source": "D:\\Mipo19.1.16\\app\\src\\main\\res\\drawable-xhdpi\\report.png"
-    },
-    {
-        "merged": "D:\\Mipo_13_1_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\pic11.jpg",
-        "source": "D:\\Mipo_13_1_16\\app\\src\\main\\res\\drawable-xhdpi\\pic11.jpg"
-    },
-    {
-        "merged": "D:\\Mipo19.1.16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\m3.png",
-        "source": "D:\\Mipo19.1.16\\app\\src\\main\\res\\drawable-xhdpi\\m3.png"
-    },
-    {
         "merged": "D:\\Mipo-gidi_1_2_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\pic2.jpg",
         "source": "D:\\Mipo-gidi_1_2_16\\app\\src\\main\\res\\drawable-xhdpi\\pic2.jpg"
     },
     {
-        "merged": "D:\\Mipo_13_1_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\three_p.png",
-        "source": "D:\\Mipo_13_1_16\\app\\src\\main\\res\\drawable-xhdpi\\three_p.png"
+        "merged": "D:\\Mipo-gidi_1_2_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\gps_acuuraty.png",
+        "source": "D:\\Mipo-gidi_1_2_16\\app\\src\\main\\res\\drawable-xhdpi\\gps_acuuraty.png"
+    },
+    {
+        "merged": "D:\\Mipo-gidi_1_2_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\pic13.jpg",
+        "source": "D:\\Mipo-gidi_1_2_16\\app\\src\\main\\res\\drawable-xhdpi\\pic13.jpg"
+    },
+    {
+        "merged": "D:\\Mipo-gidi_1_2_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\pic5.jpg",
+        "source": "D:\\Mipo-gidi_1_2_16\\app\\src\\main\\res\\drawable-xhdpi\\pic5.jpg"
     },
     {
         "merged": "D:\\Mipo-gidi_1_2_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\heart.png",
         "source": "D:\\Mipo-gidi_1_2_16\\app\\src\\main\\res\\drawable-xhdpi\\heart.png"
     },
     {
-        "merged": "D:\\Mipo-gidi_1_2_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\pic8.jpg",
-        "source": "D:\\Mipo-gidi_1_2_16\\app\\src\\main\\res\\drawable-xhdpi\\pic8.jpg"
+        "merged": "D:\\Mipo-gidi_1_2_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\bg.jpg",
+        "source": "D:\\Mipo-gidi_1_2_16\\app\\src\\main\\res\\drawable-xhdpi\\bg.jpg"
     },
     {
-        "merged": "D:\\Mipo19.1.16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\pic4.jpg",
-        "source": "D:\\Mipo19.1.16\\app\\src\\main\\res\\drawable-xhdpi\\pic4.jpg"
+        "merged": "D:\\Mipo-gidi_1_2_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\pic8.jpg",
+        "source": "D:\\Mipo-gidi_1_2_16\\app\\src\\main\\res\\drawable-xhdpi\\pic8.jpg"
     },
     {
         "merged": "D:\\Mipo-gidi_1_2_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\message.png",
@@ -336,12 +56,16 @@
         "source": "D:\\Mipo-gidi_1_2_16\\app\\src\\main\\res\\drawable-xhdpi\\pic7.jpg"
     },
     {
-        "merged": "D:\\Mipo_13_1_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\pic10.jpg",
-        "source": "D:\\Mipo_13_1_16\\app\\src\\main\\res\\drawable-xhdpi\\pic10.jpg"
+        "merged": "D:\\Mipo-gidi_1_2_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\pic4.jpg",
+        "source": "D:\\Mipo-gidi_1_2_16\\app\\src\\main\\res\\drawable-xhdpi\\pic4.jpg"
     },
     {
-        "merged": "D:\\Mipo_13_1_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\smell.png",
-        "source": "D:\\Mipo_13_1_16\\app\\src\\main\\res\\drawable-xhdpi\\smell.png"
+        "merged": "D:\\Mipo-gidi_1_2_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\m1.png",
+        "source": "D:\\Mipo-gidi_1_2_16\\app\\src\\main\\res\\drawable-xhdpi\\m1.png"
+    },
+    {
+        "merged": "D:\\Mipo-gidi_1_2_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\pic12.jpg",
+        "source": "D:\\Mipo-gidi_1_2_16\\app\\src\\main\\res\\drawable-xhdpi\\pic12.jpg"
     },
     {
         "merged": "D:\\Mipo-gidi_1_2_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\pic1.jpg",
@@ -356,6 +80,22 @@
         "source": "D:\\Mipo-gidi_1_2_16\\app\\src\\main\\res\\drawable-xhdpi\\pic14.jpg"
     },
     {
+        "merged": "D:\\Mipo-gidi_1_2_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\pic3.jpg",
+        "source": "D:\\Mipo-gidi_1_2_16\\app\\src\\main\\res\\drawable-xhdpi\\pic3.jpg"
+    },
+    {
+        "merged": "D:\\Mipo-gidi_1_2_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\favoritecolored.png",
+        "source": "D:\\Mipo-gidi_1_2_16\\app\\src\\main\\res\\drawable-xhdpi\\favoritecolored.png"
+    },
+    {
+        "merged": "D:\\Mipo-gidi_1_2_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\pic0.jpg",
+        "source": "D:\\Mipo-gidi_1_2_16\\app\\src\\main\\res\\drawable-xhdpi\\pic0.jpg"
+    },
+    {
+        "merged": "D:\\Mipo-gidi_1_2_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\pic6.jpg",
+        "source": "D:\\Mipo-gidi_1_2_16\\app\\src\\main\\res\\drawable-xhdpi\\pic6.jpg"
+    },
+    {
         "merged": "D:\\Mipo-gidi_1_2_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\pic11.jpg",
         "source": "D:\\Mipo-gidi_1_2_16\\app\\src\\main\\res\\drawable-xhdpi\\pic11.jpg"
     },
@@ -368,55 +108,35 @@
         "source": "D:\\Mipo-gidi_1_2_16\\app\\src\\main\\res\\drawable-xhdpi\\smell.png"
     },
     {
-        "merged": "D:\\Mipo_13_1_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\pic0.jpg",
-        "source": "D:\\Mipo_13_1_16\\app\\src\\main\\res\\drawable-xhdpi\\pic0.jpg"
+        "merged": "D:\\Mipo-gidi_1_2_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\three_p.png",
+        "source": "D:\\Mipo-gidi_1_2_16\\app\\src\\main\\res\\drawable-xhdpi\\three_p.png"
     },
     {
-        "merged": "D:\\Mipo_13_1_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\m1.png",
-        "source": "D:\\Mipo_13_1_16\\app\\src\\main\\res\\drawable-xhdpi\\m1.png"
+        "merged": "D:\\Mipo-gidi_1_2_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\back.png",
+        "source": "D:\\Mipo-gidi_1_2_16\\app\\src\\main\\res\\drawable-xhdpi\\back.png"
     },
     {
-        "merged": "D:\\Mipo_13_1_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\favoritecolored.png",
-        "source": "D:\\Mipo_13_1_16\\app\\src\\main\\res\\drawable-xhdpi\\favoritecolored.png"
+        "merged": "D:\\Mipo-gidi_1_2_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\m2.png",
+        "source": "D:\\Mipo-gidi_1_2_16\\app\\src\\main\\res\\drawable-xhdpi\\m2.png"
     },
     {
-        "merged": "D:\\Mipo_13_1_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\m4.png",
-        "source": "D:\\Mipo_13_1_16\\app\\src\\main\\res\\drawable-xhdpi\\m4.png"
+        "merged": "D:\\Mipo-gidi_1_2_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_launcher.png",
+        "source": "D:\\Mipo-gidi_1_2_16\\app\\src\\main\\res\\drawable-xhdpi\\ic_launcher.png"
     },
     {
-        "merged": "D:\\Mipo19.1.16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\pic13.jpg",
-        "source": "D:\\Mipo19.1.16\\app\\src\\main\\res\\drawable-xhdpi\\pic13.jpg"
-    },
-    {
-        "merged": "D:\\Mipo19.1.16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\pic10.jpg",
-        "source": "D:\\Mipo19.1.16\\app\\src\\main\\res\\drawable-xhdpi\\pic10.jpg"
-    },
-    {
-        "merged": "D:\\Mipo19.1.16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\three_p.png",
-        "source": "D:\\Mipo19.1.16\\app\\src\\main\\res\\drawable-xhdpi\\three_p.png"
-    },
-    {
-        "merged": "D:\\Mipo_13_1_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\heart.png",
-        "source": "D:\\Mipo_13_1_16\\app\\src\\main\\res\\drawable-xhdpi\\heart.png"
-    },
-    {
-        "merged": "D:\\Mipo19.1.16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\offline.png",
-        "source": "D:\\Mipo19.1.16\\app\\src\\main\\res\\drawable-xhdpi\\offline.png"
-    },
-    {
-        "merged": "D:\\Mipo_13_1_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\pic3.jpg",
-        "source": "D:\\Mipo_13_1_16\\app\\src\\main\\res\\drawable-xhdpi\\pic3.jpg"
+        "merged": "D:\\Mipo-gidi_1_2_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\online2.png",
+        "source": "D:\\Mipo-gidi_1_2_16\\app\\src\\main\\res\\drawable-xhdpi\\online2.png"
     },
     {
         "merged": "D:\\Mipo-gidi_1_2_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\m3.png",
         "source": "D:\\Mipo-gidi_1_2_16\\app\\src\\main\\res\\drawable-xhdpi\\m3.png"
     },
     {
-        "merged": "D:\\Mipo_13_1_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\pic9.jpg",
-        "source": "D:\\Mipo_13_1_16\\app\\src\\main\\res\\drawable-xhdpi\\pic9.jpg"
+        "merged": "D:\\Mipo-gidi_1_2_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\offline.png",
+        "source": "D:\\Mipo-gidi_1_2_16\\app\\src\\main\\res\\drawable-xhdpi\\offline.png"
     },
     {
-        "merged": "D:\\Mipo_13_1_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\pic6.jpg",
-        "source": "D:\\Mipo_13_1_16\\app\\src\\main\\res\\drawable-xhdpi\\pic6.jpg"
+        "merged": "D:\\Mipo-gidi_1_2_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\pic9.jpg",
+        "source": "D:\\Mipo-gidi_1_2_16\\app\\src\\main\\res\\drawable-xhdpi\\pic9.jpg"
     }
 ]

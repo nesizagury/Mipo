@@ -41,10 +41,10 @@
         <activity android:name=".NewLoginActivity" />
         <activity android:name=".CreateProfileActivity"/>
 
-        <service
-            android:name=".utils.Service"
-            android:enabled="true"
-            android:exported="false"/>
+        <!--<service-->
+            <!--android:name=".utils.Service"-->
+            <!--android:enabled="true"-->
+            <!--android:exported="false"/>-->
 
     </application>
 

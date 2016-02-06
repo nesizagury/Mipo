@@ -9,7 +9,7 @@ public class ProfileBean {
 
     private String name;
     private String objectId;
-    private String on_off;
+    private boolean isOnline;
     private String distance;
     private String seen;
     private String age;
@@ -28,11 +28,10 @@ public class ProfileBean {
     private boolean isFavorite;
     private boolean isFilteredeOk;
 
-    public ProfileBean(String name, String objectId, String on_off, String distance, String seen, String age, String status, String height, String weight, String nation, String body_type, String relationship_status, String looking_for, String about, String imageId, Bitmap pic, String message_roomId, String distanceType, boolean isFavorite, boolean isFilteredeOk) {
-
+    public ProfileBean(String name, String objectId, boolean isOnline, String distance, String seen, String age, String status, String height, String weight, String nation, String body_type, String relationship_status, String looking_for, String about, String imageId, Bitmap pic, String message_roomId, String distanceType, boolean isFavorite, boolean isFilteredeOk) {
         this.name = name;
         this.objectId = objectId;
-        this.on_off = on_off;
+        this.isOnline = isOnline;
         this.distance = distance;
         this.seen = seen;
         this.age = age;
@@ -68,12 +67,12 @@ public class ProfileBean {
         this.objectId = objectId;
     }
 
-    public String getOn_off() {
-        return on_off;
+    public boolean isOnline() {
+        return isOnline;
     }
 
-    public void setOn_off(String on_off) {
-        this.on_off = on_off;
+    public void setIsOnline(boolean isOnline) {
+        this.isOnline = isOnline;
     }
 
     public String getDistance() {
