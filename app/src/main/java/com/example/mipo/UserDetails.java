@@ -1,14 +1,15 @@
 package com.example.mipo;
 
+import com.parse.ParseGeoPoint;
+
+import java.util.Date;
+
 public class UserDetails {
 
-
-    String id;
+    String userPhoneNum;
     String name;
     String age;
-    String on_off;
-    String distance;
-    String seen;
+    Date lastSeen;
     String status;
     String height;
     String Weight;
@@ -17,41 +18,55 @@ public class UserDetails {
     String relationship_status;
     String looking_for;
     String about;
-    int image_source;
-    int message_roomId;
-    int distanceType;
+    String picUrl;
+    ParseGeoPoint userLocation;
+    int indexInAllDataList;
+
     private boolean favorite = false;
     boolean isFilteredOK = true;
+    boolean isOnline = false;
+    double dist;
 
-
-    public UserDetails(String name, String id, String on_off, String distance, String seen, String age, String status,
-                       String height, String weight, String nation, String body_type, String relationship_status,
-                       String looking_for, String about, int image_source, int message_roomId, int distanceType) {
+    public UserDetails(String userPhoneNum,
+                       String name,
+                       String age,
+                       Date lastSeen,
+                       String status,
+                       String height,
+                       String weight,
+                       String nation,
+                       String body_type,
+                       String relationship_status,
+                       String looking_for,
+                       String about,
+                       String picUrl,
+                       ParseGeoPoint userLocation,
+                       int indexInAllDataList,
+                       boolean isOnline) {
+        this.userPhoneNum = userPhoneNum;
         this.name = name;
-        this.id = id;
-        this.on_off = on_off;
         this.age = age;
-        this.seen = seen;
-        this.distance = distance;
+        this.lastSeen = lastSeen;
         this.status = status;
         this.height = height;
-        this.Weight = weight;
+        Weight = weight;
         this.nation = nation;
         this.body_type = body_type;
         this.relationship_status = relationship_status;
         this.looking_for = looking_for;
         this.about = about;
-        this.image_source = image_source;
-        this.message_roomId = message_roomId;
-        this.distanceType = distanceType;
+        this.picUrl = picUrl;
+        this.userLocation = userLocation;
+        this.indexInAllDataList = indexInAllDataList;
+        this.isOnline = isOnline;
     }
 
-    public String getId() {
-        return id;
+    public String getUserPhoneNum() {
+        return userPhoneNum;
     }
 
-    public void setId(String id) {
-        this.id = id;
+    public void setUserPhoneNum(String userPhoneNum) {
+        this.userPhoneNum = userPhoneNum;
     }
 
     public String getName() {
@@ -70,20 +85,12 @@ public class UserDetails {
         this.age = age;
     }
 
-    public String getSeen() {
-        return seen;
+    public Date getLastSeen() {
+        return lastSeen;
     }
 
-    public void setSeen(String seen) {
-        this.seen = seen;
-    }
-
-    public String getDistance() {
-        return distance;
-    }
-
-    public void setDistance(String distance) {
-        this.distance = distance;
+    public void setLastSeen(Date lastSeen) {
+        this.lastSeen = lastSeen;
     }
 
     public String getStatus() {
@@ -150,36 +157,20 @@ public class UserDetails {
         this.about = about;
     }
 
-    public void setOn_off(String on_off) {
-        this.on_off = on_off;
+    public String getPicUrl() {
+        return picUrl;
     }
 
-    public String getOn_off() {
-        return on_off;
+    public void setPicUrl(String picUrl) {
+        this.picUrl = picUrl;
     }
 
-    public int getImage_source() {
-        return image_source;
+    public ParseGeoPoint getUserLocation() {
+        return userLocation;
     }
 
-    public void setImage_source(int image_source) {
-        this.image_source = image_source;
-    }
-
-    public int getMessage_roomId() {
-        return message_roomId;
-    }
-
-    public void setMessage_roomId(int message_roomId) {
-        this.message_roomId = message_roomId;
-    }
-
-    public int getDistanceType() {
-        return distanceType;
-    }
-
-    public void setDistanceType(int distanceType) {
-        this.distanceType = distanceType;
+    public void setUserLocation(ParseGeoPoint userLocation) {
+        this.userLocation = userLocation;
     }
 
     public boolean isFavorite() {
@@ -194,7 +185,31 @@ public class UserDetails {
         return isFilteredOK;
     }
 
-    public void setIsFilteredOK(boolean isFilteredOk) {
-        this.isFilteredOK = isFilteredOk;
+    public void setIsFilteredOK(boolean isFilteredOK) {
+        this.isFilteredOK = isFilteredOK;
+    }
+
+    public double getDist() {
+        return dist;
+    }
+
+    public void setDist(double dist) {
+        this.dist = dist;
+    }
+
+    public int getIndexInAllDataList() {
+        return indexInAllDataList;
+    }
+
+    public void setIndexInAllDataList(int indexInAllDataList) {
+        this.indexInAllDataList = indexInAllDataList;
+    }
+
+    public boolean isOnline() {
+        return isOnline;
+    }
+
+    public void setIsOnline(boolean isOnline) {
+        this.isOnline = isOnline;
     }
 }

@@ -1,23 +1,36 @@
 package com.example.mipo;
 
 import android.content.Context;
+import android.graphics.Bitmap;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.ImageView;
+import android.widget.RelativeLayout;
 import android.widget.TextView;
+
+import com.nostra13.universalimageloader.cache.memory.impl.WeakMemoryCache;
+import com.nostra13.universalimageloader.core.DisplayImageOptions;
+import com.nostra13.universalimageloader.core.ImageLoader;
+import com.nostra13.universalimageloader.core.ImageLoaderConfiguration;
+import com.nostra13.universalimageloader.core.assist.ImageScaleType;
 
 import java.util.List;
 
 public class GridAdaptor extends BaseAdapter {
-
-    private final List<User> list;
+    private final List<UserDetails> list;
     private Context context;
+    ImageLoader imageLoader;
+    DisplayImageOptions options;
+    int pixels;
+    boolean isFavorite;
 
-    public GridAdaptor(Context c, List<User> list) {
+    public GridAdaptor(Context c, List<UserDetails> list, boolean isFavorite) {
         this.context = c;
         this.list = list;
+        this.isFavorite = isFavorite;
+        setImageLoader ();
     }
 
     @Override
@@ -37,26 +50,40 @@ public class GridAdaptor extends BaseAdapter {
 
     @Override
     public View getView(int position, View convertView, ViewGroup parent) {
-        GridHolder gridHolder;
-
+        final GridHolder gridHolder;
         if (convertView == null) {
             LayoutInflater inflator = (LayoutInflater) context.getSystemService (Context.LAYOUT_INFLATER_SERVICE);
             convertView = inflator.inflate (R.layout.grid_item, parent, false);
-
             gridHolder = new GridHolder (convertView);
             convertView.setTag (gridHolder);
+
         } else {
             gridHolder = (GridHolder) convertView.getTag ();
-
         }
+        RelativeLayout.LayoutParams lp = new RelativeLayout.LayoutParams (pixels, pixels);
+        lp.setMargins (0, 0, 0, 0);
+        gridHolder.image.setLayoutParams (lp);
 
-        User user = list.get (position);
+        final UserDetails user = list.get (position);
         if (user != null) {
-            gridHolder.image.setImageResource (user.imageId);
-            gridHolder.image2.setImageResource (user.on_off);
+
+            if (list.get (position).getPicUrl ().equals (list.get (0).getPicUrl ()) && !isFavorite) {
+                lp.setMargins (5, 5, 14, 5);
+                gridHolder.image.setLayoutParams (lp);
+            }
+
+            if (list.get (position).getPicUrl () != null) {
+                imageLoader.displayImage (list.get (position).getPicUrl (), gridHolder.image);
+            } else {
+                gridHolder.image.setImageResource (R.drawable.favorite);
+            }
+            if (user.isOnline ()) {
+                gridHolder.image2.setImageResource (R.drawable.online);
+            } else {
+                gridHolder.image2.setImageResource (0);
+            }
             gridHolder.name.setText (user.name);
         }
-
         return convertView;
     }
 
@@ -65,11 +92,35 @@ public class GridAdaptor extends BaseAdapter {
         ImageView image2;
         TextView name;
 
+
         public GridHolder(View v) {
+
             image = (ImageView) v.findViewById (R.id.imageView1);
             image2 = (ImageView) v.findViewById (R.id.imageView2);
             name = (TextView) v.findViewById (R.id.textView1);
         }
+    }
+
+    public void setImageLoader() {
+        float density = context.getResources ().getDisplayMetrics ().density;
+        pixels = (int) (125 * density + 0.5f);
+
+        options = new DisplayImageOptions.Builder ()
+                          .cacheOnDisk (true)
+                          .cacheInMemory (true)
+                          .bitmapConfig (Bitmap.Config.RGB_565)
+                          .imageScaleType (ImageScaleType.EXACTLY)
+                          .resetViewBeforeLoading (true)
+                          .build ();
+        ImageLoaderConfiguration config = new ImageLoaderConfiguration.Builder (context)
+                                                  .defaultDisplayImageOptions (options)
+                                                  .threadPriority (Thread.MAX_PRIORITY)
+                                                  .threadPoolSize (2)
+                                                  .memoryCache (new WeakMemoryCache ())
+                                                  .denyCacheImageMultipleSizesInMemory ()
+                                                  .build ();
+        imageLoader = ImageLoader.getInstance ();
+        imageLoader.init (config);
     }
 }
 

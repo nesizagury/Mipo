@@ -1,6 +1,7 @@
 package com.example.mipo;
 
 import android.content.Intent;
+import android.graphics.Bitmap;
 import android.os.Bundle;
 import android.app.Activity;
 import android.view.View;
@@ -10,8 +11,13 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
-public class UserPage extends Activity implements ImageButton.OnClickListener {
+import com.nostra13.universalimageloader.cache.memory.impl.WeakMemoryCache;
+import com.nostra13.universalimageloader.core.DisplayImageOptions;
+import com.nostra13.universalimageloader.core.ImageLoader;
+import com.nostra13.universalimageloader.core.ImageLoaderConfiguration;
+import com.nostra13.universalimageloader.core.assist.ImageScaleType;
 
+public class UserPage extends Activity implements ImageButton.OnClickListener {
 
     ImageButton detailed_button;
     ImageButton favorite_button;
@@ -21,6 +27,9 @@ public class UserPage extends Activity implements ImageButton.OnClickListener {
     private String userID;
     boolean user_current;
     int index;
+    int online;
+    ImageLoader imageLoader;
+    DisplayImageOptions options;
 
 
     @Override
@@ -44,28 +53,38 @@ public class UserPage extends Activity implements ImageButton.OnClickListener {
             userID = b.getString ("userID");
             user_name = intent.getStringExtra ("userName");
             index = b.getInt ("index");
-            User user = MainPageActivity.firstUsersList.get (index);
-            UserDetails userDetails = MainPageActivity.userDataList.get (user.getIndexInUD ());
-
-            int image_id = intent.getIntExtra ("userImage", R.drawable.pic0);
+            online = b.getInt ("online");
+            UserDetails userDetails = GlobalVariables.userDataList.get (index);
+            options = new DisplayImageOptions.Builder ()
+                              .cacheOnDisk (true)
+                              .cacheInMemory (true)
+                              .bitmapConfig (Bitmap.Config.RGB_565)
+                              .imageScaleType (ImageScaleType.EXACTLY)
+                              .resetViewBeforeLoading (true)
+                              .build ();
+            ImageLoaderConfiguration config = new ImageLoaderConfiguration.Builder (this)
+                                                      .defaultDisplayImageOptions (options)
+                                                      .threadPriority (Thread.MAX_PRIORITY)
+                                                      .threadPoolSize (4)
+                                                      .memoryCache (new WeakMemoryCache ())
+                                                      .denyCacheImageMultipleSizesInMemory ()
+                                                      .build ();
+            imageLoader = ImageLoader.getInstance ();
+            imageLoader.init (config);
             ImageView user_image = (ImageView) findViewById (R.id.usrPage_image);
-            if (user_current) {
-                user_image.setImageResource (R.drawable.pic0 + userDetails.getImage_source ());
-            } else {
-                user_image.setImageResource (image_id);
-            }
+            imageLoader.displayImage (userDetails.getPicUrl (), user_image);
 
             TextView userNameTF = (TextView) findViewById (R.id.name_profile);
             TextView seenTF = (TextView) findViewById (R.id.seen_profile);
             userNameTF.setText (user_name + " , " + userDetails.getAge ());
             if (user_current) {
-                seenTF.setText ("Online" + " | " + "0 meters away");
-            } else if (userDetails.getDistanceType () == 0) {
-                seenTF.setText (userDetails.getSeen () +
-                                        " | " + userDetails.getDistance () + " meters away");
-            } else if (userDetails.getDistanceType () == 1) {
-                seenTF.setText (userDetails.getSeen () +
-                                        " | " + userDetails.getDistance () + " km away");
+                seenTF.setText ("Online" + " | " + "0 km away");
+            } else {
+                if(online < 10){
+                    seenTF.setText ("Online" + " | " + userDetails.getDist () + " km away");
+                } else{
+                    seenTF.setText ("Seen " + online + " min ago" + " | " + userDetails.getDist () + " km away");
+                }
             }
             if (user_current) {
                 favorite_button.setVisibility (View.INVISIBLE);
@@ -81,18 +100,19 @@ public class UserPage extends Activity implements ImageButton.OnClickListener {
 
     @Override
     public void onClick(View v) {
-
         if (v == detailed_button) {
+            Bundle b = new Bundle ();
             user_current = getIntent ().getBooleanExtra ("userCurrent", false);
             Intent intent = new Intent (this, DetailedProfileActivity.class);
             intent.putExtra ("userName", user_name);
             intent.putExtra ("currentUser", user_current);
+            b.putInt ("index", index);
+            intent.putExtras (b);
             startActivity (intent);
         }
 
         if (v == favorite_button) {
-            User user = MainPageActivity.firstUsersList.get (index);
-            UserDetails userDetails = MainPageActivity.userDataList.get (user.getIndexInUD ());
+            UserDetails userDetails = GlobalVariables.userDataList.get (index);
             if (userDetails.isFavorite ()) {
                 userDetails.setFavorite (false);
                 favorite_button.setBackgroundResource (R.drawable.favorite);
@@ -107,14 +127,19 @@ public class UserPage extends Activity implements ImageButton.OnClickListener {
         if (v == report_button) {
             Toast.makeText (getApplicationContext (), "You banned this profile!", Toast.LENGTH_SHORT).show ();
         }
-
     }
 
     public void messaging(View view) {
-        Intent intent = new Intent (this, ChatActivity.class);
-        intent.putExtra ("userId", userID);
-        intent.putExtra ("userName", user_name);
-        startActivity (intent);
+        if (!StaticMethods.isGuestUser ()) {
+            Intent intent = new Intent (this, ChatActivity.class);
+            Bundle b = new Bundle ();
+            intent.putExtra ("userId", userID);
+            intent.putExtra ("userName", user_name);
+            b.putInt ("index", index);
+            intent.putExtras (b);
+            startActivity (intent);
+        } else {
+            Toast.makeText (getApplicationContext (), "to continue please create a profile", Toast.LENGTH_SHORT).show ();
+        }
     }
-
 }

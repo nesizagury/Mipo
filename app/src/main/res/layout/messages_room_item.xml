@@ -10,7 +10,8 @@
         android:scaleType="fitXY"
         android:layout_alignParentTop="true"
         android:layout_alignParentStart="true"
-        android:background="@drawable/pic0" />
+        android:background="@drawable/pic0"
+        android:layout_margin="1dp" />
 
     <TextView
         android:layout_width="170dp"

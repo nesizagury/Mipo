@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "D:\\Mipo_13_1_16\\app\\build\\intermediates\\res\\merged\\debug\\values-sw720dp-land-v13\\values-sw720dp-land-v13.xml",
+        "outputFile": "C:\\workspace\\Mipo-moshe_14_02_16\\app\\build\\intermediates\\res\\merged\\debug\\values-sw720dp-land-v13\\values-sw720dp-land-v13.xml",
         "map": [
             {
                 "to": {
@@ -11,20 +11,20 @@
                     "endOffset": 109
                 },
                 "from": {
-                    "file": "D:\\Mipo_13_1_16\\app\\src\\main\\res\\values-sw720dp-land\\dimens.xml",
+                    "file": "C:\\workspace\\Mipo-moshe_14_02_16\\app\\src\\main\\res\\values-sw720dp-land\\dimens.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
-                        "startOffset": 205,
+                        "startOffset": 200,
                         "endColumn": 58,
-                        "endOffset": 259
+                        "endOffset": 254
                     }
                 }
             }
         ]
     },
     {
-        "outputFile": "D:\\Mipo19.1.16\\app\\build\\intermediates\\res\\merged\\debug\\values-sw720dp-land-v13\\values-sw720dp-land-v13.xml",
+        "outputFile": "D:\\Mipo-moshe_14_02_16\\app\\build\\intermediates\\res\\merged\\debug\\values-sw720dp-land-v13\\values-sw720dp-land-v13.xml",
         "map": [
             {
                 "to": {
@@ -35,7 +35,7 @@
                     "endOffset": 109
                 },
                 "from": {
-                    "file": "D:\\Mipo19.1.16\\app\\src\\main\\res\\values-sw720dp-land\\dimens.xml",
+                    "file": "D:\\Mipo-moshe_14_02_16\\app\\src\\main\\res\\values-sw720dp-land\\dimens.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,

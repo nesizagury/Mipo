@@ -5,7 +5,7 @@
                 android:clickable="false"
                 android:duplicateParentState="false"
                 android:longClickable="false"
-    >
+    android:background="#ffbe2c">
 
     <ImageView
         android:id="@+id/imageView1"
@@ -17,8 +17,7 @@
         android:adjustViewBounds="false"
         android:clickable="false"
         android:scaleType="fitXY"
-        android:src="@drawable/pic0"
-        />
+        android:src="@drawable/pic0" />
 
     <TextView
         android:id="@+id/textView1"

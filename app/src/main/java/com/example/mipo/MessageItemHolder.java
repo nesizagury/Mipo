@@ -10,20 +10,9 @@ public class MessageItemHolder {
     TextView body;
     TextView name;
 
-    public MessageItemHolder (View v) {
-
-
-        image = (ImageView) v.findViewById(R.id.message_itemIV);
-        name = (TextView) v.findViewById(R.id.message_item_nameTV);
-        body = (TextView) v.findViewById(R.id.message_item_bodyTV);
+    public MessageItemHolder(View v) {
+        image = (ImageView) v.findViewById (R.id.message_itemIV);
+        name = (TextView) v.findViewById (R.id.message_item_nameTV);
+        body = (TextView) v.findViewById (R.id.message_item_bodyTV);
     }
-
-
-
-
-
-
-
-
-
 }

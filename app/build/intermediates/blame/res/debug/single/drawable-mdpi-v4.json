@@ -1,282 +1,454 @@
 [
     {
-        "merged": "D:\\Mipo19.1.16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\pic0.jpg",
-        "source": "D:\\Mipo19.1.16\\app\\src\\main\\res\\drawable-mdpi\\pic0.jpg"
+        "merged": "D:\\Mipo-moshe_14_02_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\pic6.jpg",
+        "source": "D:\\Mipo-moshe_14_02_16\\app\\src\\main\\res\\drawable-mdpi\\pic6.jpg"
     },
     {
-        "merged": "D:\\Mipo19.1.16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\m4.png",
-        "source": "D:\\Mipo19.1.16\\app\\src\\main\\res\\drawable-mdpi\\m4.png"
+        "merged": "D:\\Mipo-moshe_14_02_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_btn_check_to_on_mtrl_000.png",
+        "source": "D:\\Mipo-moshe_14_02_16\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-mdpi\\abc_btn_check_to_on_mtrl_000.png"
     },
     {
-        "merged": "D:\\Mipo_13_1_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\pic0.jpg",
-        "source": "D:\\Mipo_13_1_16\\app\\src\\main\\res\\drawable-mdpi\\pic0.jpg"
+        "merged": "D:\\Mipo-moshe_14_02_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_tab_indicator_mtrl_alpha.9.png",
+        "source": "D:\\Mipo-moshe_14_02_16\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-mdpi\\abc_tab_indicator_mtrl_alpha.9.png"
     },
     {
-        "merged": "D:\\Mipo_13_1_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\favoritecolored.png",
-        "source": "D:\\Mipo_13_1_16\\app\\src\\main\\res\\drawable-mdpi\\favoritecolored.png"
+        "merged": "C:\\workspace\\Mipo-moshe_14_02_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\fire.png",
+        "source": "C:\\workspace\\Mipo-moshe_14_02_16\\app\\src\\main\\res\\drawable-mdpi\\fire.png"
     },
     {
-        "merged": "D:\\Mipo19.1.16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\pic13.jpg",
-        "source": "D:\\Mipo19.1.16\\app\\src\\main\\res\\drawable-mdpi\\pic13.jpg"
+        "merged": "D:\\Mipo-moshe_14_02_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_list_divider_mtrl_alpha.9.png",
+        "source": "D:\\Mipo-moshe_14_02_16\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-mdpi\\abc_list_divider_mtrl_alpha.9.png"
     },
     {
-        "merged": "D:\\Mipo_13_1_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\offline.png",
-        "source": "D:\\Mipo_13_1_16\\app\\src\\main\\res\\drawable-mdpi\\offline.png"
+        "merged": "D:\\Mipo-moshe_14_02_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_list_focused_holo.9.png",
+        "source": "D:\\Mipo-moshe_14_02_16\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-mdpi\\abc_list_focused_holo.9.png"
     },
     {
-        "merged": "D:\\Mipo19.1.16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\back.png",
-        "source": "D:\\Mipo19.1.16\\app\\src\\main\\res\\drawable-mdpi\\back.png"
+        "merged": "C:\\workspace\\Mipo-moshe_14_02_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\message.png",
+        "source": "C:\\workspace\\Mipo-moshe_14_02_16\\app\\src\\main\\res\\drawable-mdpi\\message.png"
     },
     {
-        "merged": "D:\\Mipo_13_1_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\lke.png",
-        "source": "D:\\Mipo_13_1_16\\app\\src\\main\\res\\drawable-mdpi\\lke.png"
+        "merged": "D:\\Mipo-moshe_14_02_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_ic_menu_moreoverflow_mtrl_alpha.png",
+        "source": "D:\\Mipo-moshe_14_02_16\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-mdpi\\abc_ic_menu_moreoverflow_mtrl_alpha.png"
     },
     {
-        "merged": "D:\\Mipo_13_1_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\pic5.jpg",
-        "source": "D:\\Mipo_13_1_16\\app\\src\\main\\res\\drawable-mdpi\\pic5.jpg"
+        "merged": "C:\\workspace\\Mipo-moshe_14_02_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\m1.png",
+        "source": "C:\\workspace\\Mipo-moshe_14_02_16\\app\\src\\main\\res\\drawable-mdpi\\m1.png"
     },
     {
-        "merged": "D:\\Mipo_13_1_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\m4.png",
-        "source": "D:\\Mipo_13_1_16\\app\\src\\main\\res\\drawable-mdpi\\m4.png"
+        "merged": "D:\\Mipo-moshe_14_02_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_scrubber_track_mtrl_alpha.9.png",
+        "source": "D:\\Mipo-moshe_14_02_16\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-mdpi\\abc_scrubber_track_mtrl_alpha.9.png"
     },
     {
-        "merged": "D:\\Mipo_13_1_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\message.png",
-        "source": "D:\\Mipo_13_1_16\\app\\src\\main\\res\\drawable-mdpi\\message.png"
+        "merged": "C:\\workspace\\Mipo-moshe_14_02_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\ic_launcher.png",
+        "source": "C:\\workspace\\Mipo-moshe_14_02_16\\app\\src\\main\\res\\drawable-mdpi\\ic_launcher.png"
     },
     {
-        "merged": "D:\\Mipo_13_1_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\smell.png",
-        "source": "D:\\Mipo_13_1_16\\app\\src\\main\\res\\drawable-mdpi\\smell.png"
+        "merged": "D:\\Mipo-moshe_14_02_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_ic_search_api_mtrl_alpha.png",
+        "source": "D:\\Mipo-moshe_14_02_16\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-mdpi\\abc_ic_search_api_mtrl_alpha.png"
     },
     {
-        "merged": "D:\\Mipo_13_1_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\pic10.jpg",
-        "source": "D:\\Mipo_13_1_16\\app\\src\\main\\res\\drawable-mdpi\\pic10.jpg"
+        "merged": "D:\\Mipo-moshe_14_02_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\online.png",
+        "source": "D:\\Mipo-moshe_14_02_16\\app\\src\\main\\res\\drawable-mdpi\\online.png"
     },
     {
-        "merged": "D:\\Mipo19.1.16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\message.png",
-        "source": "D:\\Mipo19.1.16\\app\\src\\main\\res\\drawable-mdpi\\message.png"
+        "merged": "C:\\workspace\\Mipo-moshe_14_02_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\pic11.jpg",
+        "source": "C:\\workspace\\Mipo-moshe_14_02_16\\app\\src\\main\\res\\drawable-mdpi\\pic11.jpg"
     },
     {
-        "merged": "D:\\Mipo19.1.16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\pic6.jpg",
-        "source": "D:\\Mipo19.1.16\\app\\src\\main\\res\\drawable-mdpi\\pic6.jpg"
+        "merged": "D:\\Mipo-moshe_14_02_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_menu_hardkey_panel_mtrl_mult.9.png",
+        "source": "D:\\Mipo-moshe_14_02_16\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-mdpi\\abc_menu_hardkey_panel_mtrl_mult.9.png"
     },
     {
-        "merged": "D:\\Mipo19.1.16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\bg.jpg",
-        "source": "D:\\Mipo19.1.16\\app\\src\\main\\res\\drawable-mdpi\\bg.jpg"
+        "merged": "C:\\workspace\\Mipo-moshe_14_02_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\m2.png",
+        "source": "C:\\workspace\\Mipo-moshe_14_02_16\\app\\src\\main\\res\\drawable-mdpi\\m2.png"
     },
     {
-        "merged": "D:\\Mipo_13_1_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\fire.png",
-        "source": "D:\\Mipo_13_1_16\\app\\src\\main\\res\\drawable-mdpi\\fire.png"
+        "merged": "D:\\Mipo-moshe_14_02_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_scrubber_control_to_pressed_mtrl_005.png",
+        "source": "D:\\Mipo-moshe_14_02_16\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-mdpi\\abc_scrubber_control_to_pressed_mtrl_005.png"
     },
     {
-        "merged": "D:\\Mipo_13_1_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\m3.png",
-        "source": "D:\\Mipo_13_1_16\\app\\src\\main\\res\\drawable-mdpi\\m3.png"
+        "merged": "D:\\Mipo-moshe_14_02_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_list_longpressed_holo.9.png",
+        "source": "D:\\Mipo-moshe_14_02_16\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-mdpi\\abc_list_longpressed_holo.9.png"
     },
     {
-        "merged": "D:\\Mipo_13_1_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\pic11.jpg",
-        "source": "D:\\Mipo_13_1_16\\app\\src\\main\\res\\drawable-mdpi\\pic11.jpg"
+        "merged": "D:\\Mipo-moshe_14_02_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_btn_check_to_on_mtrl_015.png",
+        "source": "D:\\Mipo-moshe_14_02_16\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-mdpi\\abc_btn_check_to_on_mtrl_015.png"
     },
     {
-        "merged": "D:\\Mipo_13_1_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\pic1.jpg",
-        "source": "D:\\Mipo_13_1_16\\app\\src\\main\\res\\drawable-mdpi\\pic1.jpg"
+        "merged": "D:\\Mipo-moshe_14_02_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\back.png",
+        "source": "D:\\Mipo-moshe_14_02_16\\app\\src\\main\\res\\drawable-mdpi\\back.png"
     },
     {
-        "merged": "D:\\Mipo_13_1_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\pic4.jpg",
-        "source": "D:\\Mipo_13_1_16\\app\\src\\main\\res\\drawable-mdpi\\pic4.jpg"
+        "merged": "D:\\Mipo-moshe_14_02_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_btn_switch_to_on_mtrl_00001.9.png",
+        "source": "D:\\Mipo-moshe_14_02_16\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-mdpi\\abc_btn_switch_to_on_mtrl_00001.9.png"
     },
     {
-        "merged": "D:\\Mipo19.1.16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\pic7.jpg",
-        "source": "D:\\Mipo19.1.16\\app\\src\\main\\res\\drawable-mdpi\\pic7.jpg"
+        "merged": "D:\\Mipo-moshe_14_02_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\pic14.jpg",
+        "source": "D:\\Mipo-moshe_14_02_16\\app\\src\\main\\res\\drawable-mdpi\\pic14.jpg"
     },
     {
-        "merged": "D:\\Mipo_13_1_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\gps_acuuraty.png",
-        "source": "D:\\Mipo_13_1_16\\app\\src\\main\\res\\drawable-mdpi\\gps_acuuraty.png"
+        "merged": "D:\\Mipo-moshe_14_02_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\report.png",
+        "source": "D:\\Mipo-moshe_14_02_16\\app\\src\\main\\res\\drawable-mdpi\\report.png"
     },
     {
-        "merged": "D:\\Mipo_13_1_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\pic7.jpg",
-        "source": "D:\\Mipo_13_1_16\\app\\src\\main\\res\\drawable-mdpi\\pic7.jpg"
+        "merged": "D:\\Mipo-moshe_14_02_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_btn_switch_to_on_mtrl_00012.9.png",
+        "source": "D:\\Mipo-moshe_14_02_16\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-mdpi\\abc_btn_switch_to_on_mtrl_00012.9.png"
     },
     {
-        "merged": "D:\\Mipo_13_1_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\pic14.jpg",
-        "source": "D:\\Mipo_13_1_16\\app\\src\\main\\res\\drawable-mdpi\\pic14.jpg"
+        "merged": "D:\\Mipo-moshe_14_02_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_ic_menu_cut_mtrl_alpha.png",
+        "source": "D:\\Mipo-moshe_14_02_16\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-mdpi\\abc_ic_menu_cut_mtrl_alpha.png"
     },
     {
-        "merged": "D:\\Mipo19.1.16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\favorite.png",
-        "source": "D:\\Mipo19.1.16\\app\\src\\main\\res\\drawable-mdpi\\favorite.png"
+        "merged": "D:\\Mipo-moshe_14_02_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\pic5.jpg",
+        "source": "D:\\Mipo-moshe_14_02_16\\app\\src\\main\\res\\drawable-mdpi\\pic5.jpg"
     },
     {
-        "merged": "D:\\Mipo_13_1_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\ic_launcher.png",
-        "source": "D:\\Mipo_13_1_16\\app\\src\\main\\res\\drawable-mdpi\\ic_launcher.png"
+        "merged": "C:\\workspace\\Mipo-moshe_14_02_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\pic10.jpg",
+        "source": "C:\\workspace\\Mipo-moshe_14_02_16\\app\\src\\main\\res\\drawable-mdpi\\pic10.jpg"
     },
     {
-        "merged": "D:\\Mipo19.1.16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\pic4.jpg",
-        "source": "D:\\Mipo19.1.16\\app\\src\\main\\res\\drawable-mdpi\\pic4.jpg"
+        "merged": "D:\\Mipo-moshe_14_02_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\pic8.jpg",
+        "source": "D:\\Mipo-moshe_14_02_16\\app\\src\\main\\res\\drawable-mdpi\\pic8.jpg"
     },
     {
-        "merged": "D:\\Mipo_13_1_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\online2.png",
-        "source": "D:\\Mipo_13_1_16\\app\\src\\main\\res\\drawable-mdpi\\online2.png"
+        "merged": "D:\\Mipo-moshe_14_02_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_btn_radio_to_on_mtrl_015.png",
+        "source": "D:\\Mipo-moshe_14_02_16\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-mdpi\\abc_btn_radio_to_on_mtrl_015.png"
     },
     {
-        "merged": "D:\\Mipo19.1.16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\lke.png",
-        "source": "D:\\Mipo19.1.16\\app\\src\\main\\res\\drawable-mdpi\\lke.png"
+        "merged": "D:\\Mipo-moshe_14_02_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\pic3.jpg",
+        "source": "D:\\Mipo-moshe_14_02_16\\app\\src\\main\\res\\drawable-mdpi\\pic3.jpg"
     },
     {
-        "merged": "D:\\Mipo19.1.16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\online.png",
-        "source": "D:\\Mipo19.1.16\\app\\src\\main\\res\\drawable-mdpi\\online.png"
+        "merged": "D:\\Mipo-moshe_14_02_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\pic9.jpg",
+        "source": "D:\\Mipo-moshe_14_02_16\\app\\src\\main\\res\\drawable-mdpi\\pic9.jpg"
     },
     {
-        "merged": "D:\\Mipo_13_1_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\back.png",
-        "source": "D:\\Mipo_13_1_16\\app\\src\\main\\res\\drawable-mdpi\\back.png"
+        "merged": "D:\\Mipo-moshe_14_02_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_list_selector_disabled_holo_dark.9.png",
+        "source": "D:\\Mipo-moshe_14_02_16\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-mdpi\\abc_list_selector_disabled_holo_dark.9.png"
     },
     {
-        "merged": "D:\\Mipo19.1.16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\m3.png",
-        "source": "D:\\Mipo19.1.16\\app\\src\\main\\res\\drawable-mdpi\\m3.png"
+        "merged": "C:\\workspace\\Mipo-moshe_14_02_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\m4.png",
+        "source": "C:\\workspace\\Mipo-moshe_14_02_16\\app\\src\\main\\res\\drawable-mdpi\\m4.png"
     },
     {
-        "merged": "D:\\Mipo19.1.16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\pic14.jpg",
-        "source": "D:\\Mipo19.1.16\\app\\src\\main\\res\\drawable-mdpi\\pic14.jpg"
+        "merged": "C:\\workspace\\Mipo-moshe_14_02_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\pic7.jpg",
+        "source": "C:\\workspace\\Mipo-moshe_14_02_16\\app\\src\\main\\res\\drawable-mdpi\\pic7.jpg"
     },
     {
-        "merged": "D:\\Mipo19.1.16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\pic11.jpg",
-        "source": "D:\\Mipo19.1.16\\app\\src\\main\\res\\drawable-mdpi\\pic11.jpg"
+        "merged": "C:\\workspace\\Mipo-moshe_14_02_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\bg.jpg",
+        "source": "C:\\workspace\\Mipo-moshe_14_02_16\\app\\src\\main\\res\\drawable-mdpi\\bg.jpg"
     },
     {
-        "merged": "D:\\Mipo19.1.16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\pic1.jpg",
-        "source": "D:\\Mipo19.1.16\\app\\src\\main\\res\\drawable-mdpi\\pic1.jpg"
+        "merged": "C:\\workspace\\Mipo-moshe_14_02_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\pic1.jpg",
+        "source": "C:\\workspace\\Mipo-moshe_14_02_16\\app\\src\\main\\res\\drawable-mdpi\\pic1.jpg"
     },
     {
-        "merged": "D:\\Mipo19.1.16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\pic3.jpg",
-        "source": "D:\\Mipo19.1.16\\app\\src\\main\\res\\drawable-mdpi\\pic3.jpg"
+        "merged": "C:\\workspace\\Mipo-moshe_14_02_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\pic2.jpg",
+        "source": "C:\\workspace\\Mipo-moshe_14_02_16\\app\\src\\main\\res\\drawable-mdpi\\pic2.jpg"
     },
     {
-        "merged": "D:\\Mipo19.1.16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\pic9.jpg",
-        "source": "D:\\Mipo19.1.16\\app\\src\\main\\res\\drawable-mdpi\\pic9.jpg"
+        "merged": "D:\\Mipo-moshe_14_02_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\pic12.jpg",
+        "source": "D:\\Mipo-moshe_14_02_16\\app\\src\\main\\res\\drawable-mdpi\\pic12.jpg"
     },
     {
-        "merged": "D:\\Mipo19.1.16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\m1.png",
-        "source": "D:\\Mipo19.1.16\\app\\src\\main\\res\\drawable-mdpi\\m1.png"
+        "merged": "D:\\Mipo-moshe_14_02_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_ic_menu_share_mtrl_alpha.png",
+        "source": "D:\\Mipo-moshe_14_02_16\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-mdpi\\abc_ic_menu_share_mtrl_alpha.png"
     },
     {
-        "merged": "D:\\Mipo_13_1_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\three_p.png",
-        "source": "D:\\Mipo_13_1_16\\app\\src\\main\\res\\drawable-mdpi\\three_p.png"
+        "merged": "D:\\Mipo-moshe_14_02_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_ic_voice_search_api_mtrl_alpha.png",
+        "source": "D:\\Mipo-moshe_14_02_16\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-mdpi\\abc_ic_voice_search_api_mtrl_alpha.png"
     },
     {
-        "merged": "D:\\Mipo_13_1_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\m1.png",
-        "source": "D:\\Mipo_13_1_16\\app\\src\\main\\res\\drawable-mdpi\\m1.png"
+        "merged": "D:\\Mipo-moshe_14_02_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_btn_radio_to_on_mtrl_000.png",
+        "source": "D:\\Mipo-moshe_14_02_16\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-mdpi\\abc_btn_radio_to_on_mtrl_000.png"
     },
     {
-        "merged": "D:\\Mipo19.1.16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\pic10.jpg",
-        "source": "D:\\Mipo19.1.16\\app\\src\\main\\res\\drawable-mdpi\\pic10.jpg"
+        "merged": "D:\\Mipo-moshe_14_02_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\offline.png",
+        "source": "D:\\Mipo-moshe_14_02_16\\app\\src\\main\\res\\drawable-mdpi\\offline.png"
     },
     {
-        "merged": "D:\\Mipo_13_1_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\pic2.jpg",
-        "source": "D:\\Mipo_13_1_16\\app\\src\\main\\res\\drawable-mdpi\\pic2.jpg"
+        "merged": "C:\\workspace\\Mipo-moshe_14_02_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\offline.png",
+        "source": "C:\\workspace\\Mipo-moshe_14_02_16\\app\\src\\main\\res\\drawable-mdpi\\offline.png"
     },
     {
-        "merged": "D:\\Mipo_13_1_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\online.png",
-        "source": "D:\\Mipo_13_1_16\\app\\src\\main\\res\\drawable-mdpi\\online.png"
+        "merged": "C:\\workspace\\Mipo-moshe_14_02_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\pic8.jpg",
+        "source": "C:\\workspace\\Mipo-moshe_14_02_16\\app\\src\\main\\res\\drawable-mdpi\\pic8.jpg"
     },
     {
-        "merged": "D:\\Mipo19.1.16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\m2.png",
-        "source": "D:\\Mipo19.1.16\\app\\src\\main\\res\\drawable-mdpi\\m2.png"
+        "merged": "C:\\workspace\\Mipo-moshe_14_02_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\heart.png",
+        "source": "C:\\workspace\\Mipo-moshe_14_02_16\\app\\src\\main\\res\\drawable-mdpi\\heart.png"
     },
     {
-        "merged": "D:\\Mipo_13_1_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\pic8.jpg",
-        "source": "D:\\Mipo_13_1_16\\app\\src\\main\\res\\drawable-mdpi\\pic8.jpg"
+        "merged": "C:\\workspace\\Mipo-moshe_14_02_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\three_p.png",
+        "source": "C:\\workspace\\Mipo-moshe_14_02_16\\app\\src\\main\\res\\drawable-mdpi\\three_p.png"
     },
     {
-        "merged": "D:\\Mipo19.1.16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\smell.png",
-        "source": "D:\\Mipo19.1.16\\app\\src\\main\\res\\drawable-mdpi\\smell.png"
+        "merged": "D:\\Mipo-moshe_14_02_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_cab_background_top_mtrl_alpha.9.png",
+        "source": "D:\\Mipo-moshe_14_02_16\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-mdpi\\abc_cab_background_top_mtrl_alpha.9.png"
     },
     {
-        "merged": "D:\\Mipo_13_1_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\favorite.png",
-        "source": "D:\\Mipo_13_1_16\\app\\src\\main\\res\\drawable-mdpi\\favorite.png"
+        "merged": "D:\\Mipo-moshe_14_02_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_ic_menu_copy_mtrl_am_alpha.png",
+        "source": "D:\\Mipo-moshe_14_02_16\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-mdpi\\abc_ic_menu_copy_mtrl_am_alpha.png"
     },
     {
-        "merged": "D:\\Mipo_13_1_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\pic13.jpg",
-        "source": "D:\\Mipo_13_1_16\\app\\src\\main\\res\\drawable-mdpi\\pic13.jpg"
+        "merged": "C:\\workspace\\Mipo-moshe_14_02_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\pic14.jpg",
+        "source": "C:\\workspace\\Mipo-moshe_14_02_16\\app\\src\\main\\res\\drawable-mdpi\\pic14.jpg"
     },
     {
-        "merged": "D:\\Mipo19.1.16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\report.png",
-        "source": "D:\\Mipo19.1.16\\app\\src\\main\\res\\drawable-mdpi\\report.png"
+        "merged": "C:\\workspace\\Mipo-moshe_14_02_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\lke.png",
+        "source": "C:\\workspace\\Mipo-moshe_14_02_16\\app\\src\\main\\res\\drawable-mdpi\\lke.png"
     },
     {
-        "merged": "D:\\Mipo19.1.16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\fire.png",
-        "source": "D:\\Mipo19.1.16\\app\\src\\main\\res\\drawable-mdpi\\fire.png"
+        "merged": "D:\\Mipo-moshe_14_02_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\m3.png",
+        "source": "D:\\Mipo-moshe_14_02_16\\app\\src\\main\\res\\drawable-mdpi\\m3.png"
     },
     {
-        "merged": "D:\\Mipo19.1.16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\heart.png",
-        "source": "D:\\Mipo19.1.16\\app\\src\\main\\res\\drawable-mdpi\\heart.png"
+        "merged": "D:\\Mipo-moshe_14_02_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_ic_clear_mtrl_alpha.png",
+        "source": "D:\\Mipo-moshe_14_02_16\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-mdpi\\abc_ic_clear_mtrl_alpha.png"
     },
     {
-        "merged": "D:\\Mipo19.1.16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\pic12.jpg",
-        "source": "D:\\Mipo19.1.16\\app\\src\\main\\res\\drawable-mdpi\\pic12.jpg"
+        "merged": "D:\\Mipo-moshe_14_02_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\three_p.png",
+        "source": "D:\\Mipo-moshe_14_02_16\\app\\src\\main\\res\\drawable-mdpi\\three_p.png"
     },
     {
-        "merged": "D:\\Mipo19.1.16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\three_p.png",
-        "source": "D:\\Mipo19.1.16\\app\\src\\main\\res\\drawable-mdpi\\three_p.png"
+        "merged": "C:\\workspace\\Mipo-moshe_14_02_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\smell.png",
+        "source": "C:\\workspace\\Mipo-moshe_14_02_16\\app\\src\\main\\res\\drawable-mdpi\\smell.png"
     },
     {
-        "merged": "D:\\Mipo19.1.16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\pic5.jpg",
-        "source": "D:\\Mipo19.1.16\\app\\src\\main\\res\\drawable-mdpi\\pic5.jpg"
+        "merged": "D:\\Mipo-moshe_14_02_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\bg.jpg",
+        "source": "D:\\Mipo-moshe_14_02_16\\app\\src\\main\\res\\drawable-mdpi\\bg.jpg"
     },
     {
-        "merged": "D:\\Mipo19.1.16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\pic2.jpg",
-        "source": "D:\\Mipo19.1.16\\app\\src\\main\\res\\drawable-mdpi\\pic2.jpg"
+        "merged": "D:\\Mipo-moshe_14_02_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_textfield_search_activated_mtrl_alpha.9.png",
+        "source": "D:\\Mipo-moshe_14_02_16\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-mdpi\\abc_textfield_search_activated_mtrl_alpha.9.png"
     },
     {
-        "merged": "D:\\Mipo_13_1_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\bg.jpg",
-        "source": "D:\\Mipo_13_1_16\\app\\src\\main\\res\\drawable-mdpi\\bg.jpg"
+        "merged": "D:\\Mipo-moshe_14_02_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\pic10.jpg",
+        "source": "D:\\Mipo-moshe_14_02_16\\app\\src\\main\\res\\drawable-mdpi\\pic10.jpg"
     },
     {
-        "merged": "D:\\Mipo19.1.16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\favoritecolored.png",
-        "source": "D:\\Mipo19.1.16\\app\\src\\main\\res\\drawable-mdpi\\favoritecolored.png"
+        "merged": "C:\\workspace\\Mipo-moshe_14_02_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\pic4.jpg",
+        "source": "C:\\workspace\\Mipo-moshe_14_02_16\\app\\src\\main\\res\\drawable-mdpi\\pic4.jpg"
     },
     {
-        "merged": "D:\\Mipo19.1.16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\gps_acuuraty.png",
-        "source": "D:\\Mipo19.1.16\\app\\src\\main\\res\\drawable-mdpi\\gps_acuuraty.png"
+        "merged": "D:\\Mipo-moshe_14_02_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\lke.png",
+        "source": "D:\\Mipo-moshe_14_02_16\\app\\src\\main\\res\\drawable-mdpi\\lke.png"
     },
     {
-        "merged": "D:\\Mipo_13_1_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\pic12.jpg",
-        "source": "D:\\Mipo_13_1_16\\app\\src\\main\\res\\drawable-mdpi\\pic12.jpg"
+        "merged": "C:\\workspace\\Mipo-moshe_14_02_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\favoritecolored.png",
+        "source": "C:\\workspace\\Mipo-moshe_14_02_16\\app\\src\\main\\res\\drawable-mdpi\\favoritecolored.png"
     },
     {
-        "merged": "D:\\Mipo_13_1_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\pic9.jpg",
-        "source": "D:\\Mipo_13_1_16\\app\\src\\main\\res\\drawable-mdpi\\pic9.jpg"
+        "merged": "D:\\Mipo-moshe_14_02_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\ic_launcher.png",
+        "source": "D:\\Mipo-moshe_14_02_16\\app\\src\\main\\res\\drawable-mdpi\\ic_launcher.png"
     },
     {
-        "merged": "D:\\Mipo19.1.16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\pic8.jpg",
-        "source": "D:\\Mipo19.1.16\\app\\src\\main\\res\\drawable-mdpi\\pic8.jpg"
+        "merged": "D:\\Mipo-moshe_14_02_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_switch_track_mtrl_alpha.9.png",
+        "source": "D:\\Mipo-moshe_14_02_16\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-mdpi\\abc_switch_track_mtrl_alpha.9.png"
     },
     {
-        "merged": "D:\\Mipo_13_1_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\report.png",
-        "source": "D:\\Mipo_13_1_16\\app\\src\\main\\res\\drawable-mdpi\\report.png"
+        "merged": "D:\\Mipo-moshe_14_02_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_ic_commit_search_api_mtrl_alpha.png",
+        "source": "D:\\Mipo-moshe_14_02_16\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-mdpi\\abc_ic_commit_search_api_mtrl_alpha.png"
     },
     {
-        "merged": "D:\\Mipo19.1.16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\ic_launcher.png",
-        "source": "D:\\Mipo19.1.16\\app\\src\\main\\res\\drawable-mdpi\\ic_launcher.png"
+        "merged": "D:\\Mipo-moshe_14_02_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_popup_background_mtrl_mult.9.png",
+        "source": "D:\\Mipo-moshe_14_02_16\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-mdpi\\abc_popup_background_mtrl_mult.9.png"
     },
     {
-        "merged": "D:\\Mipo_13_1_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\pic6.jpg",
-        "source": "D:\\Mipo_13_1_16\\app\\src\\main\\res\\drawable-mdpi\\pic6.jpg"
+        "merged": "C:\\workspace\\Mipo-moshe_14_02_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\online2.png",
+        "source": "C:\\workspace\\Mipo-moshe_14_02_16\\app\\src\\main\\res\\drawable-mdpi\\online2.png"
     },
     {
-        "merged": "D:\\Mipo_13_1_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\pic3.jpg",
-        "source": "D:\\Mipo_13_1_16\\app\\src\\main\\res\\drawable-mdpi\\pic3.jpg"
+        "merged": "D:\\Mipo-moshe_14_02_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_spinner_mtrl_am_alpha.9.png",
+        "source": "D:\\Mipo-moshe_14_02_16\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-mdpi\\abc_spinner_mtrl_am_alpha.9.png"
     },
     {
-        "merged": "D:\\Mipo19.1.16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\offline.png",
-        "source": "D:\\Mipo19.1.16\\app\\src\\main\\res\\drawable-mdpi\\offline.png"
+        "merged": "D:\\Mipo-moshe_14_02_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\m4.png",
+        "source": "D:\\Mipo-moshe_14_02_16\\app\\src\\main\\res\\drawable-mdpi\\m4.png"
     },
     {
-        "merged": "D:\\Mipo_13_1_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\heart.png",
-        "source": "D:\\Mipo_13_1_16\\app\\src\\main\\res\\drawable-mdpi\\heart.png"
+        "merged": "D:\\Mipo-moshe_14_02_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_list_selector_disabled_holo_light.9.png",
+        "source": "D:\\Mipo-moshe_14_02_16\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-mdpi\\abc_list_selector_disabled_holo_light.9.png"
     },
     {
-        "merged": "D:\\Mipo19.1.16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\online2.png",
-        "source": "D:\\Mipo19.1.16\\app\\src\\main\\res\\drawable-mdpi\\online2.png"
+        "merged": "D:\\Mipo-moshe_14_02_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_scrubber_primary_mtrl_alpha.9.png",
+        "source": "D:\\Mipo-moshe_14_02_16\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-mdpi\\abc_scrubber_primary_mtrl_alpha.9.png"
     },
     {
-        "merged": "D:\\Mipo_13_1_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\m2.png",
-        "source": "D:\\Mipo_13_1_16\\app\\src\\main\\res\\drawable-mdpi\\m2.png"
+        "merged": "C:\\workspace\\Mipo-moshe_14_02_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\pic5.jpg",
+        "source": "C:\\workspace\\Mipo-moshe_14_02_16\\app\\src\\main\\res\\drawable-mdpi\\pic5.jpg"
+    },
+    {
+        "merged": "D:\\Mipo-moshe_14_02_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\pic0.jpg",
+        "source": "D:\\Mipo-moshe_14_02_16\\app\\src\\main\\res\\drawable-mdpi\\pic0.jpg"
+    },
+    {
+        "merged": "C:\\workspace\\Mipo-moshe_14_02_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\favorite.png",
+        "source": "C:\\workspace\\Mipo-moshe_14_02_16\\app\\src\\main\\res\\drawable-mdpi\\favorite.png"
+    },
+    {
+        "merged": "D:\\Mipo-moshe_14_02_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_ic_ab_back_mtrl_am_alpha.png",
+        "source": "D:\\Mipo-moshe_14_02_16\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-mdpi\\abc_ic_ab_back_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "C:\\workspace\\Mipo-moshe_14_02_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\online.png",
+        "source": "C:\\workspace\\Mipo-moshe_14_02_16\\app\\src\\main\\res\\drawable-mdpi\\online.png"
+    },
+    {
+        "merged": "D:\\Mipo-moshe_14_02_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\fire.png",
+        "source": "D:\\Mipo-moshe_14_02_16\\app\\src\\main\\res\\drawable-mdpi\\fire.png"
+    },
+    {
+        "merged": "D:\\Mipo-moshe_14_02_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\m2.png",
+        "source": "D:\\Mipo-moshe_14_02_16\\app\\src\\main\\res\\drawable-mdpi\\m2.png"
+    },
+    {
+        "merged": "C:\\workspace\\Mipo-moshe_14_02_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\gps_acuuraty.png",
+        "source": "C:\\workspace\\Mipo-moshe_14_02_16\\app\\src\\main\\res\\drawable-mdpi\\gps_acuuraty.png"
+    },
+    {
+        "merged": "D:\\Mipo-moshe_14_02_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_list_pressed_holo_dark.9.png",
+        "source": "D:\\Mipo-moshe_14_02_16\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-mdpi\\abc_list_pressed_holo_dark.9.png"
+    },
+    {
+        "merged": "D:\\Mipo-moshe_14_02_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\pic11.jpg",
+        "source": "D:\\Mipo-moshe_14_02_16\\app\\src\\main\\res\\drawable-mdpi\\pic11.jpg"
+    },
+    {
+        "merged": "D:\\Mipo-moshe_14_02_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_scrubber_control_off_mtrl_alpha.png",
+        "source": "D:\\Mipo-moshe_14_02_16\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-mdpi\\abc_scrubber_control_off_mtrl_alpha.png"
+    },
+    {
+        "merged": "D:\\Mipo-moshe_14_02_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_ic_menu_selectall_mtrl_alpha.png",
+        "source": "D:\\Mipo-moshe_14_02_16\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-mdpi\\abc_ic_menu_selectall_mtrl_alpha.png"
+    },
+    {
+        "merged": "D:\\Mipo-moshe_14_02_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\smell.png",
+        "source": "D:\\Mipo-moshe_14_02_16\\app\\src\\main\\res\\drawable-mdpi\\smell.png"
+    },
+    {
+        "merged": "C:\\workspace\\Mipo-moshe_14_02_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\report.png",
+        "source": "C:\\workspace\\Mipo-moshe_14_02_16\\app\\src\\main\\res\\drawable-mdpi\\report.png"
+    },
+    {
+        "merged": "D:\\Mipo-moshe_14_02_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\pic2.jpg",
+        "source": "D:\\Mipo-moshe_14_02_16\\app\\src\\main\\res\\drawable-mdpi\\pic2.jpg"
+    },
+    {
+        "merged": "C:\\workspace\\Mipo-moshe_14_02_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\back.png",
+        "source": "C:\\workspace\\Mipo-moshe_14_02_16\\app\\src\\main\\res\\drawable-mdpi\\back.png"
+    },
+    {
+        "merged": "D:\\Mipo-moshe_14_02_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_scrubber_control_to_pressed_mtrl_000.png",
+        "source": "D:\\Mipo-moshe_14_02_16\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-mdpi\\abc_scrubber_control_to_pressed_mtrl_000.png"
+    },
+    {
+        "merged": "D:\\Mipo-moshe_14_02_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_ic_menu_paste_mtrl_am_alpha.png",
+        "source": "D:\\Mipo-moshe_14_02_16\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-mdpi\\abc_ic_menu_paste_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "D:\\Mipo-moshe_14_02_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\favoritecolored.png",
+        "source": "D:\\Mipo-moshe_14_02_16\\app\\src\\main\\res\\drawable-mdpi\\favoritecolored.png"
+    },
+    {
+        "merged": "C:\\workspace\\Mipo-moshe_14_02_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\pic13.jpg",
+        "source": "C:\\workspace\\Mipo-moshe_14_02_16\\app\\src\\main\\res\\drawable-mdpi\\pic13.jpg"
+    },
+    {
+        "merged": "D:\\Mipo-moshe_14_02_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\pic13.jpg",
+        "source": "D:\\Mipo-moshe_14_02_16\\app\\src\\main\\res\\drawable-mdpi\\pic13.jpg"
+    },
+    {
+        "merged": "D:\\Mipo-moshe_14_02_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\message.png",
+        "source": "D:\\Mipo-moshe_14_02_16\\app\\src\\main\\res\\drawable-mdpi\\message.png"
+    },
+    {
+        "merged": "D:\\Mipo-moshe_14_02_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_list_pressed_holo_light.9.png",
+        "source": "D:\\Mipo-moshe_14_02_16\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-mdpi\\abc_list_pressed_holo_light.9.png"
+    },
+    {
+        "merged": "D:\\Mipo-moshe_14_02_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\heart.png",
+        "source": "D:\\Mipo-moshe_14_02_16\\app\\src\\main\\res\\drawable-mdpi\\heart.png"
+    },
+    {
+        "merged": "D:\\Mipo-moshe_14_02_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\m1.png",
+        "source": "D:\\Mipo-moshe_14_02_16\\app\\src\\main\\res\\drawable-mdpi\\m1.png"
+    },
+    {
+        "merged": "D:\\Mipo-moshe_14_02_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_textfield_activated_mtrl_alpha.9.png",
+        "source": "D:\\Mipo-moshe_14_02_16\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-mdpi\\abc_textfield_activated_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "D:\\Mipo-moshe_14_02_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\favorite.png",
+        "source": "D:\\Mipo-moshe_14_02_16\\app\\src\\main\\res\\drawable-mdpi\\favorite.png"
+    },
+    {
+        "merged": "D:\\Mipo-moshe_14_02_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\online2.png",
+        "source": "D:\\Mipo-moshe_14_02_16\\app\\src\\main\\res\\drawable-mdpi\\online2.png"
+    },
+    {
+        "merged": "C:\\workspace\\Mipo-moshe_14_02_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\pic12.jpg",
+        "source": "C:\\workspace\\Mipo-moshe_14_02_16\\app\\src\\main\\res\\drawable-mdpi\\pic12.jpg"
+    },
+    {
+        "merged": "D:\\Mipo-moshe_14_02_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_btn_rating_star_off_mtrl_alpha.png",
+        "source": "D:\\Mipo-moshe_14_02_16\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-mdpi\\abc_btn_rating_star_off_mtrl_alpha.png"
+    },
+    {
+        "merged": "D:\\Mipo-moshe_14_02_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_ic_go_search_api_mtrl_alpha.png",
+        "source": "D:\\Mipo-moshe_14_02_16\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-mdpi\\abc_ic_go_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "D:\\Mipo-moshe_14_02_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\pic7.jpg",
+        "source": "D:\\Mipo-moshe_14_02_16\\app\\src\\main\\res\\drawable-mdpi\\pic7.jpg"
+    },
+    {
+        "merged": "C:\\workspace\\Mipo-moshe_14_02_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\pic6.jpg",
+        "source": "C:\\workspace\\Mipo-moshe_14_02_16\\app\\src\\main\\res\\drawable-mdpi\\pic6.jpg"
+    },
+    {
+        "merged": "D:\\Mipo-moshe_14_02_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\pic4.jpg",
+        "source": "D:\\Mipo-moshe_14_02_16\\app\\src\\main\\res\\drawable-mdpi\\pic4.jpg"
+    },
+    {
+        "merged": "D:\\Mipo-moshe_14_02_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_ab_share_pack_mtrl_alpha.9.png",
+        "source": "D:\\Mipo-moshe_14_02_16\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-mdpi\\abc_ab_share_pack_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "C:\\workspace\\Mipo-moshe_14_02_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\pic9.jpg",
+        "source": "C:\\workspace\\Mipo-moshe_14_02_16\\app\\src\\main\\res\\drawable-mdpi\\pic9.jpg"
+    },
+    {
+        "merged": "C:\\workspace\\Mipo-moshe_14_02_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\m3.png",
+        "source": "C:\\workspace\\Mipo-moshe_14_02_16\\app\\src\\main\\res\\drawable-mdpi\\m3.png"
+    },
+    {
+        "merged": "D:\\Mipo-moshe_14_02_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\pic1.jpg",
+        "source": "D:\\Mipo-moshe_14_02_16\\app\\src\\main\\res\\drawable-mdpi\\pic1.jpg"
+    },
+    {
+        "merged": "D:\\Mipo-moshe_14_02_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_textfield_default_mtrl_alpha.9.png",
+        "source": "D:\\Mipo-moshe_14_02_16\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-mdpi\\abc_textfield_default_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "C:\\workspace\\Mipo-moshe_14_02_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\pic3.jpg",
+        "source": "C:\\workspace\\Mipo-moshe_14_02_16\\app\\src\\main\\res\\drawable-mdpi\\pic3.jpg"
+    },
+    {
+        "merged": "D:\\Mipo-moshe_14_02_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_btn_rating_star_on_mtrl_alpha.png",
+        "source": "D:\\Mipo-moshe_14_02_16\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-mdpi\\abc_btn_rating_star_on_mtrl_alpha.png"
+    },
+    {
+        "merged": "D:\\Mipo-moshe_14_02_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\gps_acuuraty.png",
+        "source": "D:\\Mipo-moshe_14_02_16\\app\\src\\main\\res\\drawable-mdpi\\gps_acuuraty.png"
+    },
+    {
+        "merged": "C:\\workspace\\Mipo-moshe_14_02_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\pic0.jpg",
+        "source": "C:\\workspace\\Mipo-moshe_14_02_16\\app\\src\\main\\res\\drawable-mdpi\\pic0.jpg"
+    },
+    {
+        "merged": "D:\\Mipo-moshe_14_02_16\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_textfield_search_default_mtrl_alpha.9.png",
+        "source": "D:\\Mipo-moshe_14_02_16\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-mdpi\\abc_textfield_search_default_mtrl_alpha.9.png"
     }
 ]

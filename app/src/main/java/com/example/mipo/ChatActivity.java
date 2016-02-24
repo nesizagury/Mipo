@@ -26,12 +26,9 @@ public class ChatActivity extends Activity {
     private boolean mFirstLoad;
     private Handler handler = new Handler ();
     static String otherUserId;
-    String des;
-    String des2;
+    static UserDetails otherUser;
     static String other_user_name;
     int combinedConversationId;
-    int conversationId;
-    int otherConversationId;
 
 
     @Override
@@ -43,14 +40,8 @@ public class ChatActivity extends Activity {
 
         otherUserId = intent.getStringExtra ("userId");
         other_user_name = intent.getStringExtra ("userName");
-
-        for (int i = 0; i < MainPageActivity.userDataList.size (); i++) {
-            if (other_user_name.equals (MainPageActivity.userDataList.get (i).getName ())) {
-                otherConversationId = MainPageActivity.userDataList.get (i).getMessage_roomId ();
-            }
-        }
-        conversationId = MainPageActivity.currentUser.getMessage_roomId ();
-        combinedConversationId = (otherConversationId * conversationId);
+        int otherUserIndex = intent.getIntExtra ("index", 0);
+        otherUser = GlobalVariables.userDataList.get (otherUserIndex);
 
         etMessage = (EditText) findViewById (R.id.etMessage);
         lvChat = (ListView) findViewById (R.id.lvChat);
@@ -58,11 +49,9 @@ public class ChatActivity extends Activity {
         mMessages = new ArrayList<Message> ();
         // Automatically scroll to the bottom when a data set change notification is received and only if the last item is already visible on screen. Don't scroll to the bottom otherwise.
         lvChat.setTranscriptMode (1);
-        des = MainPageActivity.currentUser.getId () + " - " + otherUserId;
-        des2 = otherUserId + " - " + MainPageActivity.currentUser.getId ();
 
         mFirstLoad = true;
-        mAdapter = new ChatListAdapter (ChatActivity.this, MainPageActivity.currentUser.getId (), mMessages);
+        mAdapter = new ChatListAdapter (ChatActivity.this, otherUserIndex, mMessages);
         lvChat.setAdapter (mAdapter);
         receiveNoBackGround ();
         handler.postDelayed (runnable, 500);
@@ -71,9 +60,17 @@ public class ChatActivity extends Activity {
     public void sendMessage(View view) {
         String body = etMessage.getText ().toString ();
         Message message = new Message ();
-        message.setUserId (MainPageActivity.currentUser.getId ());
-        message.setBody (body);
-        message.setCombinedID (Integer.toString (combinedConversationId));
+        String currentPhone = GlobalVariables.CUSTOMER_PHONE_NUM;
+        String otherPhone = otherUser.getUserPhoneNum ();
+        if (currentPhone.compareTo (otherPhone) > 0) {
+            message.setUserNum1 (currentPhone);
+            message.setUserNum2 (otherPhone);
+        } else {
+            message.setUserNum1 (otherPhone);
+            message.setUserNum2 (currentPhone);
+        }
+        message.setSenderId (currentPhone);
+        message.setMessageBody (body);
         try {
             message.save ();
         } catch (ParseException e) {
@@ -87,7 +84,15 @@ public class ChatActivity extends Activity {
 
     private void receiveMessage() {
         ParseQuery<Message> query = ParseQuery.getQuery (Message.class);
-        query.whereEqualTo ("combinedID", Integer.toString (combinedConversationId));
+        String currentPhone = GlobalVariables.CUSTOMER_PHONE_NUM;
+        String otherPhone = otherUser.getUserPhoneNum ();
+        if (currentPhone.compareTo (otherPhone) > 0) {
+            query.whereEqualTo ("userNum1", currentPhone);
+            query.whereEqualTo ("userNum2", otherPhone);
+        } else {
+            query.whereEqualTo ("userNum1", otherPhone);
+            query.whereEqualTo ("userNum2", currentPhone);
+        }
         query.orderByAscending ("createdAt");
         query.findInBackground (new FindCallback<Message> () {
             public void done(List<Message> messages, ParseException e) {
@@ -111,7 +116,15 @@ public class ChatActivity extends Activity {
 
     private void receiveNoBackGround() {
         ParseQuery<Message> query = ParseQuery.getQuery (Message.class);
-        query.whereEqualTo ("combinedID", Integer.toString (combinedConversationId));
+        String currentPhone = GlobalVariables.CUSTOMER_PHONE_NUM;
+        String otherPhone = otherUser.getUserPhoneNum ();
+        if (currentPhone.compareTo (otherPhone) > 0) {
+            query.whereEqualTo ("userNum1", currentPhone);
+            query.whereEqualTo ("userNum2", otherPhone);
+        } else {
+            query.whereEqualTo ("userNum1", otherPhone);
+            query.whereEqualTo ("userNum2", currentPhone);
+        }
         query.orderByAscending ("createdAt");
         List<Message> messages = null;
         try {
@@ -141,19 +154,34 @@ public class ChatActivity extends Activity {
 
     public void deleteMessageRoomItem(final String body) {
         ParseQuery<Room> query = ParseQuery.getQuery (Room.class);
-        query.whereEqualTo ("ConversationId", combinedConversationId);
+        String currentPhone = GlobalVariables.CUSTOMER_PHONE_NUM;
+        String otherPhone = otherUser.getUserPhoneNum ();
+        if (currentPhone.compareTo (otherPhone) > 0) {
+            query.whereEqualTo ("userNum1", currentPhone);
+            query.whereEqualTo ("userNum2", otherPhone);
+        } else {
+            query.whereEqualTo ("userNum1", otherPhone);
+            query.whereEqualTo ("userNum2", currentPhone);
+        }
         query.findInBackground (new FindCallback<Room> () {
             public void done(List<Room> list, ParseException e) {
                 if (e == null) {
+                    String currentPhone = GlobalVariables.CUSTOMER_PHONE_NUM;
+                    String otherPhone = otherUser.getUserPhoneNum ();
                     if (list.size () == 0) {
                         Room room = new Room ();
                         ParseACL parseACL = new ParseACL ();
                         parseACL.setPublicWriteAccess (true);
                         parseACL.setPublicReadAccess (true);
                         room.setACL (parseACL);
-                        room.setUserId (MainPageActivity.currentUser.getId ());
-                        room.setConversationId (combinedConversationId);
-                        room.setDes (MainPageActivity.currentUser.getName () + ": " + body);
+                        if (currentPhone.compareTo (otherPhone) > 0) {
+                            room.setUserNum1 (currentPhone);
+                            room.setUserNum2 (otherPhone);
+                        } else {
+                            room.setUserNum1 (otherPhone);
+                            room.setUserNum2 (currentPhone);
+                        }
+                        room.setLastMessage (currentPhone + ": " + body);
                         room.saveInBackground ();
                     } else {
                         if (list.size () > 0) {
@@ -161,11 +189,16 @@ public class ChatActivity extends Activity {
                                 list.get (i).deleteInBackground ();
                             }
                         }
-                        Room obj = list.get (0);
-                        obj.setUserId (MainPageActivity.currentUser.getId ());
-                        obj.setConversationId (combinedConversationId);
-                        obj.setDes (MainPageActivity.currentUser.getName () + ": " + body);
-                        obj.saveInBackground ();
+                        Room room = list.get (0);
+                        if (currentPhone.compareTo (otherPhone) > 0) {
+                            room.setUserNum1 (currentPhone);
+                            room.setUserNum2 (otherPhone);
+                        } else {
+                            room.setUserNum1 (otherPhone);
+                            room.setUserNum2 (currentPhone);
+                        }
+                        room.setLastMessage (currentPhone + ": " + body);
+                        room.saveInBackground ();
                     }
                 } else {
                     e.printStackTrace ();

@@ -6,14 +6,17 @@
 
     <uses-sdk
         android:minSdkVersion="18"
-        android:targetSdkVersion="22" />
+        android:targetSdkVersion="23" />
 
-    <android:uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-    <android:uses-permission android:name="android.permission.READ_PHONE_STATE" />
-    <android:uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_SMS" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
 
     <application
         android:allowBackup="true"
@@ -31,12 +34,16 @@
         </activity>
         <activity android:name="com.example.mipo.UserPage" />
         <activity android:name="com.example.mipo.DetailedProfileActivity" />
+        <activity android:name="com.example.mipo.MenuActivity" />
         <activity android:name="com.example.mipo.FavoritesPage" />
         <activity android:name="com.example.mipo.LoginActivity" />
         <activity android:name="com.example.mipo.ChatActivity" />
         <activity android:name="com.example.mipo.MainPageActivity" />
         <activity android:name="com.example.mipo.FileTestActivity" />
+        <activity android:name="com.example.mipo.SmsSignUpActivity" />
         <activity android:name="com.example.mipo.MessagesRoom" />
+        <activity android:name="com.example.mipo.LoginActivity" />
+        <activity android:name="com.example.mipo.EditProfileActivity" />
         <activity android:name="com.example.mipo.FilterActivity" />
     </application>
 

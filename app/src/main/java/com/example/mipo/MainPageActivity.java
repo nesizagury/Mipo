@@ -1,36 +1,43 @@
 package com.example.mipo;
 
+import android.Manifest.permission;
 import android.app.Activity;
+import android.content.Context;
 import android.content.Intent;
+import android.content.pm.PackageManager;
+import android.location.Location;
 import android.os.Bundle;
+import android.os.Handler;
+import android.support.v4.app.ActivityCompat;
 import android.view.View;
 import android.view.Window;
 import android.widget.AdapterView;
 import android.widget.GridView;
+import android.widget.TextView;
+import android.widget.Toast;
 
-import com.parse.ParseUser;
+import com.example.mipo.StaticMethods.GpsICallback;
+import com.parse.FindCallback;
+import com.parse.ParseException;
+import com.parse.ParseGeoPoint;
+import com.parse.ParseQuery;
 
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.InputStreamReader;
+import java.text.DecimalFormat;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
+import java.util.Date;
 import java.util.List;
-import java.util.Random;
 
-public class MainPageActivity extends Activity implements AdapterView.OnItemClickListener {
 
+public class MainPageActivity extends Activity implements AdapterView.OnItemClickListener, GpsICallback {
     GridView grid;
-    public final static List<User> firstUsersList = new ArrayList<User> ();
-    public final static List<User> filteredUsersList = new ArrayList<User> ();
-    public static List<UserDetails> userDataList = new ArrayList<UserDetails> ();
-    static int conversationId;
-    static int otherConversationId;
-    static UserDetails currentUser;
-    static int currUserIndex;
-    static boolean didInit = false;
+    public static List<UserDetails> filteredUsersList = new ArrayList<UserDetails> ();
+    public static GridAdaptor gridAdapter;
+    private TextView turnOnGPS;
+    static Context context;
+    static MainPageActivity mainPageActivity;
+    private Handler handler = new Handler ();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -38,151 +45,101 @@ public class MainPageActivity extends Activity implements AdapterView.OnItemClic
         this.requestWindowFeature (Window.FEATURE_NO_TITLE);
         setContentView (R.layout.activity_main_page);
         grid = (GridView) findViewById (R.id.gridView1);
-        if (!didInit) {
-            uploadUserData ();
-            addToList ();
-            didInit = true;
-            firstUsersList.addAll (filteredUsersList);
+        turnOnGPS = (TextView) findViewById (R.id.turnOnGps);
+        context = this;
+        mainPageActivity = this;
+        if (!StaticMethods.isLocationEnabled (this)) {
+            turnOnGPS.setVisibility (View.VISIBLE);
+        } else{
+            turnOnGPS.setVisibility (View.GONE);
         }
-        grid.setAdapter (new GridAdaptor (this, filteredUsersList));
+        if (GlobalVariables.userDataList.size () == 0) {
+            downloadProfilesDataInBackGround ();
+        } else {
+            StaticMethods.updateDeviceLocationGPS (context, mainPageActivity);
+        }
+
+        gridAdapter = new GridAdaptor (this, filteredUsersList, false);
+        grid.setAdapter (gridAdapter);
         grid.setOnItemClickListener (this);
+        handler.postDelayed (runnable, 0);
     }
 
-    private void uploadUserData() {
-        InputStream is;
-        BufferedReader input;
-        List<String> list;
-        boolean newUser = true;
-        for (int i = 0; i <= 26; i++) {
-            is = this.getResources ().openRawResource (R.raw.user0 + i);
-            input = new BufferedReader (new InputStreamReader (is), 1024 * 8);
-            String line;
-            list = new ArrayList<String> ();
-            try {
-                int j = 0;
-                while ((line = input.readLine ()) != null) {
-                    if (j % 2 == 0)
-                        list.add (line);
-                    j++;
-                }
-            } catch (IOException e) {
-                e.printStackTrace ();
-            }
-            if (ParseUser.getCurrentUser ().getObjectId ().equals (list.get (1))) {
-                userDataList.add (new UserDetails (list.get (0), list.get (1), list.get (2), "0", list.get (4), list.get (5), list.get (6),
-                                                          list.get (7), list.get (8), list.get (9), list.get (10), list.get (11),
-                                                          list.get (12), list.get (13), Integer.parseInt (list.get (14)),
-                                                          Integer.parseInt (list.get (15)), Integer.parseInt (list.get (16))));
-            } else {
-                userDataList.add (new UserDetails (list.get (0), list.get (1), list.get (2), list.get (3), list.get (4), list.get (5), list.get (6),
-                                                          list.get (7), list.get (8), list.get (9), list.get (10), list.get (11),
-                                                          list.get (12), list.get (13), Integer.parseInt (list.get (14)),
-                                                          Integer.parseInt (list.get (15)), Integer.parseInt (list.get (16))));
-            }
+    public static void downloadProfilesDataInBackGround() {
+        GlobalVariables.userDataList.clear ();
+        ParseQuery<Profile> query = new ParseQuery ("Profile");
+        query.orderByDescending ("createdAt");
+        query.findInBackground (new FindCallback<Profile> () {
+            public void done(List<Profile> profilesList, ParseException e) {
+                if (e == null) {
+                    for (int i = 0; i < profilesList.size (); i++) {
+                        Profile profile = profilesList.get (i);
+                        Date currentDate = new Date();
+                        long diff = currentDate.getTime() - profile.getLastSeen().getTime ();
+                        long diffMinutes = diff / (60 * 1000);
+                        GlobalVariables.userDataList.add (new UserDetails (
+                                                                                  profile.getNumber (),
+                                                                                  profile.getName (),
+                                                                                  profile.getAge (),
+                                                                                  profile.getLastSeen (),
+                                                                                  profile.getStatus (),
+                                                                                  profile.getHeight (),
+                                                                                  profile.getWeight (),
+                                                                                  profile.getNation (),
+                                                                                  profile.getBody_type (),
+                                                                                  profile.getRelationship_status (),
+                                                                                  profile.getLooking_for (),
+                                                                                  profile.getAbout (),
+                                                                                  profile.getPic ().getUrl (),
+                                                                                  profile.getLocation (),
+                                                                                  i,
+                                                                                  diffMinutes < 10
 
-        }
-
-        //Sorting
-        Collections.sort (userDataList, new Comparator<UserDetails> () {
-            @Override
-            public int compare(UserDetails user1, UserDetails user2) {
-                Double dist1, dist2;
-                if (user1.getDistanceType () == 0) {
-                    dist1 = Double.parseDouble (user1.getDistance ());
+                        ));
+                        if (GlobalVariables.userDataList.get (i).getUserPhoneNum ().equals ("GUEST") &&
+                                    (GlobalVariables.CUSTOMER_PHONE_NUM == null || GlobalVariables.CUSTOMER_PHONE_NUM.isEmpty ())) {
+                            GlobalVariables.currentUser = GlobalVariables.userDataList.get (i);
+                        }
+                        if (GlobalVariables.CUSTOMER_PHONE_NUM != null &&
+                                    !GlobalVariables.CUSTOMER_PHONE_NUM.isEmpty () &&
+                                    GlobalVariables.userDataList.get (i).getUserPhoneNum ().equals (GlobalVariables.CUSTOMER_PHONE_NUM)) {
+                            GlobalVariables.currentUser = GlobalVariables.userDataList.get (i);
+                        }
+                    }
+                    filteredUsersList.clear ();
+                    filteredUsersList.addAll (GlobalVariables.userDataList);
+                    StaticMethods.updateDeviceLocationGPS (context, mainPageActivity);
                 } else {
-                    dist1 = Double.parseDouble (user1.getDistance ()) * 1000.0;
+                    e.printStackTrace ();
                 }
-                if (user2.getDistanceType () == 0) {
-                    dist2 = Double.parseDouble (user2.getDistance ());
-                } else {
-                    dist2 = Double.parseDouble (user2.getDistance ()) * 1000.0;
-                }
-                if (dist1 > dist2) {
-                    return 1;
-                } else if (dist1 < dist2) {
-                    return -1;
-                }
-                return 0;
             }
         });
-
-        for (int i = 0; i <= 26; i++) {
-            if (ParseUser.getCurrentUser ().getObjectId ().equals (userDataList.get (i).getId ())) {
-                currUserIndex = i;
-                conversationId = userDataList.get (i).getMessage_roomId ();
-                newUser = false;
-                currentUser = userDataList.get (i);
-                break;
-            }
-        }
-
-        if (newUser) {
-            Random r = new Random ();
-            int Low = 0;
-            int High = 27;
-            currUserIndex = r.nextInt (High - Low) + Low;
-            UserDetails userDetails = userDataList.get (currUserIndex);
-            userDataList.remove (currUserIndex);
-            userDataList.add (0, userDetails);
-            currentUser = userDataList.get (0);
-            conversationId = userDataList.get (0).getMessage_roomId ();
-            currentUser.setDistance ("0");
-            currentUser.setDistanceType (0);
-        }
-
-        for (int i = 7; i < 12; i++) {
-            if (i != currUserIndex) {
-                userDataList.get (i).setFavorite (true);
-            }
-        }
-    }
-
-    public static void addToList() {
-        filteredUsersList.add (new User (R.drawable.me0 + currentUser.getImage_source (),
-                                                userDataList.get (currUserIndex).getName (), 0,
-                                                true, userDataList.get (currUserIndex).id, currUserIndex
-                                                , userDataList.get (0)));
-        filteredUsersList.get (0).getUserDetails ().setIsFilteredOK (true);
-        for (int i = 1; i <= 26; i++) {
-            if (userDataList.get (i).getOn_off ().equals ("Online"))
-                filteredUsersList.add (new User (R.drawable.pic0 + userDataList.get (i).getImage_source (),
-                                                        userDataList.get (i).getName (),
-                                                        R.drawable.online, false, userDataList.get (i).id, i,
-                                                        userDataList.get (i)));
-            else {
-                filteredUsersList.add (new User (R.drawable.pic0 + userDataList.get (i).getImage_source (),
-                                                        userDataList.get (i).getName (),
-                                                        0, false, userDataList.get (i).id, i
-                                                        , userDataList.get (i)));
-            }
-            filteredUsersList.get (i).getUserDetails ().setIsFilteredOK (true);
-        }
-    }
-
-    public static User getUser(int i) {
-        return filteredUsersList.get (i);
     }
 
     @Override
     public void onItemClick(AdapterView<?> adapterView, View view, int position, long l) {
         Bundle b = new Bundle ();
         Intent intent = new Intent (this, UserPage.class);
-        User user = filteredUsersList.get (position);
-        intent.putExtra ("userImage", user.imageId);
+        UserDetails user = filteredUsersList.get (position);
         intent.putExtra ("userName", user.name);
-        intent.putExtra ("userCurrent", user.currentUser);
-        b.putString ("userID", filteredUsersList.get (position).id);
-        b.putInt ("index", user.getIndexInUD ());
-        b.putInt ("online", user.on_off);
+        intent.putExtra ("userCurrent", StaticMethods.isCurrentUser (user));
+        b.putString ("userID", user.getUserPhoneNum ());
+        b.putInt ("index", user.getIndexInAllDataList ());
+        Date currentDate = new Date();
+        long diff = currentDate.getTime() - user.getLastSeen().getTime ();
+        long diffMinutes = diff / (60 * 1000);
+        b.putInt ("online", (int)diffMinutes);
         intent.putExtras (b);
         startActivity (intent);
     }
 
     public void goToMessages(View view) {
-        Intent intent = new Intent (this, MessagesRoom.class);
-        Bundle b = new Bundle ();
-        b.putInt ("otherConvId", otherConversationId);
-        startActivity (intent);
+        if (!StaticMethods.isGuestUser ()) {
+            Intent intent = new Intent (this, MessagesRoom.class);
+            startActivity (intent);
+        } else {
+            Toast.makeText (getApplicationContext (), "to continue please create a profile", Toast.LENGTH_SHORT).show ();
+        }
     }
 
     public void goToFavorites(View view) {
@@ -195,10 +152,84 @@ public class MainPageActivity extends Activity implements AdapterView.OnItemClic
         startActivity (intent);
     }
 
+    @Override
+    protected void onResume() {
+        super.onResume ();
+        handler.postDelayed (runnable, 0);
+        StaticMethods.updateDeviceLocationGPS (context, mainPageActivity);
+    }
 
-//    public static void ref()
-//    {
-//        GridAdaptor gridAdaptor = (GridAdaptor)grid.getAdapter ();
-//        gridAdaptor.notifyDataSetChanged ();
-//    }
+    @Override
+    protected void onPause() {
+        super.onPause ();
+        handler.removeCallbacks (runnable);
+        if (ActivityCompat.checkSelfPermission (this, permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED && ActivityCompat.checkSelfPermission (this, permission.ACCESS_COARSE_LOCATION) != PackageManager.PERMISSION_GRANTED) {
+            return;
+        } else {
+            StaticMethods.locationManager.removeUpdates (StaticMethods.locationListener);
+        }
+    }
+
+    public void sortFilteredProfilesListByDistAndUpdateAllDist() {
+        for (int i = 0; i < GlobalVariables.userDataList.size (); i++) {
+            UserDetails user = GlobalVariables.userDataList.get (i);
+            if (user.equals (GlobalVariables.currentUser)) {
+                user.setDist (-1);
+            } else {
+                ParseGeoPoint parseGeoPoint =
+                        user.getUserLocation ();
+                Location userLocation = new Location ("GPS");
+                userLocation.setLatitude (parseGeoPoint.getLatitude ());
+                userLocation.setLongitude (parseGeoPoint.getLongitude ());
+                double distance = (double) GlobalVariables.MY_LOCATION.distanceTo (userLocation) / 1000;
+                DecimalFormat df = new DecimalFormat ("#.##");
+                String dx = df.format (distance);
+                distance = Double.valueOf (dx);
+                user.setDist (distance);
+            }
+        }
+        Collections.sort (filteredUsersList, new Comparator<UserDetails> () {
+            @Override
+            public int compare(UserDetails a, UserDetails b) {
+                if (a.dist < b.dist) return -1;
+                if (a.dist >= b.dist) return 1;
+                return 0;
+            }
+        });
+    }
+
+    public void openMenu(View v) {
+        Intent i = new Intent (this, MenuActivity.class);
+        startActivity (i);
+    }
+
+    @Override
+    public void gpsCallback() {
+        sortFilteredProfilesListByDistAndUpdateAllDist ();
+        gridAdapter.notifyDataSetChanged ();
+        turnOnGPS.setVisibility (View.GONE);
+    }
+
+    private Runnable runnable = new Runnable () {
+        @Override
+        public void run() {
+            if (!StaticMethods.isGuestUser ()) {
+                ParseQuery<Profile> query = ParseQuery.getQuery ("Profile");
+                query.whereEqualTo ("number", GlobalVariables.CUSTOMER_PHONE_NUM);
+                query.findInBackground (new FindCallback<Profile> () {
+                    public void done(List<Profile> list, ParseException e) {
+                        if (e == null) {
+                            Profile profile = list.get (0);
+                            Date currentDate = new Date ();
+                            profile.setLastSeen (currentDate);
+                            profile.saveInBackground ();
+                        } else {
+                            e.printStackTrace ();
+                        }
+                    }
+                });
+            }
+            handler.postDelayed (this, 30000);
+        }
+    };
 }

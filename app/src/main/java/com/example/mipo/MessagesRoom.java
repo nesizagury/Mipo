@@ -14,14 +14,15 @@ import com.parse.ParseException;
 import com.parse.ParseQuery;
 
 import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Comparator;
 import java.util.List;
 
 public class MessagesRoom extends Activity implements AdapterView.OnItemClickListener {
 
     private ListView list_view;
-    private ArrayList<MessageRoomBean> mrbList;
-    int myConversationId;
-    private MessagesRoomAdapter mra;
+    private ArrayList<MessageRoomBean> messageRoomBeanArrayList;
+    private MessagesRoomAdapter messagesRoomAdapter;
     private Handler handler = new Handler ();
 
     @Override
@@ -32,55 +33,65 @@ public class MessagesRoom extends Activity implements AdapterView.OnItemClickLis
 
         list_view = (ListView) findViewById (R.id.listView);
         list_view.setTranscriptMode (1);
-        myConversationId = MainPageActivity.currentUser.getMessage_roomId ();
-        mrbList = new ArrayList<MessageRoomBean> ();
-        mra = new MessagesRoomAdapter (this, mrbList);
-        list_view.setAdapter (mra);
+        messageRoomBeanArrayList = new ArrayList<MessageRoomBean> ();
+        messagesRoomAdapter = new MessagesRoomAdapter (this, messageRoomBeanArrayList);
+        list_view.setAdapter (messagesRoomAdapter);
         list_view.setOnItemClickListener (this);
         loadMessages ();
         handler.postDelayed (runnable, 500);
     }
 
-
     @Override
     public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
         Intent intent = new Intent (this, ChatActivity.class);
+        Bundle b = new Bundle ();
         MessageItemHolder holder = (MessageItemHolder) view.getTag ();
         MessageRoomBean mrb = (MessageRoomBean) holder.name.getTag ();
         intent.putExtra ("userId", mrb.id);
         intent.putExtra ("userName", mrb.name);
+        b.putInt ("index", mrb.getIndexInList ());
+        intent.putExtras (b);
         startActivity (intent);
     }
 
     public void loadMessages() {
         final ParseQuery<Room> query = ParseQuery.getQuery (Room.class);
+        query.whereEqualTo ("userNum1", GlobalVariables.CUSTOMER_PHONE_NUM);
         query.orderByDescending ("updatedAt");
         List<Room> rooms = null;
         ArrayList<MessageRoomBean> mrbListNew = new ArrayList<MessageRoomBean> ();
         try {
             rooms = query.find ();
-            List<String> IdsFound = new ArrayList<String> ();
-            for (int i = 0; i < rooms.size (); i++) {
-                int combinedConversationId = rooms.get (i).getConversationId ();
-                if (combinedConversationId % myConversationId == 0) {
-                    int otherConvId = combinedConversationId / myConversationId;
-                    for (int j = 0; j < MainPageActivity.userDataList.size (); j++) {
-                        UserDetails user = MainPageActivity.userDataList.get (j);
-                        if (!IdsFound.contains (user.getId ()) && user.getMessage_roomId () == otherConvId) {
-                            IdsFound.add (user.getId ());
-                            mrbListNew.add (new MessageRoomBean (R.drawable.pic0 + user.getImage_source (),
-                                                                        user.getName (),
-                                                                        rooms.get (i).getDes (),
-                                                                        otherConvId));
-                            MessageRoomBean bean = mrbListNew.get (mrbListNew.size () - 1);
-                            bean.setId (user.getId ());
-                        }
-                    }
+            final ParseQuery<Room> query2 = ParseQuery.getQuery (Room.class);
+            query2.whereEqualTo ("userNum2", GlobalVariables.CUSTOMER_PHONE_NUM);
+            query2.orderByDescending ("updatedAt");
+            List<Room> rooms2 = query2.find ();
+            rooms.addAll (rooms2);
+            Collections.sort (rooms, new Comparator<Room> () {
+                public int compare(Room o1, Room o2) {
+                    return o2.getUpdatedAt ().compareTo (o1.getUpdatedAt ());
                 }
+            });
+            for (int i = 0; i < rooms.size (); i++) {
+                Room room = rooms.get (i);
+                String otherPhoneNum = "";
+                if (room.getUserNum1 ().equals (GlobalVariables.CUSTOMER_PHONE_NUM)) {
+                    otherPhoneNum = room.getUserNum2 ();
+                } else {
+                    otherPhoneNum = room.getUserNum1 ();
+                }
+                UserDetails otherUser = StaticMethods.getUserFromPhoneNum (otherPhoneNum);
+                mrbListNew.add (new MessageRoomBean (otherUser.getName (),
+                                                            room.getLastMessage (),
+                                                            otherUser.getUserPhoneNum (),
+                                                            otherUser.getPicUrl (),
+                                                            otherUser.indexInAllDataList
+
+                ));
             }
-            mrbList.clear ();
-            mrbList.addAll (mrbListNew);
-            mra.notifyDataSetChanged ();
+            messageRoomBeanArrayList.clear ();
+            messageRoomBeanArrayList.addAll (mrbListNew);
+            messagesRoomAdapter.notifyDataSetChanged ();
         } catch (ParseException e) {
             e.printStackTrace ();
         }
@@ -88,33 +99,49 @@ public class MessagesRoom extends Activity implements AdapterView.OnItemClickLis
 
     public void loadMessagesInBackground() {
         final ParseQuery<Room> query = ParseQuery.getQuery (Room.class);
+        query.whereEqualTo ("userNum1", GlobalVariables.CUSTOMER_PHONE_NUM);
         query.orderByDescending ("updatedAt");
+        final ArrayList<MessageRoomBean> mrbListNew = new ArrayList<MessageRoomBean> ();
         query.findInBackground (new FindCallback<Room> () {
-            public void done(List<Room> rooms, ParseException e) {
+            public void done(final List<Room> rooms, ParseException e) {
                 if (e == null) {
-                    List<String> IdsFound = new ArrayList<String> ();
-                    ArrayList<MessageRoomBean> mrbListNew = new ArrayList<MessageRoomBean> ();
-                    for (int i = 0; i < rooms.size (); i++) {
-                        int combinedConversationId = rooms.get (i).getConversationId ();
-                        if (combinedConversationId % myConversationId == 0) {
-                            int otherConvId = combinedConversationId / myConversationId;
-                            for (int j = 0; j < MainPageActivity.userDataList.size (); j++) {
-                                UserDetails user = MainPageActivity.userDataList.get (j);
-                                if (!IdsFound.contains (user.getId ()) && user.getMessage_roomId () == otherConvId) {
-                                    IdsFound.add (user.getId ());
-                                    mrbListNew.add (new MessageRoomBean (R.drawable.pic0 + user.getImage_source (),
-                                                                                user.getName (),
-                                                                                rooms.get (i).getDes (),
-                                                                                otherConvId));
-                                    MessageRoomBean bean = mrbListNew.get (mrbListNew.size () - 1);
-                                    bean.setId (user.getId ());
+                    final ParseQuery<Room> query2 = ParseQuery.getQuery (Room.class);
+                    query2.whereEqualTo ("userNum2", GlobalVariables.CUSTOMER_PHONE_NUM);
+                    query2.orderByDescending ("updatedAt");
+                    query2.findInBackground (new FindCallback<Room> () {
+                        public void done(List<Room> rooms2, ParseException e) {
+                            if (e == null) {
+                                rooms.addAll (rooms2);
+                                Collections.sort (rooms, new Comparator<Room> () {
+                                    public int compare(Room o1, Room o2) {
+                                        return o2.getUpdatedAt ().compareTo (o1.getUpdatedAt ());
+                                    }
+                                });
+                                for (int i = 0; i < rooms.size (); i++) {
+                                    Room room = rooms.get (i);
+                                    String otherPhoneNum = "";
+                                    if (room.getUserNum1 ().equals (GlobalVariables.CUSTOMER_PHONE_NUM)) {
+                                        otherPhoneNum = room.getUserNum2 ();
+                                    } else {
+                                        otherPhoneNum = room.getUserNum1 ();
+                                    }
+                                    UserDetails otherUser = StaticMethods.getUserFromPhoneNum (otherPhoneNum);
+                                    mrbListNew.add (new MessageRoomBean (otherUser.getName (),
+                                                                                room.getLastMessage (),
+                                                                                otherUser.getUserPhoneNum (),
+                                                                                otherUser.getPicUrl (),
+                                                                                otherUser.indexInAllDataList
+
+                                    ));
                                 }
+                                messageRoomBeanArrayList.clear ();
+                                messageRoomBeanArrayList.addAll (mrbListNew);
+                                messagesRoomAdapter.notifyDataSetChanged ();
+                            } else {
+                                e.printStackTrace ();
                             }
                         }
-                    }
-                    mrbList.clear ();
-                    mrbList.addAll (mrbListNew);
-                    mra.notifyDataSetChanged ();
+                    });
                 } else {
                     e.printStackTrace ();
                 }

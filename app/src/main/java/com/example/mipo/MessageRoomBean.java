@@ -2,58 +2,42 @@ package com.example.mipo;
 
 public class MessageRoomBean {
 
-    int imageId;
     String name;
     String body;
-    int conversationId;
     String id;
+    String picUrl;
+    int indexInList;
 
-
-    public MessageRoomBean(){
-
-    }
-
-    public MessageRoomBean(int imageId, String name, String body,int conversationId) {
-        this.imageId = imageId;
+    public MessageRoomBean(String name, String body, String id, String picUrl, int indexInList) {
         this.name = name;
-        this.conversationId = conversationId;
         this.body = body;
-    }
-    public int getImageId(){
-        return imageId;
-    }
-
-    public void setImageId(int imageId){
-        this.imageId = imageId;
+        this.id = id;
+        this.picUrl = picUrl;
+        this.indexInList = indexInList;
     }
 
-    public void setBody(String body)
-    {
-        this.body = body;
+    public int getIndexInList() {
+        return indexInList;
     }
 
-    public String getBody()
-    {
-        return  body;
+    public void setIndexInList(int indexInList) {
+        this.indexInList = indexInList;
     }
 
     public String getName() {
         return name;
     }
 
-    public void setName(String name){
+    public void setName(String name) {
         this.name = name;
-
-
-
     }
 
-    public int getConversationId() {
-        return conversationId;
+    public String getBody() {
+        return body;
     }
 
-    public void setConversationId(int id) {
-        this.conversationId = conversationId;
+    public void setBody(String body) {
+        this.body = body;
     }
 
     public String getId() {
@@ -62,5 +46,13 @@ public class MessageRoomBean {
 
     public void setId(String id) {
         this.id = id;
+    }
+
+    public String getPicUrl() {
+        return picUrl;
+    }
+
+    public void setPicUrl(String picUrl) {
+        this.picUrl = picUrl;
     }
 }

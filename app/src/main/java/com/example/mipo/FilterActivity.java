@@ -402,26 +402,30 @@ public class FilterActivity extends Activity {
     }
 
     public void Filter(View view) {
-        MainPageActivity.filteredUsersList.clear ();
-        MainPageActivity.addToList ();
-
+        for (int i = 0; i < GlobalVariables.userDataList.size (); i++) {
+            UserDetails user = GlobalVariables.userDataList.get (i);
+            user.setIsFilteredOK (true);
+        }
         // check for age filter request
         if (age_minET.getVisibility () == View.VISIBLE) {
             int minAge = getMinAge ();
             int maxAge = getMaxAge ();
             if (minAge >= 0 && maxAge >= 0 && maxAge >= minAge) {
-                for (int i = 1; i < MainPageActivity.filteredUsersList.size (); i++) {
-                    User user = MainPageActivity.filteredUsersList.get (i);
-                    int age = Integer.parseInt (MainPageActivity.filteredUsersList.get (i).getUserDetails ().getAge ());
-                    if (!(age >= minAge && age <= maxAge)) {
-                        user.getUserDetails ().setIsFilteredOK (false);
+                for (int i = 0; i < GlobalVariables.userDataList.size (); i++) {
+                    UserDetails user = GlobalVariables.userDataList.get (i);
+                    try {
+                        int age = Integer.parseInt (user.getAge ());
+                        if (!(age >= minAge && age <= maxAge)) {
+                            user.setIsFilteredOK (false);
+                        }
+                    } catch (Exception e) {
+                        user.setIsFilteredOK (false);
                     }
                 }
             } else {
-                int j = 0;
-                for (int i = 1; i < MainPageActivity.filteredUsersList.size (); i++) {
-                    User user = MainPageActivity.filteredUsersList.get (i);
-                    user.getUserDetails ().setIsFilteredOK (false);
+                for (int i = 0; i < GlobalVariables.userDataList.size (); i++) {
+                    UserDetails user = GlobalVariables.userDataList.get (i);
+                    user.setIsFilteredOK (false);
                 }
             }
         }
@@ -431,18 +435,21 @@ public class FilterActivity extends Activity {
             double minHight = getMinHeight ();
             double maxHight = getMaxHeight ();
             if (minHight >= 0 && maxHight >= 0 && maxHight >= minHight) {
-                for (int i = 1; i < MainPageActivity.filteredUsersList.size (); i++) {
-                    User user = MainPageActivity.filteredUsersList.get (i);
-                    double height = Double.parseDouble (user.getUserDetails ().getHeight ());
-                    if (!(height >= getMinHeight () && height <= getMaxHeight ())) {
-                        user.getUserDetails ().setIsFilteredOK (false);
+                for (int i = 0; i < GlobalVariables.userDataList.size (); i++) {
+                    UserDetails user = GlobalVariables.userDataList.get (i);
+                    try {
+                        double height = Double.parseDouble (user.getHeight ());
+                        if (!(height >= getMinHeight () && height <= getMaxHeight ())) {
+                            user.setIsFilteredOK (false);
+                        }
+                    } catch (Exception e) {
+                        user.setIsFilteredOK (false);
                     }
                 }
             } else {
-                int j = 0;
-                for (int i = 1; i < MainPageActivity.filteredUsersList.size (); i++) {
-                    User user = MainPageActivity.filteredUsersList.get (i);
-                    user.getUserDetails ().setIsFilteredOK (false);
+                for (int i = 0; i < GlobalVariables.userDataList.size (); i++) {
+                    UserDetails user = GlobalVariables.userDataList.get (i);
+                    user.setIsFilteredOK (false);
                 }
             }
         }
@@ -452,17 +459,21 @@ public class FilterActivity extends Activity {
             int minWeight = getMinWeight ();
             int maxWeight = getMaxWeight ();
             if (minWeight >= 0 && maxWeight >= 0 && maxWeight >= minWeight) {
-                for (int i = 1; i < MainPageActivity.filteredUsersList.size (); i++) {
-                    User user = MainPageActivity.filteredUsersList.get (i);
-                    int weight = Integer.parseInt (user.getUserDetails ().getWeight ());
-                    if (!(weight >= getMinWeight () && weight <= getMaxWeight ())) {
-                        user.getUserDetails ().setIsFilteredOK (false);
+                for (int i = 0; i < GlobalVariables.userDataList.size (); i++) {
+                    UserDetails user = GlobalVariables.userDataList.get (i);
+                    try {
+                        int weight = Integer.parseInt (user.getWeight ());
+                        if (!(weight >= getMinWeight () && weight <= getMaxWeight ())) {
+                            user.setIsFilteredOK (false);
+                        }
+                    } catch (Exception e) {
+                        user.setIsFilteredOK (false);
                     }
                 }
             } else {
-                for (int i = 1; i < MainPageActivity.filteredUsersList.size (); i++) {
-                    User user = MainPageActivity.filteredUsersList.get (i);
-                    user.getUserDetails ().setIsFilteredOK (false);
+                for (int i = 0; i < GlobalVariables.userDataList.size (); i++) {
+                    UserDetails user = GlobalVariables.userDataList.get (i);
+                    user.setIsFilteredOK (false);
                 }
             }
         }
@@ -471,13 +482,16 @@ public class FilterActivity extends Activity {
         if (spinner_Looking_for.getVisibility () == View.VISIBLE) {
             String lookingFor = getLookingFor ();
             if (!(lookingFor.equals ("All"))) {
-                for (int i = 1; i < MainPageActivity.filteredUsersList.size (); i++) {
-                    User user = MainPageActivity.filteredUsersList.get (i);
-                    String looking_for_user = user.getUserDetails ().getLooking_for ();
-                    if (!(looking_for_user.equals (lookingFor))) {
-                        user.getUserDetails ().setIsFilteredOK (false);
+                for (int i = 0; i < GlobalVariables.userDataList.size (); i++) {
+                    UserDetails user = GlobalVariables.userDataList.get (i);
+                    try {
+                        String looking_for_user = user.getLooking_for ();
+                        if (!(looking_for_user.equals (lookingFor))) {
+                            user.setIsFilteredOK (false);
+                        }
+                    } catch (Exception e) {
+                        user.setIsFilteredOK (false);
                     }
-
                 }
             }
         }
@@ -486,11 +500,15 @@ public class FilterActivity extends Activity {
         if (spinner_Body_type.getVisibility () == View.VISIBLE) {
             String bodyType = getBodyType ();
             if (!(bodyType.equals ("All"))) {
-                for (int i = 1; i < MainPageActivity.filteredUsersList.size (); i++) {
-                    User user = MainPageActivity.filteredUsersList.get (i);
-                    String body_type_user = user.getUserDetails ().getBody_type ();
-                    if (!(body_type_user.equals (bodyType))) {
-                        user.getUserDetails ().setIsFilteredOK (false);
+                for (int i = 0; i < GlobalVariables.userDataList.size (); i++) {
+                    UserDetails user = GlobalVariables.userDataList.get (i);
+                    String body_type_user = user.getBody_type ();
+                    try {
+                        if (!(body_type_user.equals (bodyType))) {
+                            user.setIsFilteredOK (false);
+                        }
+                    } catch (Exception e) {
+                        user.setIsFilteredOK (false);
                     }
                 }
             }
@@ -500,11 +518,15 @@ public class FilterActivity extends Activity {
         if (spinner_Origine.getVisibility () == View.VISIBLE) {
             String origine = getOrigin ();
             if (!(origine.equals ("All"))) {
-                for (int i = 1; i < MainPageActivity.filteredUsersList.size (); i++) {
-                    User user = MainPageActivity.filteredUsersList.get (i);
-                    String origine_user = user.getUserDetails ().getNation ();
-                    if (!(origine_user.equals (origine))) {
-                        user.getUserDetails ().setIsFilteredOK (false);
+                for (int i = 0; i < GlobalVariables.userDataList.size (); i++) {
+                    UserDetails user = GlobalVariables.userDataList.get (i);
+                    String origine_user = user.getNation ();
+                    try {
+                        if (!(origine_user.equals (origine))) {
+                            user.setIsFilteredOK (false);
+                        }
+                    } catch (Exception e) {
+                        user.setIsFilteredOK (false);
                     }
                 }
             }
@@ -514,22 +536,26 @@ public class FilterActivity extends Activity {
         if (spinner_Status.getVisibility () == View.VISIBLE) {
             String status = getRelationshipStatus ();
             if (!(status.equals ("All"))) {
-                for (int i = 1; i < MainPageActivity.filteredUsersList.size (); i++) {
-                    User user = MainPageActivity.filteredUsersList.get (i);
-                    String relationship_status_user = user.getUserDetails ().getRelationship_status ();
-                    if (!(relationship_status_user.equals (status))) {
-                        user.getUserDetails ().setIsFilteredOK (false);
+                for (int i = 0; i < GlobalVariables.userDataList.size (); i++) {
+                    UserDetails user = GlobalVariables.userDataList.get (i);
+                    String relationship_status_user = user.getRelationship_status ();
+                    try {
+                        if (!(relationship_status_user.equals (status))) {
+                            user.setIsFilteredOK (false);
+                        }
+                    } catch (Exception e) {
+                        user.setIsFilteredOK (false);
                     }
                 }
             }
         }
 
-        List<User> filteredUsersListNew = new ArrayList<User> ();
-        filteredUsersListNew.add (MainPageActivity.filteredUsersList.get (0));
+        List<UserDetails> filteredUsersListNew = new ArrayList<UserDetails> ();
+        filteredUsersListNew.add (GlobalVariables.currentUser);
 
-        for (int i = 1; i < MainPageActivity.filteredUsersList.size (); i++) {
-            User user = MainPageActivity.filteredUsersList.get (i);
-            if (user.getUserDetails ().isFilteredOK ()) {
+        for (int i = 0; i < GlobalVariables.userDataList.size (); i++) {
+            UserDetails user = GlobalVariables.userDataList.get (i);
+            if (!user.equals (GlobalVariables.currentUser) && user.isFilteredOK ()) {
                 filteredUsersListNew.add (user);
             }
         }

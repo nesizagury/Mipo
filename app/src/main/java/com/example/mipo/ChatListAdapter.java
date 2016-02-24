@@ -1,6 +1,7 @@
 package com.example.mipo;
 
 import android.content.Context;
+import android.graphics.Bitmap;
 import android.view.Gravity;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -9,22 +10,34 @@ import android.widget.ArrayAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.nostra13.universalimageloader.cache.memory.impl.WeakMemoryCache;
+import com.nostra13.universalimageloader.core.DisplayImageOptions;
+import com.nostra13.universalimageloader.core.ImageLoader;
+import com.nostra13.universalimageloader.core.ImageLoaderConfiguration;
+import com.nostra13.universalimageloader.core.assist.ImageScaleType;
+
 import java.util.List;
 
 public class ChatListAdapter extends ArrayAdapter<Message> {
-    private String mUserId;
 
-    public ChatListAdapter(Context context, String userId, List<Message> messages) {
+    ImageLoader imageLoader;
+    DisplayImageOptions options;
+    int pixels;
+    Context context;
+    int otherUserIndex;
+
+    public ChatListAdapter(Context context, int otherUserIndex, List<Message> messages) {
         super (context, 0, messages);
-        this.mUserId = userId;
+        this.otherUserIndex = otherUserIndex;
+        this.context = context;
+        setImageLoader ();
     }
 
     @Override
     public View getView(int position, View convertView, ViewGroup parent) {
 
         if (convertView == null) {
-            convertView = LayoutInflater.from (getContext ()).
-                                                                     inflate (R.layout.chat_item, parent, false);
+            convertView = LayoutInflater.from (getContext ()).inflate (R.layout.chat_item, parent, false);
             final ViewHolder holder = new ViewHolder ();
             holder.imageLeft = (ImageView) convertView.findViewById (R.id.ivProfileLeft);
             holder.imageRight = (ImageView) convertView.findViewById (R.id.ivProfileRight);
@@ -33,26 +46,22 @@ public class ChatListAdapter extends ArrayAdapter<Message> {
         }
         final Message message = (Message) getItem (position);
         final ViewHolder holder = (ViewHolder) convertView.getTag ();
-        final boolean isMe = message.getUserId ().equals (mUserId);
+        final boolean isMe = message.getSenderId ().equals (GlobalVariables.CUSTOMER_PHONE_NUM);
         // Show-hide image based on the logged-in user.
         // Display the profile image to the right for our user, left for other users.
         if (isMe) {
-            holder.imageRight.setImageResource (R.drawable.pic0 + MainPageActivity.currentUser.getImage_source ());
+            imageLoader.displayImage (GlobalVariables.currentUser.getPicUrl (), holder.imageRight);
             holder.imageRight.setVisibility (View.VISIBLE);
             holder.imageLeft.setVisibility (View.GONE);
             holder.body.setGravity (Gravity.CENTER_VERTICAL | Gravity.RIGHT);
         } else {
-            for (int i = 0; i < MainPageActivity.userDataList.size (); i++) {
-                UserDetails userDetails = MainPageActivity.userDataList.get (i);
-                if (userDetails.getId ().equals (message.getUserId ())) {
-                    holder.imageLeft.setImageResource (R.drawable.pic0 + userDetails.getImage_source ());
-                }
-            }
+            UserDetails userDetails = GlobalVariables.userDataList.get (otherUserIndex);
+            imageLoader.displayImage (userDetails.getPicUrl (), holder.imageLeft);
             holder.imageLeft.setVisibility (View.VISIBLE);
             holder.imageRight.setVisibility (View.GONE);
             holder.body.setGravity (Gravity.CENTER_VERTICAL | Gravity.LEFT);
         }
-        holder.body.setText (message.getBody ());
+        holder.body.setText (message.getMessageBody ());
         return convertView;
     }
 
@@ -61,5 +70,29 @@ public class ChatListAdapter extends ArrayAdapter<Message> {
         public ImageView imageRight;
         public TextView body;
     }
+
+    public void setImageLoader() {
+
+        float density = context.getResources ().getDisplayMetrics ().density;
+        pixels = (int) (64 * density + 0.5f);
+
+        options = new DisplayImageOptions.Builder ()
+                          .cacheOnDisk (true)
+                          .cacheInMemory (true)
+                          .bitmapConfig (Bitmap.Config.RGB_565)
+                          .imageScaleType (ImageScaleType.EXACTLY)
+                          .resetViewBeforeLoading (true)
+                          .build ();
+        ImageLoaderConfiguration config = new ImageLoaderConfiguration.Builder (context)
+                                                  .defaultDisplayImageOptions (options)
+                                                  .threadPriority (Thread.MAX_PRIORITY)
+                                                  .threadPoolSize (8)
+                                                  .memoryCache (new WeakMemoryCache ())
+                                                  .denyCacheImageMultipleSizesInMemory ()
+                                                  .build ();
+        imageLoader = ImageLoader.getInstance ();
+        imageLoader.init (config);
+    }
+
 
 }

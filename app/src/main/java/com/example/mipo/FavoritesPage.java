@@ -10,13 +10,14 @@ import android.widget.AdapterView;
 import android.widget.GridView;
 
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.List;
 
 public class FavoritesPage extends Activity implements AdapterView.OnItemClickListener {
 
 
     GridView grid;
-    public final static List<User> ListOfFavorites = new ArrayList<User> ();
+    public final static List<UserDetails> ListOfFavorites = new ArrayList<UserDetails> ();
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -26,15 +27,16 @@ public class FavoritesPage extends Activity implements AdapterView.OnItemClickLi
         grid = (GridView) findViewById (R.id.gridView11);
 
         ListOfFavorites.clear ();
-        for (int i = 1; i <= 26; i++) {
-            User user = MainPageActivity.firstUsersList.get (i);
-            UserDetails userDetails = user.getUserDetails ();
-            if (userDetails.isFavorite ()) {
-                ListOfFavorites.add (user);
+        for (int i = 0; i < GlobalVariables.userDataList.size (); i++) {
+            UserDetails user = GlobalVariables.userDataList.get (i);
+            if (!user.equals (GlobalVariables.currentUser)) {
+                if (user.isFavorite ()) {
+                    ListOfFavorites.add (user);
+                }
             }
         }
 
-        grid.setAdapter (new GridAdaptor (this, ListOfFavorites));
+        grid.setAdapter (new GridAdaptor (this, ListOfFavorites, true));
         grid.setOnItemClickListener (this);
     }
 
@@ -42,13 +44,15 @@ public class FavoritesPage extends Activity implements AdapterView.OnItemClickLi
     public void onItemClick(AdapterView<?> adapterView, View view, int position, long l) {
         Intent intent = new Intent (this, UserPage.class);
         Bundle b = new Bundle ();
-        User user = ListOfFavorites.get (position);
-        intent.putExtra ("userImage", user.imageId);
+        UserDetails user = ListOfFavorites.get (position);
         intent.putExtra ("userName", user.name);
-        intent.putExtra ("userCurrent", user.currentUser);
-        b.putString ("userID", user.id);
-        b.putInt ("index", user.getIndexInUD ());
-        b.putInt ("online", user.on_off);
+        intent.putExtra ("userCurrent", StaticMethods.isCurrentUser (user));
+        b.putString ("userID", user.getUserPhoneNum ());
+        b.putInt ("index", user.getIndexInAllDataList ());
+        Date currentDate = new Date();
+        long diff = currentDate.getTime() - user.getLastSeen().getTime ();
+        long diffMinutes = diff / (60 * 1000) % 60;
+        b.putInt ("online", (int)diffMinutes);
         intent.putExtras (b);
         startActivity (intent);
     }
@@ -58,18 +62,16 @@ public class FavoritesPage extends Activity implements AdapterView.OnItemClickLi
         super.onRestart ();
 
         grid = (GridView) findViewById (R.id.gridView11);
-
         ListOfFavorites.clear ();
-        List<User> listAll = MainPageActivity.firstUsersList;
-        for (int i = 1; i <= 26; i++) {
-            User user = listAll.get (i);
-            UserDetails userDetails = user.getUserDetails ();
-            if (userDetails.isFavorite ()) {
+        List<UserDetails> listAll = GlobalVariables.userDataList;
+        for (int i = 0; i < listAll.size (); i++) {
+            UserDetails user = listAll.get (i);
+            if (user.isFavorite ()) {
                 ListOfFavorites.add (listAll.get (i));
             }
         }
 
-        grid.setAdapter (new GridAdaptor (this, ListOfFavorites));
+        grid.setAdapter (new GridAdaptor (this, ListOfFavorites, true));
         grid.setOnItemClickListener (this);
     }
 
