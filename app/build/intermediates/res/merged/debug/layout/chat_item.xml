@@ -7,8 +7,7 @@
         android:id="@+id/ivProfileLeft"
         android:contentDescription="@string/profile_other"
         android:layout_width="64dp"
-        android:layout_height="64dp"
-        android:src="@drawable/ic_launcher" />
+        android:layout_height="64dp"/>
     <TextView
         android:textSize="18sp"
         android:id="@+id/tvBody"
@@ -22,6 +21,5 @@
         android:contentDescription="@string/profile_me"
         android:layout_marginStart="-64dp"
         android:layout_width="64dp"
-        android:layout_height="64dp"
-        android:src="@drawable/ic_launcher" />
+        android:layout_height="64dp"/>
 </LinearLayout>

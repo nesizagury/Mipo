@@ -2,7 +2,6 @@ package com.example.mipo;
 
 import android.app.Activity;
 import android.content.Intent;
-import android.database.Cursor;
 import android.graphics.Bitmap;
 import android.graphics.Bitmap.CompressFormat;
 import android.graphics.BitmapFactory;
@@ -68,7 +67,8 @@ public class SmsSignUpActivity extends Activity {
     ImageView imageV;
     TextView optionalTV;
     TextView expTV;
-    boolean image_selected;
+    boolean image_selected = false;
+    boolean image_was_before = false;
     Profile previousDataFound;
     TextView ageTV;
     TextView heightTV;
@@ -208,7 +208,7 @@ public class SmsSignUpActivity extends Activity {
                 parseAcl.setPublicWriteAccess (true);
                 profile.setACL (parseAcl);
                 profile.put ("pic", file);
-            } else {
+            } else if(!image_was_before) {
                 bmp = BitmapFactory.decodeResource (this.getResources (),
                                                            R.drawable.no_image_icon_md);
                 imageV.setImageBitmap (bmp);
@@ -407,12 +407,12 @@ public class SmsSignUpActivity extends Activity {
                                 imageFile.getDataInBackground (new GetDataCallback () {
                                     public void done(byte[] data, ParseException e) {
                                         if (e == null) {
-                                            image_selected = true;
                                             Bitmap bmp = BitmapFactory
                                                                  .decodeByteArray (
                                                                                           data, 0,
                                                                                           data.length);
                                             imageV.setImageBitmap (bmp);
+                                            image_was_before = true;
                                         } else {
                                             e.printStackTrace ();
                                         }
@@ -426,19 +426,5 @@ public class SmsSignUpActivity extends Activity {
                 }
             }
         });
-    }
-
-    public int getOrientation(Uri selectedImage) {
-        int orientation = 0;
-        final String[] projection = new String[]{MediaStore.Images.Media.ORIENTATION};
-        final Cursor cursor = this.getContentResolver ().query (selectedImage, projection, null, null, null);
-        if (cursor != null) {
-            final int orientationColumnIndex = cursor.getColumnIndex (MediaStore.Images.Media.ORIENTATION);
-            if (cursor.moveToFirst ()) {
-                orientation = cursor.isNull (orientationColumnIndex) ? 0 : cursor.getInt (orientationColumnIndex);
-            }
-            cursor.close ();
-        }
-        return orientation;
     }
 }

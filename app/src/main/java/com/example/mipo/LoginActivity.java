@@ -25,6 +25,7 @@ public class LoginActivity extends Activity implements View.OnClickListener {
     String number = "";
     boolean isFundigo = false;
     String fundigoNumber = "";
+    static boolean LoogedIn = false;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -87,6 +88,7 @@ public class LoginActivity extends Activity implements View.OnClickListener {
         startActivity (intent);
         GlobalVariables.CUSTOMER_PHONE_NUM = null;
         finish ();
+        LoogedIn = true;
     }
 
     public void login() {
@@ -99,6 +101,7 @@ public class LoginActivity extends Activity implements View.OnClickListener {
             Intent intent = new Intent (LoginActivity.this, MainPageActivity.class);
             startActivity (intent);
             finish ();
+            LoogedIn = true;
         } catch (ParseException e) {
             e.printStackTrace ();
         }
@@ -121,7 +124,7 @@ public class LoginActivity extends Activity implements View.OnClickListener {
         } catch (IOException e) {
             e.printStackTrace ();
         }
-        if (myData != null) {
+        if (!myData.isEmpty ()) {
             if (myData.contains ("isFundigo")) {
                 String[] parts = myData.split (" ");
                 fundigoNumber = parts[0];

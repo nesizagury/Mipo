@@ -1,15 +1,15 @@
 [
     {
-        "merged": "D:\\Mipo-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\m4.png",
-        "source": "D:\\Mipo-master\\app\\src\\main\\res\\drawable-mdpi\\m4.png"
+        "merged": "D:\\Mipo-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_btn_switch_to_on_mtrl_00012.9.png",
+        "source": "D:\\Mipo-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-mdpi\\abc_btn_switch_to_on_mtrl_00012.9.png"
     },
     {
         "merged": "D:\\Mipo-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_popup_background_mtrl_mult.9.png",
         "source": "D:\\Mipo-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-mdpi\\abc_popup_background_mtrl_mult.9.png"
     },
     {
-        "merged": "D:\\Mipo-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_btn_switch_to_on_mtrl_00012.9.png",
-        "source": "D:\\Mipo-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-mdpi\\abc_btn_switch_to_on_mtrl_00012.9.png"
+        "merged": "D:\\Mipo-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\m4.png",
+        "source": "D:\\Mipo-master\\app\\src\\main\\res\\drawable-mdpi\\m4.png"
     },
     {
         "merged": "D:\\Mipo-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_textfield_search_activated_mtrl_alpha.9.png",

@@ -4,6 +4,7 @@ import android.Manifest.permission;
 import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.content.pm.PackageManager;
 import android.location.Location;
 import android.os.Build;
@@ -43,112 +44,151 @@ public class MainPageActivity extends Activity implements AdapterView.OnItemClic
     TextView gpsAccuracy;
     ImageView gpsAccuracyIcon;
     int numOfAccuracyChanges = 0;
-    static String[] hebNames;
-    boolean opened = false;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate (savedInstanceState);
         this.requestWindowFeature (Window.FEATURE_NO_TITLE);
         setContentView (R.layout.activity_main_page);
-        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.JELLY_BEAN_MR1) {
-            getWindow ().getDecorView ().setLayoutDirection (View.LAYOUT_DIRECTION_LOCALE);
+        if (getIntent ().getStringExtra ("fundigo") != null &&
+                    getIntent ().getStringExtra ("fundigo").equals ("fun") && !MainActivity.didLogin) {
+            GlobalVariables.userPhoneNumFromFundigo = getIntent ().getStringExtra ("index");
+            Intent intent = new Intent (MainPageActivity.this, MainActivity.class);
+            startActivity (intent);
+            getIntent ().putExtra ("fundigo", "none");
+            finish ();
+        } else if(!MainActivity.didLogin){
+            Intent intent = new Intent (MainPageActivity.this, MainActivity.class);
+            startActivity (intent);
+            finish ();
         }
-        grid = (GridView) findViewById (R.id.gridView1);
-        turnOnGPS = (TextView) findViewById (R.id.turnOnGps);
-        gpsAccuracy = (TextView) findViewById (R.id.distanceAcuuraty);
-        gpsAccuracyIcon = (ImageView) findViewById (R.id.imageView3);
-        gpsAccuracy.setVisibility (View.INVISIBLE);
-        gpsAccuracyIcon.setVisibility (View.INVISIBLE);
-        context = this;
-        mainPageActivity = this;
-        if (!StaticMethods.isLocationEnabled (this)) {
-            turnOnGPS.setVisibility (View.VISIBLE);
-        } else {
-            turnOnGPS.setVisibility (View.GONE);
+        if(MainActivity.didLogin) {
+            if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.JELLY_BEAN_MR1) {
+                getWindow ().getDecorView ().setLayoutDirection (View.LAYOUT_DIRECTION_LOCALE);
+            }
+            grid = (GridView) findViewById (R.id.gridView1);
+            turnOnGPS = (TextView) findViewById (R.id.turnOnGps);
+            gpsAccuracy = (TextView) findViewById (R.id.distanceAcuuraty);
+            gpsAccuracyIcon = (ImageView) findViewById (R.id.imageView3);
+            gpsAccuracy.setVisibility (View.INVISIBLE);
+            gpsAccuracyIcon.setVisibility (View.INVISIBLE);
+            context = this;
+            mainPageActivity = this;
+            if (!StaticMethods.isLocationEnabled (this)) {
+                turnOnGPS.setVisibility (View.VISIBLE);
+            } else {
+                turnOnGPS.setVisibility (View.GONE);
+            }
+            if (GlobalVariables.userDataList.size () == 0) {
+                downloadProfilesDataInBackGround ();
+            } else {
+                StaticMethods.updateDeviceLocationGPS (context, mainPageActivity);
+                if (GlobalVariables.userPhoneNumFromFundigo != null) {
+                    UserDetails userDetails = StaticMethods.getUserFromPhoneNum (GlobalVariables.userPhoneNumFromFundigo);
+                    if (userDetails != null) {
+                        int position = userDetails.getIndexInAllDataList ();
+                        Bundle b = new Bundle ();
+                        Intent intent = new Intent (context, UserPage.class);
+                        UserDetails user = GlobalVariables.userDataList.get (position);
+                        intent.putExtra ("userName", user.name);
+                        intent.putExtra ("userCurrent", StaticMethods.isCurrentUser (user));
+                        b.putString ("userID", user.getUserPhoneNum ());
+                        b.putInt ("index", user.getIndexInAllDataList ());
+                        Date currentDate = new Date ();
+                        long diff = currentDate.getTime () - user.getLastSeen ().getTime ();
+                        long diffMinutes = diff / (60 * 1000);
+                        b.putInt ("online", (int) diffMinutes);
+                        intent.putExtras (b);
+                        context.startActivity (intent);
+                        GlobalVariables.userPhoneNumFromFundigo = null;
+                    }
+                }
+            }
+            gridAdapter = new GridAdaptor (this, filteredUsersList, false);
+            grid.setAdapter (gridAdapter);
+            grid.setOnItemClickListener (this);
+            handler.postDelayed (runnable, 0);
         }
-        if (GlobalVariables.userDataList.size () == 0) {
-            downloadProfilesDataInBackGround ();
-        } else {
-            StaticMethods.updateDeviceLocationGPS (context, mainPageActivity);
-        }
-
-        gridAdapter = new GridAdaptor (this, filteredUsersList, false);
-        grid.setAdapter (gridAdapter);
-        grid.setOnItemClickListener (this);
-        handler.postDelayed (runnable, 0);
     }
 
     public static void downloadProfilesDataInBackGround() {
         ParseQuery<Profile> query = new ParseQuery ("Profile");
+        query.whereExists ("lastSeen");
         query.orderByDescending ("createdAt");
-        query.findInBackground (new FindCallback<Profile> () {
-            public void done(List<Profile> profilesList, ParseException e) {
-                if (e == null) {
-                    GlobalVariables.userDataList.clear ();
-                    for (int i = 0; i < profilesList.size (); i++) {
-                        Profile profile = profilesList.get (i);
-                        Date currentDate = new Date ();
-                        long diff = currentDate.getTime () - profile.getLastSeen ().getTime ();
-                        long diffMinutes = diff / (60 * 1000);
-                        GlobalVariables.userDataList.add (new UserDetails (
-                                                                                  profile.getNumber (),
-                                                                                  profile.getName (),
-                                                                                  profile.getAge (),
-                                                                                  profile.getLastSeen (),
-                                                                                  profile.getStatus (),
-                                                                                  profile.getHeight (),
-                                                                                  profile.getWeight (),
-                                                                                  profile.getEthnicity (),
-                                                                                  profile.getBody_type (),
-                                                                                  profile.getRelationship_status (),
-                                                                                  profile.getLooking_for (),
-                                                                                  profile.getAbout (),
-                                                                                  profile.getPic ().getUrl (),
-                                                                                  profile.getLocation (),
-                                                                                  i,
-                                                                                  diffMinutes < 10,
-                                                                                  profile.getBlocked ()
+        List<Profile> profilesList = null;
+        try {
+            profilesList = query.find ();
+            GlobalVariables.userDataList.clear ();
+            for (int i = 0; i < profilesList.size (); i++) {
+                Profile profile = profilesList.get (i);
+                Date currentDate = new Date ();
+                long diff = currentDate.getTime () - profile.getLastSeen ().getTime ();
+                long diffMinutes = diff / (60 * 1000);
+                GlobalVariables.userDataList.add (new UserDetails (
+                                                                          profile.getNumber (),
+                                                                          profile.getName (),
+                                                                          profile.getAge (),
+                                                                          profile.getLastSeen (),
+                                                                          profile.getStatus (),
+                                                                          profile.getHeight (),
+                                                                          profile.getWeight (),
+                                                                          profile.getEthnicity (),
+                                                                          profile.getBody_type (),
+                                                                          profile.getRelationship_status (),
+                                                                          profile.getLooking_for (),
+                                                                          profile.getAbout (),
+                                                                          profile.getPic ().getUrl (),
+                                                                          profile.getLocation (),
+                                                                          i,
+                                                                          diffMinutes < 10,
+                                                                          profile.getBlocked ()
 
-                        ));
-                        if (GlobalVariables.userDataList.get (i).getUserPhoneNum ().equals ("GUEST") &&
-                                    (GlobalVariables.CUSTOMER_PHONE_NUM == null || GlobalVariables.CUSTOMER_PHONE_NUM.isEmpty ())) {
-                            GlobalVariables.currentUser = GlobalVariables.userDataList.get (i);
-                        }
-                        if (GlobalVariables.CUSTOMER_PHONE_NUM != null &&
-                                    !GlobalVariables.CUSTOMER_PHONE_NUM.isEmpty () &&
-                                    GlobalVariables.userDataList.get (i).getUserPhoneNum ().equals (GlobalVariables.CUSTOMER_PHONE_NUM)) {
-                            GlobalVariables.currentUser = GlobalVariables.userDataList.get (i);
-                        }
-                    }
-                    if (GlobalVariables.currentUser.getBlocked () != null) {
-                        List<String> blockedList = null;
-                        blockedList = GlobalVariables.currentUser.getBlocked ();
-                        for (int i = 0; i < blockedList.size (); i++) {
-                            for (int j = 0; j < GlobalVariables.userDataList.size (); j++) {
-                                if (blockedList.get (i).equals (GlobalVariables.userDataList.get (j).getUserPhoneNum ())) {
-                                    GlobalVariables.userDataList.remove (j);
-                                    break;
-                                }
-                            }
-                        }
-
-                        for (int i = 0; i < GlobalVariables.userDataList.size (); i++)
-                            GlobalVariables.userDataList.get (i).setIndexInAllDataList (i);
-                    }
-                    filteredUsersList.clear ();
-                    filteredUsersList.addAll (GlobalVariables.userDataList);
-                    if (GlobalVariables.MY_LOCATION != null) {
-                        sortFilteredProfilesListByDistAndUpdateAllDist ();
-                        gridAdapter.notifyDataSetChanged ();
-                    } else {
-                        StaticMethods.updateDeviceLocationGPS (context, mainPageActivity);
-                    }
+                ));
+                if (GlobalVariables.userDataList.get (i).getUserPhoneNum ().equals ("GUEST") &&
+                            (GlobalVariables.CUSTOMER_PHONE_NUM == null || GlobalVariables.CUSTOMER_PHONE_NUM.isEmpty ())) {
+                    GlobalVariables.currentUser = GlobalVariables.userDataList.get (i);
+                }
+                if (GlobalVariables.CUSTOMER_PHONE_NUM != null &&
+                            !GlobalVariables.CUSTOMER_PHONE_NUM.isEmpty () &&
+                            GlobalVariables.userDataList.get (i).getUserPhoneNum ().equals (GlobalVariables.CUSTOMER_PHONE_NUM)) {
+                    GlobalVariables.currentUser = GlobalVariables.userDataList.get (i);
+                }
+                SharedPreferences prefs = context.getSharedPreferences (
+                                                                               "com.example.mipo", Context.MODE_PRIVATE);
+                UserDetails userDetails = GlobalVariables.userDataList.get (i);
+                boolean isFav = prefs.getBoolean (userDetails.getUserPhoneNum (),false);
+                if (isFav) {
+                    userDetails.setFavorite (true);
                 } else {
-                    e.printStackTrace ();
+                    userDetails.setFavorite (false);
                 }
             }
-        });
+            if (GlobalVariables.currentUser.getBlocked () != null) {
+                List<String> blockedList = null;
+                blockedList = GlobalVariables.currentUser.getBlocked ();
+                for (int i = 0; i < blockedList.size (); i++) {
+                    for (int j = 0; j < GlobalVariables.userDataList.size (); j++) {
+                        if (blockedList.get (i).equals (GlobalVariables.userDataList.get (j).getUserPhoneNum ())) {
+                            GlobalVariables.userDataList.remove (j);
+                            break;
+                        }
+                    }
+                }
+
+                for (int i = 0; i < GlobalVariables.userDataList.size (); i++)
+                    GlobalVariables.userDataList.get (i).setIndexInAllDataList (i);
+            }
+            if (GlobalVariables.MY_LOCATION != null) {
+                filteredUsersList.clear ();
+                filteredUsersList.addAll (GlobalVariables.userDataList);
+                sortFilteredProfilesListByDistAndUpdateAllDist ();
+                gridAdapter.notifyDataSetChanged ();
+            } else {
+                StaticMethods.updateDeviceLocationGPS (context, mainPageActivity);
+            }
+        } catch (ParseException e) {
+            e.printStackTrace ();
+        }
     }
 
     @Override
@@ -156,20 +196,20 @@ public class MainPageActivity extends Activity implements AdapterView.OnItemClic
         openUserPage (position);
     }
 
-    public static void openUserPage(int position){
+    public static void openUserPage(int position) {
         Bundle b = new Bundle ();
         Intent intent = new Intent (context, UserPage.class);
         UserDetails user = filteredUsersList.get (position);
-        intent.putExtra("userName", user.name);
-        intent.putExtra("userCurrent", StaticMethods.isCurrentUser(user));
-        b.putString("userID", user.getUserPhoneNum());
-        b.putInt("index", user.getIndexInAllDataList());
-        Date currentDate = new Date();
-        long diff = currentDate.getTime() - user.getLastSeen().getTime ();
+        intent.putExtra ("userName", user.name);
+        intent.putExtra ("userCurrent", StaticMethods.isCurrentUser (user));
+        b.putString ("userID", user.getUserPhoneNum ());
+        b.putInt ("index", user.getIndexInAllDataList ());
+        Date currentDate = new Date ();
+        long diff = currentDate.getTime () - user.getLastSeen ().getTime ();
         long diffMinutes = diff / (60 * 1000);
-        b.putInt ("online", (int)diffMinutes);
+        b.putInt ("online", (int) diffMinutes);
         intent.putExtras (b);
-        context.startActivity(intent);
+        context.startActivity (intent);
     }
 
     public void goToMessages(View view) {
@@ -196,29 +236,32 @@ public class MainPageActivity extends Activity implements AdapterView.OnItemClic
         super.onResume ();
         if (getIntent ().getStringExtra ("fundigo") != null &&
                     getIntent ().getStringExtra ("fundigo").equals ("fun") &&
-                    MainActivity.didLogin &&
-                      firstTimeGotLocation == false) {
-            int position =  StaticMethods.getUserFromPhoneNum(getIntent ().getStringExtra ("index")).getIndexInAllDataList ();
-            Bundle b = new Bundle ();
-            Intent intent = new Intent (context, UserPage.class);
-            UserDetails user = GlobalVariables.userDataList.get (position);
-            intent.putExtra("userName", user.name);
-            intent.putExtra("userCurrent", StaticMethods.isCurrentUser(user));
-            b.putString("userID", user.getUserPhoneNum());
-            b.putInt("index", user.getIndexInAllDataList());
-            Date currentDate = new Date();
-            long diff = currentDate.getTime() - user.getLastSeen().getTime ();
-            long diffMinutes = diff / (60 * 1000);
-            b.putInt ("online", (int)diffMinutes);
-            intent.putExtras (b);
-            context.startActivity(intent);
-        }
-        else if (getIntent ().getStringExtra ("fundigo") != null &&
-                    getIntent ().getStringExtra ("fundigo").equals ("fun") &&
-                    !MainActivity.didLogin) {
+                    GlobalVariables.userDataList.size () > 0) {
+            UserDetails userDetails = StaticMethods.getUserFromPhoneNum (getIntent ().getStringExtra ("index"));
+            if (userDetails != null) {
+                int position = userDetails.getIndexInAllDataList ();
+                Bundle b = new Bundle ();
+                Intent intent = new Intent (context, UserPage.class);
+                UserDetails user = GlobalVariables.userDataList.get (position);
+                intent.putExtra ("userName", user.name);
+                intent.putExtra ("userCurrent", StaticMethods.isCurrentUser (user));
+                b.putString ("userID", user.getUserPhoneNum ());
+                b.putInt ("index", user.getIndexInAllDataList ());
+                Date currentDate = new Date ();
+                long diff = currentDate.getTime () - user.getLastSeen ().getTime ();
+                long diffMinutes = diff / (60 * 1000);
+                b.putInt ("online", (int) diffMinutes);
+                intent.putExtras (b);
+                context.startActivity (intent);
+            }
+            getIntent ().putExtra ("fundigo", "none");
+        } else if (getIntent ().getStringExtra ("fundigo") != null &&
+                           getIntent ().getStringExtra ("fundigo").equals ("fun")) {
             GlobalVariables.userPhoneNumFromFundigo = getIntent ().getStringExtra ("index");
             Intent intent = new Intent (MainPageActivity.this, MainActivity.class);
             startActivity (intent);
+            getIntent ().putExtra ("fundigo", "none");
+            finish ();
         }
         handler.postDelayed (runnable, 0);
         StaticMethods.updateDeviceLocationGPS (context, mainPageActivity);
@@ -268,25 +311,30 @@ public class MainPageActivity extends Activity implements AdapterView.OnItemClic
     @Override
     public void gpsCallback() {
         if (firstTimeGotLocation) {
+            filteredUsersList.clear ();
+            filteredUsersList.addAll (GlobalVariables.userDataList);
             sortFilteredProfilesListByDistAndUpdateAllDist ();
             gridAdapter.notifyDataSetChanged ();
             firstTimeGotLocation = false;
             if (GlobalVariables.userPhoneNumFromFundigo != null) {
-                int position =  StaticMethods.getUserFromPhoneNum(GlobalVariables.userPhoneNumFromFundigo).getIndexInAllDataList ();
-                Bundle b = new Bundle ();
-                Intent intent = new Intent (context, UserPage.class);
-                UserDetails user = GlobalVariables.userDataList.get (position);
-                intent.putExtra("userName", user.name);
-                intent.putExtra("userCurrent", StaticMethods.isCurrentUser(user));
-                b.putString("userID", user.getUserPhoneNum());
-                b.putInt("index", user.getIndexInAllDataList());
-                Date currentDate = new Date();
-                long diff = currentDate.getTime() - user.getLastSeen().getTime ();
-                long diffMinutes = diff / (60 * 1000);
-                b.putInt ("online", (int)diffMinutes);
-                intent.putExtras (b);
-                context.startActivity(intent);
-                GlobalVariables.userPhoneNumFromFundigo =  null;
+                UserDetails userDetails = StaticMethods.getUserFromPhoneNum (GlobalVariables.userPhoneNumFromFundigo);
+                if (userDetails != null) {
+                    int position = userDetails.getIndexInAllDataList ();
+                    Bundle b = new Bundle ();
+                    Intent intent = new Intent (context, UserPage.class);
+                    UserDetails user = GlobalVariables.userDataList.get (position);
+                    intent.putExtra ("userName", user.name);
+                    intent.putExtra ("userCurrent", StaticMethods.isCurrentUser (user));
+                    b.putString ("userID", user.getUserPhoneNum ());
+                    b.putInt ("index", user.getIndexInAllDataList ());
+                    Date currentDate = new Date ();
+                    long diff = currentDate.getTime () - user.getLastSeen ().getTime ();
+                    long diffMinutes = diff / (60 * 1000);
+                    b.putInt ("online", (int) diffMinutes);
+                    intent.putExtras (b);
+                    context.startActivity (intent);
+                    GlobalVariables.userPhoneNumFromFundigo = null;
+                }
             }
         }
         turnOnGPS.setVisibility (View.GONE);

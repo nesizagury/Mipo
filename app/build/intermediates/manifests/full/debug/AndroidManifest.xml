@@ -20,20 +20,13 @@
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
 
     <application
+        android:name="com.example.mipo.Mipo"
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme" >
-        <activity
-            android:name="com.example.mipo.MainActivity"
-            android:label="@string/app_name" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
+        <activity android:name="com.example.mipo.MainActivity" />
         <activity android:name="com.example.mipo.UserPage" />
         <activity android:name="com.example.mipo.DetailedProfileActivity" />
         <activity android:name="com.example.mipo.MenuActivity" />
@@ -41,7 +34,9 @@
         <activity android:name="com.example.mipo.LoginActivity" />
         <activity android:name="com.example.mipo.CommunicationsActivity" />
         <activity android:name="com.example.mipo.ChatActivity" />
-        <activity android:name="com.example.mipo.MainPageActivity" >
+        <activity
+            android:name="com.example.mipo.MainPageActivity"
+            android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -49,8 +44,6 @@
             </intent-filter>
         </activity>
         <activity android:name="com.example.mipo.SmsSignUpActivity" />
-        <activity android:name="com.example.mipo.MessagesRoomFragment" />
-        <activity android:name="com.example.mipo.LoginActivity" />
         <activity android:name="com.example.mipo.LoginFromFundigoActivity" />
         <activity android:name="com.example.mipo.EditProfileActivity" />
         <activity android:name="com.example.mipo.FilterActivity" />

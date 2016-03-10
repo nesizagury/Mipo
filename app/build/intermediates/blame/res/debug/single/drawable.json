@@ -224,11 +224,11 @@
         "source": "D:\\Mipo-master\\app\\src\\main\\res\\drawable\\m2.png"
     },
     {
-        "merged": "D:\\Mipo-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\background.xml",
-        "source": "D:\\Mipo-master\\app\\src\\main\\res\\drawable\\background.xml"
-    },
-    {
         "merged": "D:\\Mipo-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\no_image_icon_md.png",
         "source": "D:\\Mipo-master\\app\\src\\main\\res\\drawable\\no_image_icon_md.png"
+    },
+    {
+        "merged": "D:\\Mipo-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\background.xml",
+        "source": "D:\\Mipo-master\\app\\src\\main\\res\\drawable\\background.xml"
     }
 ]

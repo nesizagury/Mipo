@@ -13,12 +13,11 @@ import com.parse.ParseUser;
 
 public class MainActivity extends Activity {
     static boolean didLogin = false;
+
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate (savedInstanceState);
         this.requestWindowFeature (Window.FEATURE_NO_TITLE);
-        Intent in = getIntent();
-
         connectToParse ();
     }
 
@@ -27,7 +26,7 @@ public class MainActivity extends Activity {
         ParseObject.registerSubclass (com.example.mipo.Message.class);
         ParseObject.registerSubclass (com.example.mipo.Room.class);
         ParseObject.registerSubclass (Profile.class);
-        ParseObject.registerSubclass(Track.class);
+        ParseObject.registerSubclass (Track.class);
         Parse.initialize (this,
                                  "zHbkCgWz7FPRNK0E3mnB7HwRgEuKalaqnADvr8qK",
                                  "KOerUm6IRSMz4gPOqNAsNVn0QsCHVWC0SIWI3tle");
@@ -35,13 +34,13 @@ public class MainActivity extends Activity {
         defaultAcl.setPublicReadAccess (true);
         defaultAcl.setPublicWriteAccess (true);
         ParseACL.setDefaultACL (defaultAcl, true);
-        didLogin = true;
+
 
         StaticMethods.initFilterValues ();
         StaticMethods.initProfileValues ();
-
         Intent intent = new Intent (MainActivity.this, LoginActivity.class);
         startActivity (intent);
         finish ();
+        didLogin = true;
     }
 }

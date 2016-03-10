@@ -12,12 +12,10 @@
         android:layout_width="125dp"
         android:layout_height="125dp"
         android:layout_alignParentEnd="false"
-        android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
         android:adjustViewBounds="false"
         android:clickable="false"
-        android:scaleType="fitXY"
-        android:src="@drawable/pic0" />
+        android:scaleType="fitXY"/>
 
     <TextView
         android:id="@+id/textView1"

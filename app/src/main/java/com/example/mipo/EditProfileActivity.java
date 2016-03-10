@@ -46,8 +46,7 @@ public class EditProfileActivity extends Activity implements View.OnClickListene
     LinearLayout edit_profile_first_sub_part;
     LinearLayout edit_profile_second_sub_part;
     private static final int SELECT_PICTURE = 1;
-    String picturePath;
-    private boolean pictureSelected;
+    private boolean pictureSelected = false;
     Bitmap bmp;
 
     Spinner spinner_Looking_for;
@@ -305,7 +304,6 @@ public class EditProfileActivity extends Activity implements View.OnClickListene
                                                       .decodeByteArray (
                                                                                data, 0,
                                                                                data.length);
-                                        pictureSelected = true;
                                         pic.setImageBitmap (bmp);
                                     } else {
                                         e.printStackTrace ();

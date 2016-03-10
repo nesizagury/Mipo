@@ -40,24 +40,22 @@ public class LoginFromFundigoActivity extends Activity {
 
         ParseQuery query = new ParseQuery ("Profile");
         query.whereEqualTo ("number", number);
-        query.getFirstInBackground (new GetCallback<Profile> () {
-            public void done(Profile object, ParseException e) {
-                if (e == null) {
-                    if (object.getAge () != null) {
-                        File myExternalFile = new File (Environment.getExternalStoragePublicDirectory (Environment.DIRECTORY_DOWNLOADS), "verify.txt");
-                        try {
-                            FileOutputStream fos = new FileOutputStream (myExternalFile);
-                            fos.write (number.getBytes ());
-                            fos.close ();
-                            GlobalVariables.CUSTOMER_PHONE_NUM = number;
-                            login ();
-                        } catch (IOException e1) {
-                            e1.printStackTrace ();
-                        }
-                    }
-                }
+        Profile object = null;
+        try {
+            object = (Profile)query.getFirst ();
+            if (object.getAge () != null) {
+                File myExternalFile = new File (Environment.getExternalStoragePublicDirectory (Environment.DIRECTORY_DOWNLOADS), "verify.txt");
+                FileOutputStream fos = new FileOutputStream (myExternalFile);
+                fos.write (number.getBytes ());
+                fos.close ();
+                GlobalVariables.CUSTOMER_PHONE_NUM = number;
+                login ();
             }
-        });
+        } catch (IOException e1) {
+            e1.printStackTrace ();
+        } catch (ParseException e) {
+            e.printStackTrace ();
+        }
     }
 
     public void guestLogin(View view) {
@@ -95,7 +93,6 @@ public class LoginFromFundigoActivity extends Activity {
         query.getFirstInBackground (new GetCallback<ParseObject> () {
             public void done(ParseObject object, ParseException e) {
                 if (e == null) {
-
                     object.put ("age", ageET.getText ().toString ());
                     object.put ("height", heightET.getText ().toString ());
                     object.saveInBackground ();
